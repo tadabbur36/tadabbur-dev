@@ -1,0 +1,200 @@
+{
+  "topic_id": "gratitude",
+  "topic_title": "Gratitude",
+  "topic_icon": "Sun",
+  "topic_description": "When the heart says thank you",
+  "disclaimer": "This topic is for reflection and spiritual growth. It is not a substitute for professional care.",
+  "reassurance_anchor": {
+    "verse_ref": "14:7",
+    "text_en": "If you are grateful, I will surely increase you."
+  },
+  "verses": [
+    {
+      "surah": 14,
+      "ayah": 7,
+      "surah_name_en": "Ibrahim",
+      "arabic_text": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
+      "translation_en": "If you are grateful, I will surely increase you.",
+      "word_by_word": [
+        { "arabic": "لَئِن", "root": "ل-إ-ن", "meaning_en": "If" },
+        { "arabic": "شَكَرْتُمْ", "root": "ش-ك-ر", "meaning_en": "You are grateful" },
+        { "arabic": "لَأَزِيدَنَّكُمْ", "root": "ز-ي-د", "meaning_en": "I will surely increase you" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What does 'Shukr' mean?",
+          "answer": "It comes from SH-K-R. In the Quran, it is more than words. It is recognition, and it is action.",
+          "evidence": [
+            {
+              "verse_ref": "16:18",
+              "arabic": "وَإِن تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا",
+              "translation_en": "And if you should count the favors of Allah, you could not enumerate them.",
+              "why_cited": "It shows the greatness of what is given."
+            },
+            {
+              "verse_ref": "2:152",
+              "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ",
+              "translation_en": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
+              "why_cited": "It links gratitude with remembrance."
+            }
+          ]
+        },
+        {
+          "question": "What does increase mean here?",
+          "answer": "It is open. It is not limited. The verse does not specify what will be increased.",
+          "evidence": [
+            {
+              "verse_ref": "14:7",
+              "arabic": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
+              "translation_en": "If you are grateful, I will surely increase you.",
+              "why_cited": "It leaves the increase open, without limit."
+            },
+            {
+              "verse_ref": "2:152",
+              "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ",
+              "translation_en": "So remember Me; I will remember you.",
+              "why_cited": "It shows increase begins with remembrance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 152,
+      "surah_name_en": "Al-Baqarah",
+      "arabic_text": "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ",
+      "translation_en": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
+      "word_by_word": [
+        { "arabic": "فَاذْكُرُونِي", "root": "ذ-ك-ر", "meaning_en": "So remember Me" },
+        { "arabic": "أَذْكُرْكُمْ", "root": "ذ-ك-ر", "meaning_en": "I will remember you" },
+        { "arabic": "وَاشْكُرُوا", "root": "ش-ك-ر", "meaning_en": "And be grateful" },
+        { "arabic": "لِي", "root": "ل-ي", "meaning_en": "To Me" },
+        { "arabic": "وَلَا", "root": "و-ل-ا", "meaning_en": "And not" },
+        { "arabic": "تَكْفُرُونِ", "root": "ك-ف-ر", "meaning_en": "Deny Me" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What is the link between remembrance and gratitude?",
+          "answer": "The verse joins them. Remembering leads to gratitude. Gratitude flows from remembrance.",
+          "evidence": [
+            {
+              "verse_ref": "2:152",
+              "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي",
+              "translation_en": "So remember Me; I will remember you. And be grateful to Me.",
+              "why_cited": "It places both commands together."
+            },
+            {
+              "verse_ref": "14:7",
+              "arabic": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
+              "translation_en": "If you are grateful, I will surely increase you.",
+              "why_cited": "It shows gratitude leads to increase."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 18,
+      "surah_name_en": "An-Nahl",
+      "arabic_text": "وَإِن تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا",
+      "translation_en": "And if you should count the favors of Allah, you could not enumerate them.",
+      "word_by_word": [
+        { "arabic": "وَإِن", "root": "و-إ-ن", "meaning_en": "And if" },
+        { "arabic": "تَعُدُّوا", "root": "ع-د-د", "meaning_en": "You count" },
+        { "arabic": "نِعْمَةَ", "root": "ن-ع-م", "meaning_en": "The favors" },
+        { "arabic": "اللَّهِ", "root": "إ-ل-ه", "meaning_en": "Of Allah" },
+        { "arabic": "لَا", "root": "ل-ا", "meaning_en": "Not" },
+        { "arabic": "تُحْصُوهَا", "root": "ح-ص-ي", "meaning_en": "You could enumerate them" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What does this verse say about the favors of Allah?",
+          "answer": "They are beyond counting. The verse is an invitation to notice, not to complete the count.",
+          "evidence": [
+            {
+              "verse_ref": "16:18",
+              "arabic": "وَإِن تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا",
+              "translation_en": "And if you should count the favors of Allah, you could not enumerate them.",
+              "why_cited": "It states the limit of counting."
+            },
+            {
+              "verse_ref": "14:34",
+              "arabic": "وَآتَاكُم مِّن كُلِّ مَا سَأَلْتُمُوهُ",
+              "translation_en": "And He gave you from all you asked of Him.",
+              "why_cited": "It shows giving before asking."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 19,
+      "surah_name_en": "An-Naml",
+      "arabic_text": "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ",
+      "translation_en": "My Lord, enable me to be grateful for Your favor.",
+      "word_by_word": [
+        { "arabic": "رَبِّ", "root": "ر-ب-ب", "meaning_en": "My Lord" },
+        { "arabic": "أَوْزِعْنِي", "root": "و-ز-ع", "meaning_en": "Enable me" },
+        { "arabic": "أَنْ", "root": "أ-ن", "meaning_en": "To" },
+        { "arabic": "أَشْكُرَ", "root": "ش-ك-ر", "meaning_en": "Be grateful" },
+        { "arabic": "نِعْمَتَكَ", "root": "ن-ع-م", "meaning_en": "For Your favor" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What is the dua of Sulaiman?",
+          "answer": "He asks Allah to enable him to be grateful. Gratitude itself is asked for as a gift.",
+          "evidence": [
+            {
+              "verse_ref": "27:19",
+              "arabic": "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ",
+              "translation_en": "My Lord, enable me to be grateful for Your favor.",
+              "why_cited": "It shows gratitude is sought from Allah."
+            },
+            {
+              "verse_ref": "27:19",
+              "arabic": "وَأَنْ أَعْمَلَ صَالِحًا تَرْضَاهُ",
+              "translation_en": "And to do righteousness that pleases You.",
+              "why_cited": "It links gratitude with action."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 13,
+      "surah_name_en": "Ar-Rahman",
+      "arabic_text": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translation_en": "So which of the favors of your Lord would you deny?",
+      "word_by_word": [
+        { "arabic": "فَبِأَيِّ", "root": "ب-أ-ي", "meaning_en": "So which" },
+        { "arabic": "آلَاءِ", "root": "أ-ل-و", "meaning_en": "Of the favors" },
+        { "arabic": "رَبِّكُمَا", "root": "ر-ب-ب", "meaning_en": "Of your Lord" },
+        { "arabic": "تُكَذِّبَانِ", "root": "ك-ذ-ب", "meaning_en": "Would you deny" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Why is this verse repeated in Surah Ar-Rahman?",
+          "answer": "It is repeated thirty-one times. Each time, it comes after a description of mercy. The repetition is the message.",
+          "evidence": [
+            {
+              "verse_ref": "55:1-4",
+              "arabic": "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ خَلَقَ الْإِنسَانَ عَلَّمَهُ الْبَيَانَ",
+              "translation_en": "The Most Compassionate, taught the Quran, created man, and taught him eloquence.",
+              "why_cited": "It lists favors before the question is asked."
+            },
+            {
+              "verse_ref": "55:13",
+              "arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+              "translation_en": "So which of the favors of your Lord would you deny?",
+              "why_cited": "It is the refrain after every favor."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

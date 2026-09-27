@@ -1,0 +1,67 @@
+{
+  "id": "subhanallah",
+  "phrase_arabic": "سُبْحَانَ اللَّهِ",
+  "transliteration": "SubhanAllah",
+  "meaning_en": "Glory be to Allah",
+  "deep_meaning": "The root S-B-H means to be free, to float, to be above. When you say SubhanAllah, you are declaring that Allah is above any imperfection, any limit, anything the mind can imagine. It is not just praise. It is a declaration of transcendence.",
+  "root_letters": "س ب ح",
+  "why_this_phrase": "The Quran uses this phrase in moments of awe. When Musa approached the burning bush, he heard it (27:8). When the heavens and earth are described, it is used (36:36). When Allah's oneness is declared, it appears (21:22).",
+  "verses": [
+    {
+      "verse_ref": "17:1",
+      "arabic": "سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ",
+      "translation_en": "Exalted is He who took His Servant by night.",
+      "context": "The opening of Surah Al-Isra."
+    },
+    {
+      "verse_ref": "36:36",
+      "arabic": "سُبْحَانَ الَّذِي خَلَقَ الْأَزْوَاجَ كُلَّهَا",
+      "translation_en": "Exalted is He who created all pairs.",
+      "context": "A declaration of His creative power."
+    },
+    {
+      "verse_ref": "17:111",
+      "arabic": "وَقُلِ الْحَمْدُ لِلَّهِ الَّذِي لَمْ يَتَّخِذْ وَلَدًا",
+      "translation_en": "And say, 'All praise is due to Allah, who has not taken a son.'",
+      "context": "Combining hamd with the declaration of His uniqueness."
+    },
+    {
+      "verse_ref": "27:8",
+      "arabic": "فَلَمَّا جَاءَهَا نُودِيَ أَن بُورِكَ مَن فِي النَّارِ وَمَنْ حَوْلَهَا وَسُبْحَانَ اللَّهِ رَبِّ الْعَالَمِينَ",
+      "translation_en": "But when he came to it, he was called, 'Blessed is whoever is at the fire and whoever is around it. And exalted is Allah, Lord of the worlds.'",
+      "context": "When Musa approached the burning bush."
+    },
+    {
+      "verse_ref": "21:22",
+      "arabic": "لَوْ كَانَ فِيهِمَا آلِهَةٌ إِلَّا اللَّهُ لَفَسَدَتَا ۚ فَسُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ عَمَّا يَصِفُونَ",
+      "translation_en": "Had there been within the heavens and earth gods besides Allah, they both would have been ruined. So exalted is Allah, Lord of the Throne, above what they describe.",
+      "context": "A declaration of His oneness and majesty."
+    },
+    {
+      "verse_ref": "42:5",
+      "arabic": "وَتَسَبِّحُ لَهُ الْمَلَائِكَةُ",
+      "translation_en": "And the angels exalt Him.",
+      "context": "The angels in the heavens constantly declare His transcendence."
+    }
+  ],
+  "when_to_say": [
+    {
+      "moment": "When you see something beautiful",
+      "verse_ref": "27:8",
+      "arabic": "وَسُبْحَانَ اللَّهِ رَبِّ الْعَالَمِينَ",
+      "translation_en": "And exalted is Allah, Lord of the worlds."
+    },
+    {
+      "moment": "When you are in awe",
+      "verse_ref": "17:1",
+      "arabic": "سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ",
+      "translation_en": "Exalted is He who took His Servant by night."
+    },
+    {
+      "moment": "When you remember His greatness",
+      "verse_ref": "36:36",
+      "arabic": "سُبْحَانَ الَّذِي خَلَقَ الْأَزْوَاجَ كُلَّهَا",
+      "translation_en": "Exalted is He who created all pairs."
+    }
+  ]
+}

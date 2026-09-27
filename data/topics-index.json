@@ -1,0 +1,9 @@
+{
+  "topics": [
+    { "slug": "anxiety", "title": "Anxiety & Peace of Mind", "icon": "Moon", "description": "Finding peace in remembrance", "verse_count": 8 },
+    { "slug": "sadness", "title": "Sadness & Grief", "icon": "Cloud", "description": "When the heart is heavy", "verse_count": 5 },
+    { "slug": "loneliness", "title": "Loneliness", "icon": "Moon", "description": "When no one seems near", "verse_count": 5 },
+    { "slug": "gratitude", "title": "Gratitude", "icon": "Sun", "description": "When the heart says thank you", "verse_count": 5 },
+    { "slug": "hope", "title": "Hope", "icon": "Sunrise", "description": "When the heart looks forward", "verse_count": 5 }
+  ]
+}

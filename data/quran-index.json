@@ -1,0 +1,9 @@
+{
+  "surahs": [
+    { "surah": 1, "name_en": "Al-Fatiha", "name_ar": "الفاتحة", "name_transliteration": "Al-Fatiha", "meaning_en": "The Opening", "revelation_type": "Meccan", "total_ayahs": 7 },
+    { "surah": 108, "name_en": "Al-Kawthar", "name_ar": "الكوثر", "name_transliteration": "Al-Kawthar", "meaning_en": "The Abundance", "revelation_type": "Meccan", "total_ayahs": 3 },
+    { "surah": 112, "name_en": "Al-Ikhlas", "name_ar": "الإخلاص", "name_transliteration": "Al-Ikhlas", "meaning_en": "The Sincerity", "revelation_type": "Meccan", "total_ayahs": 4 },
+    { "surah": 113, "name_en": "Al-Falaq", "name_ar": "الفلق", "name_transliteration": "Al-Falaq", "meaning_en": "The Daybreak", "revelation_type": "Meccan", "total_ayahs": 5 },
+    { "surah": 114, "name_en": "An-Nas", "name_ar": "الناس", "name_transliteration": "An-Nas", "meaning_en": "Mankind", "revelation_type": "Meccan", "total_ayahs": 6 }
+  ]
+}

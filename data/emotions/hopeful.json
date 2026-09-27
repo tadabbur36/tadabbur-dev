@@ -1,0 +1,122 @@
+{
+  "id": "hopeful",
+  "label": "Hopeful",
+  "category": "positive",
+  "icon": "Sunrise",
+  "acknowledgment": "Hope is not optimism. The Quran speaks of it as confidence. These words have lifted hearts for 1400 years. They are here for you today.",
+  "verses": [
+    {
+      "verse_ref": "39:53",
+      "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+      "translation_en": "Do not despair of the mercy of Allah.",
+      "context": "Addressed to those who have transgressed against themselves. Mercy is for everyone, not just the perfect."
+    },
+    {
+      "verse_ref": "94:5-6",
+      "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "translation_en": "For indeed, with hardship comes ease.",
+      "context": "Ease is placed with hardship, not after it. They are intertwined."
+    },
+    {
+      "verse_ref": "12:87",
+      "arabic": "وَلَا تَيْأَسُوا مِن رَّوْحِ اللَّهِ",
+      "translation_en": "And do not despair of the relief of Allah.",
+      "context": "Spoken by Yaqub after losing Yusuf for years. His words were still hope."
+    },
+    {
+      "verse_ref": "65:2",
+      "arabic": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا",
+      "translation_en": "And whoever fears Allah, He will make for him a way out.",
+      "context": "The way out is not described. It is left open. The verse promises a way, not the shape of it."
+    },
+    {
+      "verse_ref": "2:214",
+      "arabic": "أَلَا إِنَّ نَصْرَ اللَّهِ قَرِيبٌ",
+      "translation_en": "Unquestionably, the help of Allah is near.",
+      "context": "Comes after a description of tests, answering the question: when will help come?"
+    },
+    {
+      "verse_ref": "93:5",
+      "arabic": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ",
+      "translation_en": "And your Lord is going to give you, and you will be satisfied.",
+      "context": "The giving is promised, and the satisfaction is included."
+    },
+    {
+      "verse_ref": "93:4",
+      "arabic": "وَلَلْآخِرَةُ خَيْرٌ لَّكَ مِنَ الْأُولَىٰ",
+      "translation_en": "And the Hereafter is better for you than the first.",
+      "context": "The present is placed within a longer view."
+    },
+    {
+      "verse_ref": "87:17",
+      "arabic": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ",
+      "translation_en": "While the Hereafter is better and more enduring.",
+      "context": "The present is passing. What is with Allah is lasting."
+    },
+    {
+      "verse_ref": "28:60",
+      "arabic": "وَمَا عِندَ اللَّهِ خَيْرٌ وَأَبْقَىٰ",
+      "translation_en": "And what is with Allah is better and more lasting.",
+      "context": "What is with Allah is better and more lasting than the present."
+    },
+    {
+      "verse_ref": "40:60",
+      "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ",
+      "translation_en": "Call upon Me; I will respond to you.",
+      "context": "The response is promised. The form it takes is not always what we expect."
+    }
+  ],
+  "names_of_allah": [
+    {
+      "arabic": "الرَّحْمَٰنُ",
+      "transliteration": "Ar-Rahman",
+      "meaning_en": "The Most Compassionate",
+      "explanation": "His mercy is not a reward for the deserving. It is the air you are already breathing. It does not run out.",
+      "evidence_verses": [
+        { "verse_ref": "55:1-2", "arabic": "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ", "translation_en": "The Most Compassionate, taught the Quran." },
+        { "verse_ref": "39:53", "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ", "translation_en": "Do not despair of the mercy of Allah." }
+      ]
+    },
+    {
+      "arabic": "الْفَتَّاحُ",
+      "transliteration": "Al-Fattah",
+      "meaning_en": "The Opener",
+      "explanation": "He opens what is closed. Doors, hearts, paths. What seems sealed can be opened by Him.",
+      "evidence_verses": [
+        { "verse_ref": "7:89", "arabic": "رَبَّنَا افْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِالْحَقِّ", "translation_en": "Our Lord, decide between us and our people in truth." },
+        { "verse_ref": "35:2", "arabic": "مَّا يَفْتَحِ اللَّهُ لِلنَّاسِ مِن رَّحْمَةٍ فَلَا مُمْسِكَ لَهَا", "translation_en": "Whatever Allah grants to people of mercy, none can withhold it." }
+      ]
+    },
+    {
+      "arabic": "الْمُجِيبُ",
+      "transliteration": "Al-Mujeeb",
+      "meaning_en": "The Responsive",
+      "explanation": "He responds. Not always in the way we expect. Not always in the time we choose. But He responds.",
+      "evidence_verses": [
+        { "verse_ref": "11:61", "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ", "translation_en": "Indeed, my Lord is Near and Responsive." },
+        { "verse_ref": "40:60", "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ", "translation_en": "Call upon Me; I will respond to you." }
+      ]
+    },
+    {
+      "arabic": "الْقَرِيبُ",
+      "transliteration": "Al-Qareeb",
+      "meaning_en": "The Near",
+      "explanation": "He is closer than your own jugular vein. Closeness is stated without condition, without distance, without delay.",
+      "evidence_verses": [
+        { "verse_ref": "2:186", "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ", "translation_en": "And when My servants ask you concerning Me, indeed I am near." },
+        { "verse_ref": "50:16", "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ", "translation_en": "And We are closer to him than his jugular vein." }
+      ]
+    },
+    {
+      "arabic": "الْحَفِيظُ",
+      "transliteration": "Al-Hafeez",
+      "meaning_en": "The Preserver",
+      "explanation": "He preserves what you cannot protect. Your peace, your future, your loved ones. Nothing is lost with Him.",
+      "evidence_verses": [
+        { "verse_ref": "11:57", "arabic": "إِنَّ رَبِّي عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ", "translation_en": "Indeed, my Lord is, over all things, a Preserver." },
+        { "verse_ref": "34:21", "arabic": "وَرَبُّكَ عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ", "translation_en": "And your Lord is, over all things, a Preserver." }
+      ]
+    }
+  ],
+  "personal_question": "What are you hoping for today? Have you asked Allah for it?"
+}

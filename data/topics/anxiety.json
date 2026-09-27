@@ -1,0 +1,371 @@
+{
+  "topic_id": "anxiety",
+  "topic_title": "Anxiety & Peace of Mind",
+  "topic_icon": "Moon",
+  "topic_description": "Finding peace in remembrance",
+  "disclaimer": "This topic addresses general feelings of anxiety, worry, and unease. It is not a treatment for clinical anxiety disorders. If you are experiencing persistent anxiety, please consult a qualified professional.",
+  "reassurance_anchor": {
+    "verse_ref": "13:28",
+    "text_en": "Unquestionably, by the remembrance of Allah hearts find peace."
+  },
+  "verses": [
+    {
+      "surah": 13,
+      "ayah": 28,
+      "surah_name_en": "Ar-Ra'd",
+      "arabic_text": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
+      "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace.",
+      "word_by_word": [
+        { "arabic": "أَلَا", "root": "أ-ل-أ", "meaning_en": "Unquestionably" },
+        { "arabic": "بِذِكْرِ", "root": "ذ-ك-ر", "meaning_en": "In remembrance of" },
+        { "arabic": "اللَّهِ", "root": "إ-ل-ه", "meaning_en": "Allah" },
+        { "arabic": "تَطْمَئِنُّ", "root": "ط-م-ن", "meaning_en": "Find peace" },
+        { "arabic": "الْقُلُوبُ", "root": "ق-ل-ب", "meaning_en": "The hearts" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What is the context of this verse?",
+          "answer": "It was revealed in Makkah. The disbelievers had asked for a sign. Allah answered with this verse: peace is in His remembrance, not in miracles.",
+          "evidence": [
+            {
+              "verse_ref": "13:27",
+              "arabic": "وَيَقُولُ الَّذِينَ كَفَرُوا لَوْلَا أُنزِلَ عَلَيْهِ آيَةٌ مِّن رَّبِّهِ",
+              "translation_en": "And those who disbelieve say, 'Why has a sign not been sent down to him from his Lord?'",
+              "why_cited": "The question being asked."
+            },
+            {
+              "verse_ref": "13:28",
+              "arabic": "الَّذِينَ آمَنُوا وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ اللَّهِ",
+              "translation_en": "Those who have believed and whose hearts find peace in the remembrance of Allah.",
+              "why_cited": "The answer given."
+            },
+            {
+              "verse_ref": "13:28",
+              "arabic": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
+              "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace.",
+              "why_cited": "The verse itself."
+            }
+          ],
+          "sub_dropdowns": [
+            {
+              "question": "What does 'Dhikr' mean?",
+              "answer": "In the Quran, it means to hold something in constant awareness, with the heart, the tongue, and action.",
+              "evidence": [
+                {
+                  "verse_ref": "2:152",
+                  "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ",
+                  "translation_en": "So remember Me; I will remember you.",
+                  "why_cited": "It is a two-way relationship."
+                },
+                {
+                  "verse_ref": "33:41",
+                  "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا",
+                  "translation_en": "O you who have believed, remember Allah with much remembrance.",
+                  "why_cited": "The command is for much remembrance."
+                },
+                {
+                  "verse_ref": "29:45",
+                  "arabic": "وَلَذِكْرُ اللَّهِ أَكْبَرُ",
+                  "translation_en": "And the remembrance of Allah is greater.",
+                  "why_cited": "It is described as greater."
+                }
+              ],
+              "sub_dropdowns": [
+                {
+                  "question": "How is Dhikr different from Dua?",
+                  "answer": "Dua is asking, while Dhikr is remembering.",
+                  "evidence": [
+                    {
+                      "verse_ref": "2:186",
+                      "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
+                      "translation_en": "And when My servants ask you concerning Me, indeed I am near.",
+                      "why_cited": "This verse is about asking, which is Dua."
+                    },
+                    {
+                      "verse_ref": "40:60",
+                      "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ",
+                      "translation_en": "Call upon Me; I will respond to you.",
+                      "why_cited": "The Quran commands calling on Him."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "question": "How does this verse apply in daily life?",
+          "answer": "The verse places peace in remembrance. The heart can find calm even while the situation continues.",
+          "evidence": [
+            {
+              "verse_ref": "2:286",
+              "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+              "translation_en": "Allah does not burden a soul beyond that it can bear.",
+              "why_cited": "The burden is measured."
+            },
+            {
+              "verse_ref": "94:5-6",
+              "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+              "translation_en": "For indeed, with hardship comes ease.",
+              "why_cited": "Ease is placed with hardship."
+            },
+            {
+              "verse_ref": "65:3",
+              "arabic": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
+              "translation_en": "And whoever relies upon Allah, then He is sufficient for him.",
+              "why_cited": "Trust is presented as sufficiency."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 286,
+      "surah_name_en": "Al-Baqarah",
+      "arabic_text": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+      "translation_en": "Allah does not burden a soul beyond that it can bear.",
+      "word_by_word": [
+        { "arabic": "لَا", "root": "ل-ا", "meaning_en": "Not" },
+        { "arabic": "يُكَلِّفُ", "root": "ك-ل-ف", "meaning_en": "He burdens" },
+        { "arabic": "اللَّهُ", "root": "إ-ل-ه", "meaning_en": "Allah" },
+        { "arabic": "نَفْسًا", "root": "ن-ف-س", "meaning_en": "A soul" },
+        { "arabic": "إِلَّا", "root": "إ-ل-ا", "meaning_en": "Except" },
+        { "arabic": "وُسْعَهَا", "root": "و-س-ع", "meaning_en": "Its capacity" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What does 'Wus'aha' mean?",
+          "answer": "It comes from W-S-A, meaning wide, spacious, encompassing. The verse says the soul's widest capacity.",
+          "evidence": [
+            {
+              "verse_ref": "2:255",
+              "arabic": "وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ",
+              "translation_en": "His Throne encompasses the heavens and the earth.",
+              "why_cited": "The same root describes the vastness of the Throne."
+            },
+            {
+              "verse_ref": "6:80",
+              "arabic": "وَسِعَ رَبِّي كُلَّ شَيْءٍ عِلْمًا",
+              "translation_en": "My Lord encompasses all things in knowledge.",
+              "why_cited": "The same root shows the breadth of knowledge."
+            }
+          ]
+        },
+        {
+          "question": "What does the Quran say about ease?",
+          "answer": "It is placed with hardship, it is intended, and it is described as near.",
+          "evidence": [
+            {
+              "verse_ref": "94:5-6",
+              "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+              "translation_en": "For indeed, with hardship comes ease.",
+              "why_cited": "Ease is with hardship."
+            },
+            {
+              "verse_ref": "2:185",
+              "arabic": "يُرِيدُ اللَّهُ بِكُمُ الْيُسْرَ وَلَا يُرِيدُ بِكُمُ الْعُسْرَ",
+              "translation_en": "Allah intends for you ease and does not intend for you hardship.",
+              "why_cited": "Ease is an intent from Allah."
+            },
+            {
+              "verse_ref": "2:214",
+              "arabic": "أَلَا إِنَّ نَصْرَ اللَّهِ قَرِيبٌ",
+              "translation_en": "Unquestionably, the help of Allah is near.",
+              "why_cited": "Help is described as near."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 94,
+      "ayah": 5,
+      "surah_name_en": "Ash-Sharh",
+      "arabic_text": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "translation_en": "For indeed, with hardship comes ease.",
+      "word_by_word": [
+        { "arabic": "فَإِنَّ", "root": "ف-أ-ن", "meaning_en": "For indeed" },
+        { "arabic": "مَعَ", "root": "م-ع", "meaning_en": "With" },
+        { "arabic": "الْعُسْرِ", "root": "ع-س-ر", "meaning_en": "The hardship" },
+        { "arabic": "يُسْرًا", "root": "ي-س-ر", "meaning_en": "Ease" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Why 'with' and not 'after'?",
+          "answer": "The Quran uses 'with'. Ease is placed with hardship. They are intertwined.",
+          "evidence": [
+            {
+              "verse_ref": "94:5-6",
+              "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+              "translation_en": "For indeed, with hardship comes ease.",
+              "why_cited": "Ease is intertwined with hardship."
+            },
+            {
+              "verse_ref": "2:185",
+              "arabic": "يُرِيدُ اللَّهُ بِكُمُ الْيُسْرَ وَلَا يُرِيدُ بِكُمُ الْعُسْرَ",
+              "translation_en": "Allah intends for you ease and does not intend for you hardship.",
+              "why_cited": "Ease is intended."
+            },
+            {
+              "verse_ref": "65:4",
+              "arabic": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مِنْ أَمْرِهِ يُسْرًا",
+              "translation_en": "And whoever fears Allah, He will make for him ease in his affair.",
+              "why_cited": "Ease is promised."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 3,
+      "surah_name_en": "At-Talaq",
+      "arabic_text": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
+      "translation_en": "And whoever relies upon Allah, then He is sufficient for him.",
+      "word_by_word": [
+        { "arabic": "وَمَن", "root": "و-م-ن", "meaning_en": "And whoever" },
+        { "arabic": "يَتَوَكَّلْ", "root": "و-ك-ل", "meaning_en": "Relies" },
+        { "arabic": "عَلَى", "root": "ع-ل-ي", "meaning_en": "Upon" },
+        { "arabic": "اللَّهِ", "root": "إ-ل-ه", "meaning_en": "Allah" },
+        { "arabic": "فَهُوَ", "root": "ه-و", "meaning_en": "Then He" },
+        { "arabic": "حَسْبُهُ", "root": "ح-س-ب", "meaning_en": "Is sufficient for him" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What does 'Hasbuhu' mean?",
+          "answer": "It comes from H-S-B. He is enough.",
+          "evidence": [
+            {
+              "verse_ref": "65:3",
+              "arabic": "فَهُوَ حَسْبُهُ",
+              "translation_en": "Then He is sufficient for him.",
+              "why_cited": "Sufficiency is stated directly."
+            },
+            {
+              "verse_ref": "39:38",
+              "arabic": "أَلَيْسَ اللَّهُ بِكَافٍ عَبْدَهُ",
+              "translation_en": "Is not Allah sufficient for His servant?",
+              "why_cited": "The same idea as a question."
+            },
+            {
+              "verse_ref": "8:64",
+              "arabic": "فَإِنَّ حَسْبَكَ اللَّهُ",
+              "translation_en": "Then indeed, sufficient for you is Allah.",
+              "why_cited": "Affirmed directly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 186,
+      "surah_name_en": "Al-Baqarah",
+      "arabic_text": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
+      "translation_en": "And when My servants ask you concerning Me, indeed I am near.",
+      "word_by_word": [
+        { "arabic": "وَإِذَا", "root": "و-إ-ذ", "meaning_en": "And when" },
+        { "arabic": "سَأَلَكَ", "root": "س-أ-ل", "meaning_en": "Ask you" },
+        { "arabic": "عِبَادِي", "root": "ع-ب-د", "meaning_en": "My servants" },
+        { "arabic": "عَنِّي", "root": "ع-ن", "meaning_en": "Concerning Me" },
+        { "arabic": "فَإِنِّي", "root": "ف-إ-ن", "meaning_en": "Then indeed I" },
+        { "arabic": "قَرِيبٌ", "root": "ق-ر-ب", "meaning_en": "Am near" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Why is 'say' missing?",
+          "answer": "Every other place in the Quran, the command 'say' is used. Here, it is left out. The answer is placed directly after the question.",
+          "evidence": [
+            {
+              "verse_ref": "2:189",
+              "arabic": "قُلْ هِيَ مَوَاقِيتُ",
+              "translation_en": "Say, 'They are measurements of time.'",
+              "why_cited": "A nearby verse where 'say' is used."
+            },
+            {
+              "verse_ref": "2:186",
+              "arabic": "فَإِنِّي قَرِيبٌ",
+              "translation_en": "Indeed I am near.",
+              "why_cited": "The 'say' is left out. Allah answers the question directly, without a messenger, without a barrier."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 53,
+      "surah_name_en": "Az-Zumar",
+      "arabic_text": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+      "translation_en": "Do not despair of the mercy of Allah.",
+      "word_by_word": [
+        { "arabic": "لَا", "root": "ل-ا", "meaning_en": "Not" },
+        { "arabic": "تَقْنَطُوا", "root": "ق-ن-ط", "meaning_en": "Despair" },
+        { "arabic": "مِن", "root": "م-ن", "meaning_en": "Of" },
+        { "arabic": "رَّحْمَةِ", "root": "ر-ح-م", "meaning_en": "Mercy" },
+        { "arabic": "اللَّهِ", "root": "إ-ل-ه", "meaning_en": "Allah" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Who is this verse addressed to?",
+          "answer": "It is addressed to those who have transgressed against themselves. It is a call to return.",
+          "evidence": [
+            {
+              "verse_ref": "39:53",
+              "arabic": "قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ",
+              "translation_en": "Say, 'O My servants who have transgressed against themselves.'",
+              "why_cited": "The address."
+            },
+            {
+              "verse_ref": "39:54",
+              "arabic": "وَأَنِيبُوا إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا لَهُ",
+              "translation_en": "And return to your Lord and submit to Him.",
+              "why_cited": "The call to return."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 40,
+      "surah_name_en": "At-Tawbah",
+      "arabic_text": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+      "translation_en": "Do not grieve; indeed Allah is with us.",
+      "word_by_word": [
+        { "arabic": "لَا", "root": "ل-ا", "meaning_en": "Not" },
+        { "arabic": "تَحْزَنْ", "root": "ح-ز-ن", "meaning_en": "Grieve" },
+        { "arabic": "إِنَّ", "root": "إ-ن", "meaning_en": "Indeed" },
+        { "arabic": "اللَّهَ", "root": "إ-ل-ه", "meaning_en": "Allah" },
+        { "arabic": "مَعَنَا", "root": "م-ع", "meaning_en": "Is with us" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Where was this said?",
+          "answer": "In the cave of Thawr. The Prophet Muhammad ﷺ and Abu Bakr were hiding. The pursuers were at the entrance.",
+          "evidence": [
+            {
+              "verse_ref": "9:40",
+              "arabic": "إِذْ يَقُولُ لِصَاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+              "translation_en": "When he said to his companion, 'Do not grieve; indeed Allah is with us.'",
+              "why_cited": "The moment is named."
+            },
+            {
+              "verse_ref": "9:40",
+              "arabic": "فَأَنزَلَ اللَّهُ سَكِينَتَهُ عَلَيْهِ",
+              "translation_en": "And Allah sent down His calmness upon him.",
+              "why_cited": "The response to the grief."
+            },
+            {
+              "verse_ref": "48:4",
+              "arabic": "هُوَ الَّذِي أَنزَلَ السَّكِينَةَ فِي قُلُوبِ الْمُؤْمِنِينَ",
+              "translation_en": "It is He who sent down calmness into the hearts of the believers.",
+              "why_cited": "The same calmness is promised."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

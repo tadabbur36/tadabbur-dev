@@ -1,0 +1,43 @@
+{
+  "id": "ibrahim",
+  "title": "Ibrahim",
+  "subtitle": "Multiple surahs",
+  "surah_refs": [2, 6, 21, 37, 14],
+  "total_ayahs": 80,
+  "sections": [
+    {
+      "heading": "The Search",
+      "ayahs": [
+        { "verse_ref": "6:76", "arabic": "فَلَمَّا جَنَّ عَلَيْهِ اللَّيْلُ رَأَىٰ كَوْكَبًا ۖ قَالَ هَٰذَا رَبِّي", "translation_en": "So when the night covered him, he saw a star. He said, 'This is my lord.'" },
+        { "verse_ref": "6:77", "arabic": "فَلَمَّا رَأَى الْقَمَرَ بَازِغًا قَالَ هَٰذَا رَبِّي", "translation_en": "And when he saw the moon rising, he said, 'This is my lord.'" },
+        { "verse_ref": "6:78", "arabic": "فَلَمَّا رَأَى الشَّمْسَ بَازِغَةً قَالَ هَٰذَا رَبِّي هَٰذَا أَكْبَرُ", "translation_en": "And when he saw the sun rising, he said, 'This is my lord; this is greater.'" },
+        { "verse_ref": "6:79", "arabic": "إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا", "translation_en": "Indeed, I have turned my face toward He who created the heavens and the earth, inclining toward truth." }
+      ]
+    },
+    {
+      "heading": "The Fire",
+      "ayahs": [
+        { "verse_ref": "21:51", "arabic": "وَلَقَدْ آتَيْنَا إِبْرَاهِيمَ رُشْدَهُ مِن قَبْلُ", "translation_en": "And We had certainly given Ibrahim his guidance before." },
+        { "verse_ref": "21:58", "arabic": "فَجَعَلَهُمْ جُذَاذًا إِلَّا كَبِيرًا لَّهُمْ لَعَلَّهُمْ إِلَيْهِ يَرْجِعُونَ", "translation_en": "So he made them into fragments, except a large one among them, that they might return to it." },
+        { "verse_ref": "21:68", "arabic": "قَالُوا حَرِّقُوهُ وَانصُرُوا آلِهَتَكُمْ إِن كُنتُمْ فَاعِلِينَ", "translation_en": "They said, 'Burn him and support your gods, if you are to act.'" },
+        { "verse_ref": "21:69", "arabic": "قُلْنَا يَا نَارُ كُونِي بَرْدًا وَسَلَامًا عَلَىٰ إِبْرَاهِيمَ", "translation_en": "We said, 'O fire, be coolness and safety upon Ibrahim.'" }
+      ]
+    },
+    {
+      "heading": "The Sacrifice",
+      "ayahs": [
+        { "verse_ref": "37:102", "arabic": "فَلَمَّا بَلَغَ مَعَهُ السَّعْيَ قَالَ يَا بُنَيَّ إِنِّي أَرَىٰ فِي الْمَنَامِ أَنِّي أَذْبَحُكَ", "translation_en": "And when he reached with him the age of exertion, he said, 'O my son, indeed I have seen in a dream that I must sacrifice you.'" },
+        { "verse_ref": "37:102", "arabic": "قَالَ يَا أَبَتِ افْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِي مِنَ الصَّابِرِينَ", "translation_en": "He said, 'O my father, do as you are commanded. You will find me, if Allah wills, of the steadfast.'" },
+        { "verse_ref": "37:107", "arabic": "وَفَدَيْنَاهُ بِذِبْحٍ عَظِيمٍ", "translation_en": "And We ransomed him with a great sacrifice." }
+      ]
+    },
+    {
+      "heading": "The House",
+      "ayahs": [
+        { "verse_ref": "2:127", "arabic": "وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ رَبَّنَا تَقَبَّلْ مِنَّا", "translation_en": "And when Ibrahim was raising the foundations of the House and Ismail, 'Our Lord, accept from us.'" },
+        { "verse_ref": "14:37", "arabic": "رَّبَّنَا إِنِّي أَسْكَنتُ مِن ذُرِّيَّتِي بِوَادٍ غَيْرِ ذِي زَرْعٍ", "translation_en": "Our Lord, I have settled some of my descendants in an uncultivated valley." },
+        { "verse_ref": "2:124", "arabic": "وَإِذِ ابْتَلَىٰ إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ ۖ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا", "translation_en": "And when Ibrahim was tried by his Lord with commands and he fulfilled them, He said, 'Indeed, I will make you a leader for the people.'" }
+      ]
+    }
+  ]
+}

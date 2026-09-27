@@ -1,0 +1,185 @@
+{
+  "topic_id": "sadness",
+  "topic_title": "Sadness & Grief",
+  "topic_icon": "Cloud",
+  "topic_description": "When the heart is heavy",
+  "disclaimer": "This topic addresses general feelings of sadness and grief. It is not a treatment for clinical depression. If you are experiencing persistent sadness, please consult a qualified professional.",
+  "reassurance_anchor": {
+    "verse_ref": "9:40",
+    "text_en": "Do not grieve; indeed Allah is with us."
+  },
+  "verses": [
+    {
+      "surah": 9,
+      "ayah": 40,
+      "surah_name_en": "At-Tawbah",
+      "arabic_text": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+      "translation_en": "Do not grieve; indeed Allah is with us.",
+      "word_by_word": [
+        { "arabic": "لَا", "root": "ل-ا", "meaning_en": "Not" },
+        { "arabic": "تَحْزَنْ", "root": "ح-ز-ن", "meaning_en": "Grieve" },
+        { "arabic": "إِنَّ", "root": "إ-ن", "meaning_en": "Indeed" },
+        { "arabic": "اللَّهَ", "root": "إ-ل-ه", "meaning_en": "Allah" },
+        { "arabic": "مَعَنَا", "root": "م-ع", "meaning_en": "Is with us" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Where was this said?",
+          "answer": "In the cave of Thawr. The Prophet Muhammad ﷺ and Abu Bakr were hiding. The pursuers were at the entrance.",
+          "evidence": [
+            {
+              "verse_ref": "9:40",
+              "arabic": "إِذْ يَقُولُ لِصَاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+              "translation_en": "When he said to his companion, 'Do not grieve; indeed Allah is with us.'",
+              "why_cited": "It records the exact words said in the cave."
+            },
+            {
+              "verse_ref": "9:40",
+              "arabic": "فَأَنزَلَ اللَّهُ سَكِينَتَهُ عَلَيْهِ",
+              "translation_en": "And Allah sent down His calmness upon him.",
+              "why_cited": "It shows the response was calmness sent down."
+            },
+            {
+              "verse_ref": "48:4",
+              "arabic": "هُوَ الَّذِي أَنزَلَ السَّكِينَةَ فِي قُلُوبِ الْمُؤْمِنِينَ",
+              "translation_en": "It is He who sent down calmness into the hearts of the believers.",
+              "why_cited": "It shows the same calmness is promised to all believers."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 94,
+      "ayah": 5,
+      "surah_name_en": "Ash-Sharh",
+      "arabic_text": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "translation_en": "For indeed, with hardship comes ease.",
+      "word_by_word": [
+        { "arabic": "فَإِنَّ", "root": "ف-أ-ن", "meaning_en": "For indeed" },
+        { "arabic": "مَعَ", "root": "م-ع", "meaning_en": "With" },
+        { "arabic": "الْعُسْرِ", "root": "ع-س-ر", "meaning_en": "The hardship" },
+        { "arabic": "يُسْرًا", "root": "ي-س-ر", "meaning_en": "Ease" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Why 'with' and not 'after'?",
+          "answer": "The Quran uses 'with'. Ease is placed with hardship. They are intertwined.",
+          "evidence": [
+            {
+              "verse_ref": "94:5-6",
+              "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+              "translation_en": "For indeed, with hardship comes ease.",
+              "why_cited": "It repeats the promise twice, showing emphasis."
+            },
+            {
+              "verse_ref": "2:185",
+              "arabic": "يُرِيدُ اللَّهُ بِكُمُ الْيُسْرَ وَلَا يُرِيدُ بِكُمُ الْعُسْرَ",
+              "translation_en": "Allah intends for you ease and does not intend for you hardship.",
+              "why_cited": "It shows ease is intended, not accidental."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 93,
+      "ayah": 3,
+      "surah_name_en": "Ad-Duha",
+      "arabic_text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "translation_en": "Your Lord has not forsaken you, nor has He become displeased.",
+      "word_by_word": [
+        { "arabic": "مَا", "root": "م-ا", "meaning_en": "Not" },
+        { "arabic": "وَدَّعَكَ", "root": "و-د-ع", "meaning_en": "Forsaken you" },
+        { "arabic": "رَبُّكَ", "root": "ر-ب-ب", "meaning_en": "Your Lord" },
+        { "arabic": "وَمَا", "root": "و-م-ا", "meaning_en": "And not" },
+        { "arabic": "قَلَىٰ", "root": "ق-ل-ي", "meaning_en": "Become displeased" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Why was this verse revealed?",
+          "answer": "The Prophet ﷺ had not received revelation for some time. The disbelievers mocked him. This verse came as comfort.",
+          "evidence": [
+            {
+              "verse_ref": "93:3",
+              "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+              "translation_en": "Your Lord has not forsaken you, nor has He become displeased.",
+              "why_cited": "It answers the feeling of abandonment directly."
+            },
+            {
+              "verse_ref": "93:5",
+              "arabic": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ",
+              "translation_en": "And your Lord is going to give you, and you will be satisfied.",
+              "why_cited": "It promises giving that will satisfy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 155,
+      "surah_name_en": "Al-Baqarah",
+      "arabic_text": "وَبَشِّرِ الصَّابِرِينَ",
+      "translation_en": "And give good tidings to the patient.",
+      "word_by_word": [
+        { "arabic": "وَبَشِّرِ", "root": "ب-ش-ر", "meaning_en": "And give good tidings" },
+        { "arabic": "الصَّابِرِينَ", "root": "ص-ب-ر", "meaning_en": "To the patient" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What are the good tidings?",
+          "answer": "The verses that follow describe them. Blessings, mercy, and guidance.",
+          "evidence": [
+            {
+              "verse_ref": "2:156",
+              "arabic": "الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+              "translation_en": "Who, when disaster strikes them, say, 'Indeed we belong to Allah, and indeed to Him we will return.'",
+              "why_cited": "It names the words of the patient."
+            },
+            {
+              "verse_ref": "2:157",
+              "arabic": "أُولَٰئِكَ عَلَيْهِمْ صَلَوَاتٌ مِّن رَّبِّهِمْ وَرَحْمَةٌ",
+              "translation_en": "Those are the ones upon whom are blessings from their Lord and mercy.",
+              "why_cited": "It names the blessings and mercy given to them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 53,
+      "surah_name_en": "Az-Zumar",
+      "arabic_text": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+      "translation_en": "Do not despair of the mercy of Allah.",
+      "word_by_word": [
+        { "arabic": "لَا", "root": "ل-ا", "meaning_en": "Not" },
+        { "arabic": "تَقْنَطُوا", "root": "ق-ن-ط", "meaning_en": "Despair" },
+        { "arabic": "مِن", "root": "م-ن", "meaning_en": "Of" },
+        { "arabic": "رَّحْمَةِ", "root": "ر-ح-م", "meaning_en": "Mercy" },
+        { "arabic": "اللَّهِ", "root": "إ-ل-ه", "meaning_en": "Allah" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Who is this verse addressed to?",
+          "answer": "It is addressed to those who have transgressed against themselves. It is a call to return.",
+          "evidence": [
+            {
+              "verse_ref": "39:53",
+              "arabic": "قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ",
+              "translation_en": "Say, 'O My servants who have transgressed against themselves.'",
+              "why_cited": "It names those who went too far, not the perfect."
+            },
+            {
+              "verse_ref": "39:53",
+              "arabic": "إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ",
+              "translation_en": "Indeed, it is He who is the Forgiving, the Merciful.",
+              "why_cited": "It names forgiveness and mercy as His attributes."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

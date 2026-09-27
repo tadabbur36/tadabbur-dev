@@ -1,0 +1,45 @@
+{
+  "id": "maryam",
+  "title": "Maryam",
+  "subtitle": "Al-Imran & Maryam",
+  "surah_refs": [3, 19],
+  "total_ayahs": 40,
+  "sections": [
+    {
+      "heading": "The Dedication",
+      "ayahs": [
+        { "verse_ref": "3:35", "arabic": "إِذْ قَالَتِ امْرَأَتُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِي بَطْنِي مُحَرَّرًا", "translation_en": "When the wife of Imran said, 'My Lord, indeed I have pledged to You what is in my womb, consecrated.'" },
+        { "verse_ref": "3:36", "arabic": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّي وَضَعْتُهَا أُنثَىٰ وَاللَّهُ أَعْلَمُ بِمَا وَضَعَتْ", "translation_en": "But when she delivered her, she said, 'My Lord, I have delivered a female.' And Allah was most knowing of what she delivered." },
+        { "verse_ref": "3:37", "arabic": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنبَتَهَا نَبَاتًا حَسَنًا", "translation_en": "So her Lord accepted her with good acceptance and caused her to grow in a good manner." }
+      ]
+    },
+    {
+      "heading": "The Announcement",
+      "ayahs": [
+        { "verse_ref": "19:16", "arabic": "وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ إِذِ انتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا", "translation_en": "And mention, in the Book, Maryam, when she withdrew from her family to a place toward the east." },
+        { "verse_ref": "19:17", "arabic": "فَاتَّخَذَتْ مِن دُونِهِمْ حِجَابًا فَأَرْسَلْنَا إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًا سَوِيًّا", "translation_en": "And she took, in seclusion from them, a screen. Then We sent to her Our Angel, and he represented himself to her as a well-proportioned man." },
+        { "verse_ref": "19:19", "arabic": "قَالَ إِنَّمَا أَنَا رَسُولُ رَبِّكِ لِأَهَبَ لَكِ غُلَامًا زَكِيًّا", "translation_en": "He said, 'I am only a messenger of your Lord to give you a pure boy.'" },
+        { "verse_ref": "19:20", "arabic": "قَالَتْ أَنَّىٰ يَكُونُ لِي غُلَامٌ وَلَمْ يَمْسَسْنِي بَشَرٌ وَلَمْ أَكُ بَغِيًّا", "translation_en": "She said, 'How can I have a boy while no man has touched me and I have not been unchaste?'" },
+        { "verse_ref": "19:21", "arabic": "قَالَ كَذَٰلِكِ قَالَ رَبُّكِ هُوَ عَلَيَّ هَيِّنٌ", "translation_en": "He said, 'Thus it will be; your Lord says, It is easy for Me.'" }
+      ]
+    },
+    {
+      "heading": "The Birth",
+      "ayahs": [
+        { "verse_ref": "19:22", "arabic": "فَحَمَلَتْهُ فَانتَبَذَتْ بِهِ مَكَانًا قَصِيًّا", "translation_en": "So she conceived him, and she withdrew with him to a remote place." },
+        { "verse_ref": "19:23", "arabic": "فَأَجَاءَهَا الْمَخَاضُ إِلَىٰ جِذْعِ النَّخْلَةِ قَالَتْ يَا لَيْتَنِي مِتُّ قَبْلَ هَٰذَا", "translation_en": "And the pains of childbirth drove her to the trunk of a palm tree. She said, 'Oh, I wish I had died before this.'" },
+        { "verse_ref": "19:24", "arabic": "فَنَادَاهَا مِن تَحْتِهَا أَلَّا تَحْزَنِي قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيًّا", "translation_en": "But he called her from below her, 'Do not grieve; your Lord has provided beneath you a stream.'" },
+        { "verse_ref": "19:25", "arabic": "وَهُزِّي إِلَيْكِ بِجِذْعِ النَّخْلَةِ تُسَاقِطْ عَلَيْكِ رُطَبًا جَنِيًّا", "translation_en": "'And shake toward you the trunk of the palm tree; it will drop upon you ripe, fresh dates.'" }
+      ]
+    },
+    {
+      "heading": "The Return",
+      "ayahs": [
+        { "verse_ref": "19:27", "arabic": "فَأَتَتْ بِهِ قَوْمَهَا تَحْمِلُهُ ۖ قَالُوا يَا مَرْيَمُ لَقَدْ جِئْتِ شَيْئًا فَرِيًّا", "translation_en": "Then she brought him to her people, carrying him. They said, 'O Maryam, you have certainly done a thing unprecedented.'" },
+        { "verse_ref": "19:29", "arabic": "فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا كَيْفَ نُكَلِّمُ مَن كَانَ فِي الْمَهْدِ صَبِيًّا", "translation_en": "So she pointed to him. They said, 'How can we speak to one who is in the cradle a child?'" },
+        { "verse_ref": "19:30", "arabic": "قَالَ إِنِّي عَبْدُ اللَّهِ آتَانِيَ الْكِتَابَ وَجَعَلَنِي نَبِيًّا", "translation_en": "He said, 'Indeed, I am the servant of Allah. He has given me the Scripture and made me a prophet.'" },
+        { "verse_ref": "19:33", "arabic": "وَالسَّلَامُ عَلَيَّ يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيًّا", "translation_en": "And peace is on me the day I was born and the day I will die and the day I am raised alive." }
+      ]
+    }
+  ]
+}

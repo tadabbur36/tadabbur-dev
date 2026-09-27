@@ -1,0 +1,192 @@
+{
+  "topic_id": "loneliness",
+  "topic_title": "Loneliness",
+  "topic_icon": "Moon",
+  "topic_description": "When no one seems near",
+  "disclaimer": "This topic addresses general feelings of loneliness. It is not a substitute for professional mental health care. If you are in crisis, please contact a qualified professional.",
+  "reassurance_anchor": {
+    "verse_ref": "2:186",
+    "text_en": "And when My servants ask you concerning Me, indeed I am near."
+  },
+  "verses": [
+    {
+      "surah": 2,
+      "ayah": 186,
+      "surah_name_en": "Al-Baqarah",
+      "arabic_text": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
+      "translation_en": "And when My servants ask you concerning Me, indeed I am near.",
+      "word_by_word": [
+        { "arabic": "وَإِذَا", "root": "و-إ-ذ", "meaning_en": "And when" },
+        { "arabic": "سَأَلَكَ", "root": "س-أ-ل", "meaning_en": "Ask you" },
+        { "arabic": "عِبَادِي", "root": "ع-ب-د", "meaning_en": "My servants" },
+        { "arabic": "عَنِّي", "root": "ع-ن", "meaning_en": "Concerning Me" },
+        { "arabic": "فَإِنِّي", "root": "ف-إ-ن", "meaning_en": "Then indeed I" },
+        { "arabic": "قَرِيبٌ", "root": "ق-ر-ب", "meaning_en": "Am near" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Why is 'say' missing?",
+          "answer": "Every other place in the Quran, the command 'say' is used. Here, it is left out. The answer is placed directly after the question.",
+          "evidence": [
+            {
+              "verse_ref": "2:189",
+              "arabic": "قُلْ هِيَ مَوَاقِيتُ",
+              "translation_en": "Say, 'They are measurements of time.'",
+              "why_cited": "A nearby verse where 'say' is used."
+            },
+            {
+              "verse_ref": "2:186",
+              "arabic": "فَإِنِّي قَرِيبٌ",
+              "translation_en": "Indeed I am near.",
+              "why_cited": "The 'say' is left out, and the answer comes directly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 16,
+      "surah_name_en": "Qaf",
+      "arabic_text": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
+      "translation_en": "And We are closer to him than his jugular vein.",
+      "word_by_word": [
+        { "arabic": "وَنَحْنُ", "root": "ن-ح-ن", "meaning_en": "And We" },
+        { "arabic": "أَقْرَبُ", "root": "ق-ر-ب", "meaning_en": "Are closer" },
+        { "arabic": "إِلَيْهِ", "root": "إ-ل-ي", "meaning_en": "To him" },
+        { "arabic": "مِنْ", "root": "م-ن", "meaning_en": "Than" },
+        { "arabic": "حَبْلِ", "root": "ح-ب-ل", "meaning_en": "The vein" },
+        { "arabic": "الْوَرِيدِ", "root": "و-ر-د", "meaning_en": "Jugular" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What is the jugular vein?",
+          "answer": "It is the vein in the neck. It is one of the closest things to a person. The verse places Allah closer than that.",
+          "evidence": [
+            {
+              "verse_ref": "50:16",
+              "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
+              "translation_en": "And We are closer to him than his jugular vein.",
+              "why_cited": "It describes closeness as physical and immediate."
+            },
+            {
+              "verse_ref": "50:17",
+              "arabic": "إِذْ يَتَلَقَّى الْمُتَلَقِّيَانِ عَنِ الْيَمِينِ وَعَنِ الشِّمَالِ قَعِيدٌ",
+              "translation_en": "When the two receivers receive, seated on the right and on the left.",
+              "why_cited": "It shows angels are also near, recording."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 40,
+      "surah_name_en": "At-Tawbah",
+      "arabic_text": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+      "translation_en": "Do not grieve; indeed Allah is with us.",
+      "word_by_word": [
+        { "arabic": "لَا", "root": "ل-ا", "meaning_en": "Not" },
+        { "arabic": "تَحْزَنْ", "root": "ح-ز-ن", "meaning_en": "Grieve" },
+        { "arabic": "إِنَّ", "root": "إ-ن", "meaning_en": "Indeed" },
+        { "arabic": "اللَّهَ", "root": "إ-ل-ه", "meaning_en": "Allah" },
+        { "arabic": "مَعَنَا", "root": "م-ع", "meaning_en": "Is with us" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What does 'with us' mean?",
+          "answer": "It is stated directly. Presence is promised, not earned.",
+          "evidence": [
+            {
+              "verse_ref": "9:40",
+              "arabic": "إِنَّ اللَّهَ مَعَنَا",
+              "translation_en": "Indeed Allah is with us.",
+              "why_cited": "It states presence without condition."
+            },
+            {
+              "verse_ref": "2:153",
+              "arabic": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+              "translation_en": "Indeed, Allah is with the patient.",
+              "why_cited": "It names patience as a station of His presence."
+            },
+            {
+              "verse_ref": "16:128",
+              "arabic": "إِنَّ اللَّهَ مَعَ الَّذِينَ اتَّقَوا وَّالَّذِينَ هُم مُّحْسِنُونَ",
+              "translation_en": "Indeed, Allah is with those who fear Him and those who are doers of good.",
+              "why_cited": "It names two more stations of His presence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 4,
+      "surah_name_en": "Al-Hadid",
+      "arabic_text": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
+      "translation_en": "And He is with you wherever you are.",
+      "word_by_word": [
+        { "arabic": "وَهُوَ", "root": "و-ه-و", "meaning_en": "And He" },
+        { "arabic": "مَعَكُمْ", "root": "م-ع", "meaning_en": "Is with you" },
+        { "arabic": "أَيْنَ", "root": "أ-ي-ن", "meaning_en": "Wherever" },
+        { "arabic": "مَا", "root": "م-ا", "meaning_en": "What" },
+        { "arabic": "كُنتُمْ", "root": "ك-و-ن", "meaning_en": "You are" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "What does this verse say about presence?",
+          "answer": "It is without location. Without condition. Without exception.",
+          "evidence": [
+            {
+              "verse_ref": "57:4",
+              "arabic": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
+              "translation_en": "And He is with you wherever you are.",
+              "why_cited": "It states presence without location."
+            },
+            {
+              "verse_ref": "57:4",
+              "arabic": "وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+              "translation_en": "And Allah is Seeing of what you do.",
+              "why_cited": "It links presence with awareness."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 46,
+      "surah_name_en": "Ta-Ha",
+      "arabic_text": "لَا تَخَافَا إِنَّنِي مَعَكُمَا أَسْمَعُ وَأَرَىٰ",
+      "translation_en": "Do not fear. Indeed, I am with you both; I hear and I see.",
+      "word_by_word": [
+        { "arabic": "لَا", "root": "ل-ا", "meaning_en": "Not" },
+        { "arabic": "تَخَافَا", "root": "خ-و-ف", "meaning_en": "Fear" },
+        { "arabic": "إِنَّنِي", "root": "إ-ن", "meaning_en": "Indeed I" },
+        { "arabic": "مَعَكُمَا", "root": "م-ع", "meaning_en": "Am with you both" },
+        { "arabic": "أَسْمَعُ", "root": "س-م-ع", "meaning_en": "I hear" },
+        { "arabic": "وَأَرَىٰ", "root": "ر-أ-ي", "meaning_en": "And I see" }
+      ],
+      "socratic_dropdowns": [
+        {
+          "question": "Where was this said?",
+          "answer": "To Musa and Harun, when they were sent to Pharaoh. They were afraid. Allah spoke to them directly.",
+          "evidence": [
+            {
+              "verse_ref": "20:46",
+              "arabic": "لَا تَخَافَا إِنَّنِي مَعَكُمَا أَسْمَعُ وَأَرَىٰ",
+              "translation_en": "Do not fear. Indeed, I am with you both; I hear and I see.",
+              "why_cited": "It names hearing and seeing as part of His presence."
+            },
+            {
+              "verse_ref": "20:47",
+              "arabic": "إِنَّا رَسُولَا رَبِّكَ",
+              "translation_en": "Indeed, we are messengers of your Lord.",
+              "why_cited": "It shows the comfort was given before the mission began."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

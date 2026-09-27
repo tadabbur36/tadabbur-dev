@@ -1,0 +1,89 @@
+{
+  "surah": 1,
+  "name_en": "Al-Fatiha",
+  "name_ar": "الفاتحة",
+  "name_transliteration": "Al-Fatiha",
+  "meaning_en": "The Opening",
+  "revelation_type": "Meccan",
+  "total_ayahs": 7,
+  "ayahs": [
+    {
+      "ayah": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "translation_en": "In the name of Allah, the Most Compassionate, the Most Merciful.",
+      "word_by_word": [
+        { "arabic": "بِسْمِ", "root": "ب-س-م", "meaning_en": "In the name of" },
+        { "arabic": "اللَّهِ", "root": "إ-ل-ه", "meaning_en": "Allah" },
+        { "arabic": "الرَّحْمَٰنِ", "root": "ر-ح-م", "meaning_en": "The Most Compassionate" },
+        { "arabic": "الرَّحِيمِ", "root": "ر-ح-م", "meaning_en": "The Most Merciful" }
+      ]
+    },
+    {
+      "ayah": 2,
+      "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "translation_en": "All praise is due to Allah, Lord of the worlds.",
+      "word_by_word": [
+        { "arabic": "الْحَمْدُ", "root": "ح-م-د", "meaning_en": "All praise" },
+        { "arabic": "لِلَّهِ", "root": "إ-ل-ه", "meaning_en": "For Allah" },
+        { "arabic": "رَبِّ", "root": "ر-ب-ب", "meaning_en": "Lord" },
+        { "arabic": "الْعَالَمِينَ", "root": "ع-ل-م", "meaning_en": "Of the worlds" }
+      ]
+    },
+    {
+      "ayah": 3,
+      "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
+      "translation_en": "The Most Compassionate, the Most Merciful.",
+      "word_by_word": [
+        { "arabic": "الرَّحْمَٰنِ", "root": "ر-ح-م", "meaning_en": "The Most Compassionate" },
+        { "arabic": "الرَّحِيمِ", "root": "ر-ح-م", "meaning_en": "The Most Merciful" }
+      ]
+    },
+    {
+      "ayah": 4,
+      "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+      "translation_en": "Master of the Day of Judgment.",
+      "word_by_word": [
+        { "arabic": "مَالِكِ", "root": "م-ل-ك", "meaning_en": "Master" },
+        { "arabic": "يَوْمِ", "root": "ي-و-م", "meaning_en": "Of the Day" },
+        { "arabic": "الدِّينِ", "root": "د-ي-ن", "meaning_en": "Of Judgment" }
+      ]
+    },
+    {
+      "ayah": 5,
+      "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "translation_en": "It is You we worship and You we ask for help.",
+      "word_by_word": [
+        { "arabic": "إِيَّاكَ", "root": "إ-ي-ك", "meaning_en": "It is You" },
+        { "arabic": "نَعْبُدُ", "root": "ع-ب-د", "meaning_en": "We worship" },
+        { "arabic": "وَإِيَّاكَ", "root": "إ-ي-ك", "meaning_en": "And You" },
+        { "arabic": "نَسْتَعِينُ", "root": "ع-و-ن", "meaning_en": "We ask for help" }
+      ]
+    },
+    {
+      "ayah": 6,
+      "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "translation_en": "Guide us to the straight path.",
+      "word_by_word": [
+        { "arabic": "اهْدِنَا", "root": "ه-د-ي", "meaning_en": "Guide us" },
+        { "arabic": "الصِّرَاطَ", "root": "ص-ر-ط", "meaning_en": "To the path" },
+        { "arabic": "الْمُسْتَقِيمَ", "root": "ق-و-م", "meaning_en": "The straight" }
+      ]
+    },
+    {
+      "ayah": 7,
+      "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "translation_en": "The path of those upon whom You have bestowed favor, not of those who have earned Your anger or of those who are astray.",
+      "word_by_word": [
+        { "arabic": "صِرَاطَ", "root": "ص-ر-ط", "meaning_en": "The path" },
+        { "arabic": "الَّذِينَ", "root": "ال-ذ-ي", "meaning_en": "Of those who" },
+        { "arabic": "أَنْعَمْتَ", "root": "ن-ع-م", "meaning_en": "You have bestowed favor" },
+        { "arabic": "عَلَيْهِمْ", "root": "ع-ل-ي", "meaning_en": "Upon them" },
+        { "arabic": "غَيْرِ", "root": "غ-ي-ر", "meaning_en": "Not" },
+        { "arabic": "الْمَغْضُوبِ", "root": "غ-ض-ب", "meaning_en": "Of those who earned anger" },
+        { "arabic": "عَلَيْهِمْ", "root": "ع-ل-ي", "meaning_en": "Upon them" },
+        { "arabic": "وَلَا", "root": "و-ل-ا", "meaning_en": "And not" },
+        { "arabic": "الضَّالِّينَ", "root": "ض-ل-ل", "meaning_en": "Of those who are astray" }
+      ]
+    }
+  ]
+}

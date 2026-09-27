@@ -1,0 +1,60 @@
+{
+  "id": "musa",
+  "title": "Musa",
+  "subtitle": "Multiple surahs",
+  "surah_refs": [20, 28, 7, 26, 2, 5],
+  "total_ayahs": 200,
+  "sections": [
+    {
+      "heading": "The Birth",
+      "ayahs": [
+        { "verse_ref": "28:7", "arabic": "وَأَوْحَيْنَا إِلَىٰ أُمِّ مُوسَىٰ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِي الْيَمِّ", "translation_en": "And We inspired to the mother of Musa, 'Suckle him; but when you fear for him, cast him into the river.'" },
+        { "verse_ref": "28:8", "arabic": "فَالْتَقَطَهُ آلُ فِرْعَوْنَ لِيَكُونَ لَهُمْ عَدُوًّا وَحَزَنًا", "translation_en": "And the family of Pharaoh picked him up, that he might be to them an enemy and a cause of grief." },
+        { "verse_ref": "28:9", "arabic": "وَقَالَتِ امْرَأَتُ فِرْعَوْنَ قُرَّتُ عَيْنٍ لِّي وَلَكَ ۖ لَا تَقْتُلُوهُ", "translation_en": "And the wife of Pharaoh said, 'A comfort of the eye for me and for you. Do not kill him.'" }
+      ]
+    },
+    {
+      "heading": "The Burning Bush",
+      "ayahs": [
+        { "verse_ref": "20:11", "arabic": "فَلَمَّا أَتَاهَا نُودِيَ يَا مُوسَىٰ", "translation_en": "And when he came to it, he was called, 'O Musa.'" },
+        { "verse_ref": "20:12", "arabic": "إِنِّي أَنَا رَبُّكَ فَاخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِالْوَادِ الْمُقَدَّسِ طُوًى", "translation_en": "'Indeed, I am your Lord, so remove your sandals. Indeed, you are in the sacred valley of Tuwa.'" },
+        { "verse_ref": "20:14", "arabic": "إِنَّنِي أَنَا اللَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدْنِي وَأَقِمِ الصَّلَاةَ لِذِكْرِي", "translation_en": "'Indeed, I am Allah. There is no deity except Me, so worship Me and establish prayer for My remembrance.'" }
+      ]
+    },
+    {
+      "heading": "Before Pharaoh",
+      "ayahs": [
+        { "verse_ref": "20:24", "arabic": "اذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ", "translation_en": "'Go to Pharaoh; indeed, he has transgressed.'" },
+        { "verse_ref": "20:25", "arabic": "قَالَ رَبِّ اشْرَحْ لِي صَدْرِي", "translation_en": "He said, 'My Lord, expand for me my chest.'" },
+        { "verse_ref": "20:26", "arabic": "وَيَسِّرْ لِي أَمْرِي", "translation_en": "'And ease for me my task.'" },
+        { "verse_ref": "20:46", "arabic": "قَالَ لَا تَخَافَا إِنَّنِي مَعَكُمَا أَسْمَعُ وَأَرَىٰ", "translation_en": "He said, 'Do not fear. Indeed, I am with you both; I hear and I see.'" },
+        { "verse_ref": "20:47", "arabic": "فَأْتِيَاهُ فَقُولَا إِنَّا رَسُولَا رَبِّكَ فَأَرْسِلْ مَعَنَا بَنِي إِسْرَائِيلَ وَلَا تُعَذِّبْهُمْ", "translation_en": "So go to him and say, 'Indeed, we are messengers of your Lord, so send with us the Children of Israel and do not torment them.'" }
+      ]
+    },
+    {
+      "heading": "The Signs",
+      "ayahs": [
+        { "verse_ref": "20:17", "arabic": "وَمَا تِلْكَ بِيَمِينِكَ يَا مُوسَىٰ", "translation_en": "And what is that in your right hand, O Musa?" },
+        { "verse_ref": "20:18", "arabic": "قَالَ هِيَ عَصَايَ أَتَوَكَّأُ عَلَيْهَا وَأَهُشُّ بِهَا عَلَىٰ غَنَمِي", "translation_en": "He said, 'It is my staff; I lean upon it, and I bring down leaves for my sheep.'" },
+        { "verse_ref": "20:20", "arabic": "فَأَلْقَاهَا فَإِذَا هِيَ حَيَّةٌ تَسْعَىٰ", "translation_en": "So he threw it down, and thereupon it was a snake, moving swiftly." },
+        { "verse_ref": "20:22", "arabic": "وَاضْمُمْ يَدَكَ إِلَىٰ جَنَاحِكَ تَخْرُجْ بَيْضَاءَ مِنْ غَيْرِ سُوءٍ", "translation_en": "'And draw your hand into your side; it will come out white, without disease.'" }
+      ]
+    },
+    {
+      "heading": "The Sea",
+      "ayahs": [
+        { "verse_ref": "26:63", "arabic": "فَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنِ اضْرِب بِّعَصَاكَ الْبَحْرَ ۖ فَانفَلَقَ فَكَانَ كُلُّ فِرْقٍ كَالطَّوْدِ الْعَظِيمِ", "translation_en": "Then We inspired to Musa, 'Strike with your staff the sea,' and it parted, and each portion was like a great towering mountain." },
+        { "verse_ref": "26:64", "arabic": "وَأَزْلَفْنَا ثَمَّ الْآخَرِينَ", "translation_en": "And We advanced thereto the others." },
+        { "verse_ref": "26:65", "arabic": "وَأَنجَيْنَا مُوسَىٰ وَمَن مَّعَهُ أَجْمَعِينَ", "translation_en": "And We saved Musa and those with him, all together." }
+      ]
+    },
+    {
+      "heading": "The Mountain",
+      "ayahs": [
+        { "verse_ref": "7:143", "arabic": "وَلَمَّا جَاءَ مُوسَىٰ لِمِيقَاتِنَا وَكَلَّمَهُ رَبُّهُ قَالَ رَبِّ أَرِنِي أَنظُرْ إِلَيْكَ", "translation_en": "And when Musa came to Our appointment and his Lord spoke to him, he said, 'My Lord, show me Yourself that I may look at You.'" },
+        { "verse_ref": "7:143", "arabic": "قَالَ لَن تَرَانِي وَلَٰكِنِ انظُرْ إِلَى الْجَبَلِ فَإِنِ اسْتَقَرَّ مَكَانَهُ فَسَوْفَ تَرَانِي", "translation_en": "He said, 'You will not see Me, but look at the mountain; if it remains in place, then you will see Me.'" },
+        { "verse_ref": "7:143", "arabic": "فَلَمَّا تَجَلَّىٰ رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا وَخَرَّ مُوسَىٰ صَعِقًا", "translation_en": "And when his Lord revealed Himself to the mountain, He made it crumble, and Musa fell down unconscious." }
+      ]
+    }
+  ]
+}

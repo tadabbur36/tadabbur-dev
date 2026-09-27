@@ -1,0 +1,61 @@
+{
+  "id": "la-ilaha-illallah",
+  "phrase_arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ",
+  "transliteration": "La ilaha illallah",
+  "meaning_en": "There is no deity except Allah",
+  "deep_meaning": "The root A-L-H means to worship, to be divine. The phrase is a negation followed by an affirmation. It removes every claim to divinity, then places it where it belongs. It is not just a statement. It is a clearing of the heart.",
+  "root_letters": "إ ل ه",
+  "why_this_phrase": "It is the foundation of the message. Every prophet called to it. The Quran places it at the center of faith, and describes it as the word that stands firm.",
+  "verses": [
+    {
+      "verse_ref": "47:19",
+      "arabic": "فَاعْلَمْ أَنَّهُ لَا إِلَٰهَ إِلَّا اللَّهُ وَاسْتَغْفِرْ لِذَنبِكَ",
+      "translation_en": "So know that there is no deity except Allah, and ask forgiveness for your sin.",
+      "context": "The command to know, not only to say."
+    },
+    {
+      "verse_ref": "37:35",
+      "arabic": "إِنَّهُمْ كَانُوا إِذَا قِيلَ لَهُمْ لَا إِلَٰهَ إِلَّا اللَّهُ يَسْتَكْبِرُونَ",
+      "translation_en": "Indeed, they, when it was said to them, 'There is no deity except Allah,' were arrogant.",
+      "context": "The phrase that the arrogant rejected."
+    },
+    {
+      "verse_ref": "3:18",
+      "arabic": "شَهِدَ اللَّهُ أَنَّهُ لَا إِلَٰهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ",
+      "translation_en": "Allah witnesses that there is no deity except Him, and so do the angels and those of knowledge.",
+      "context": "Allah bears witness to it first."
+    },
+    {
+      "verse_ref": "16:2",
+      "arabic": "يُنَزِّلُ الْمَلَائِكَةَ بِالرُّوحِ مِنْ أَمْرِهِ عَلَىٰ مَن يَشَاءُ مِنْ عِبَادِهِ أَنْ أَنذِرُوا أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاتَّقُونِ",
+      "translation_en": "He sends down the angels with the Spirit of His command upon whom He wills of His servants, 'Warn that there is no deity except Me, so fear Me.'",
+      "context": "The first message of every prophet."
+    },
+    {
+      "verse_ref": "21:25",
+      "arabic": "وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ",
+      "translation_en": "And We sent not before you any messenger except that We revealed to him that there is no deity except Me, so worship Me.",
+      "context": "The message shared by all messengers."
+    }
+  ],
+  "when_to_say": [
+    {
+      "moment": "When you want to renew your faith",
+      "verse_ref": "47:19",
+      "arabic": "فَاعْلَمْ أَنَّهُ لَا إِلَٰهَ إِلَّا اللَّهُ",
+      "translation_en": "So know that there is no deity except Allah."
+    },
+    {
+      "moment": "When the world feels too loud",
+      "verse_ref": "16:2",
+      "arabic": "أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاتَّقُونِ",
+      "translation_en": "That there is no deity except Me, so fear Me."
+    },
+    {
+      "moment": "When you want to return to the foundation",
+      "verse_ref": "21:25",
+      "arabic": "أَنَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدُونِ",
+      "translation_en": "That there is no deity except Me, so worship Me."
+    }
+  ]
+}

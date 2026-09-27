@@ -1,0 +1,34 @@
+{
+  "qasas": [
+    {
+      "slug": "yusuf",
+      "title": "Yusuf",
+      "subtitle": "Surah Yusuf",
+      "total_ayahs": 111
+    },
+    {
+      "slug": "musa",
+      "title": "Musa",
+      "subtitle": "Multiple surahs",
+      "total_ayahs": 200
+    },
+    {
+      "slug": "maryam",
+      "title": "Maryam",
+      "subtitle": "Al-Imran & Maryam",
+      "total_ayahs": 40
+    },
+    {
+      "slug": "ibrahim",
+      "title": "Ibrahim",
+      "subtitle": "Multiple surahs",
+      "total_ayahs": 80
+    },
+    {
+      "slug": "yunus",
+      "title": "Yunus",
+      "subtitle": "Multiple surahs",
+      "total_ayahs": 20
+    }
+  ]
+}

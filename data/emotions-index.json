@@ -1,0 +1,9 @@
+{
+  "emotions": [
+    { "slug": "anxious", "label": "Anxious", "category": "difficult", "icon": "Waves" },
+    { "slug": "sad", "label": "Sad", "category": "difficult", "icon": "CloudRain" },
+    { "slug": "lonely", "label": "Lonely", "category": "difficult", "icon": "Moon" },
+    { "slug": "grateful", "label": "Grateful", "category": "positive", "icon": "Heart" },
+    { "slug": "hopeful", "label": "Hopeful", "category": "positive", "icon": "Sunrise" }
+  ]
+}

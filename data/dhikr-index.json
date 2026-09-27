@@ -1,0 +1,9 @@
+{
+  "dhikr": [
+    { "slug": "subhanallah", "transliteration": "SubhanAllah", "phrase_arabic": "سُبْحَانَ اللَّهِ", "meaning_en": "Glory be to Allah" },
+    { "slug": "alhamdulillah", "transliteration": "Alhamdulillah", "phrase_arabic": "الْحَمْدُ لِلَّهِ", "meaning_en": "All praise is due to Allah" },
+    { "slug": "allahu-akbar", "transliteration": "Allahu Akbar", "phrase_arabic": "اللَّهُ أَكْبَرُ", "meaning_en": "Allah is greater" },
+    { "slug": "la-ilaha-illallah", "transliteration": "La ilaha illallah", "phrase_arabic": "لَا إِلَٰهَ إِلَّا اللَّهُ", "meaning_en": "There is no deity except Allah" },
+    { "slug": "astaghfirullah", "transliteration": "Astaghfirullah", "phrase_arabic": "أَسْتَغْفِرُ اللَّهَ", "meaning_en": "I seek forgiveness from Allah" }
+  ]
+}

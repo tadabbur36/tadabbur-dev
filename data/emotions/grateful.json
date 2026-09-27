@@ -1,0 +1,122 @@
+{
+  "id": "grateful",
+  "label": "Grateful",
+  "category": "positive",
+  "icon": "Heart",
+  "acknowledgment": "Gratitude is not a transaction. The Quran speaks of it as a doorway. These words have opened hearts for 1400 years. They are here for you today.",
+  "verses": [
+    {
+      "verse_ref": "14:7",
+      "arabic": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
+      "translation_en": "If you are grateful, I will surely increase you.",
+      "context": "The increase is left open. It is not limited. The verse does not specify what will be increased."
+    },
+    {
+      "verse_ref": "2:152",
+      "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ",
+      "translation_en": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
+      "context": "Remembrance and gratitude are joined in the same verse."
+    },
+    {
+      "verse_ref": "16:18",
+      "arabic": "وَإِن تَعُدُّوا نِعْمَةَ اللَّهِ لَا تُحْصُوهَا",
+      "translation_en": "And if you should count the favors of Allah, you could not enumerate them.",
+      "context": "The verse is an invitation to notice, not to complete the count."
+    },
+    {
+      "verse_ref": "55:13",
+      "arabic": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "translation_en": "So which of the favors of your Lord would you deny?",
+      "context": "Repeated thirty-one times in Surah Ar-Rahman, after every description of mercy."
+    },
+    {
+      "verse_ref": "27:19",
+      "arabic": "رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ",
+      "translation_en": "My Lord, enable me to be grateful for Your favor.",
+      "context": "Sulaiman asks Allah to enable him to be grateful. Gratitude itself is sought as a gift."
+    },
+    {
+      "verse_ref": "34:13",
+      "arabic": "وَقَلِيلٌ مِّنْ عِبَادِيَ الشَّكُورُ",
+      "translation_en": "And few of My servants are grateful.",
+      "context": "The verse names gratitude as a rare quality, and so it is precious."
+    },
+    {
+      "verse_ref": "31:12",
+      "arabic": "وَمَن يَشْكُرْ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِ",
+      "translation_en": "And whoever is grateful is grateful for his own benefit.",
+      "context": "Gratitude returns to the one who gives it."
+    },
+    {
+      "verse_ref": "2:172",
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَاشْكُرُوا لِلَّهِ",
+      "translation_en": "O you who have believed, eat from the good things which We have provided for you and be grateful to Allah.",
+      "context": "Gratitude is linked to the simplest gifts, even food."
+    },
+    {
+      "verse_ref": "16:114",
+      "arabic": "فَكُلُوا مِمَّا رَزَقَكُمُ اللَّهُ حَلَالًا طَيِّبًا وَاشْكُرُوا نِعْمَتَ اللَّهِ",
+      "translation_en": "So eat of the lawful and good food which Allah has provided for you, and be grateful for the favor of Allah.",
+      "context": "Gratitude is commanded for what has been given."
+    },
+    {
+      "verse_ref": "76:9",
+      "arabic": "إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ اللَّهِ لَا نُرِيدُ مِنكُمْ جَزَاءً وَلَا شُكُورًا",
+      "translation_en": "We feed you only for the countenance of Allah. We wish not from you reward or gratitude.",
+      "context": "The righteous give without expecting gratitude in return."
+    }
+  ],
+  "names_of_allah": [
+    {
+      "arabic": "الشَّكُورُ",
+      "transliteration": "Ash-Shakur",
+      "meaning_en": "The Most Appreciative",
+      "explanation": "He does not miss a small act. A single moment of sincere thanks returns as abundance. Gratitude is not a transaction. It is a doorway.",
+      "evidence_verses": [
+        { "verse_ref": "35:30", "arabic": "إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ", "translation_en": "Indeed, He is Knowing of that within the chests." },
+        { "verse_ref": "64:17", "arabic": "وَاللَّهُ شَكُورٌ حَلِيمٌ", "translation_en": "And Allah is Appreciative and Forbearing." }
+      ]
+    },
+    {
+      "arabic": "الرَّزَّاقُ",
+      "transliteration": "Ar-Razzaq",
+      "meaning_en": "The Provider",
+      "explanation": "He provides without delay. He provides without measure. He provides what you need, not always what you want.",
+      "evidence_verses": [
+        { "verse_ref": "51:58", "arabic": "إِنَّ اللَّهَ هُوَ الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ", "translation_en": "Indeed, it is Allah who is the Provider, the Possessor of strength, the Firm." },
+        { "verse_ref": "11:6", "arabic": "وَمَا مِن دَابَّةٍ فِي الْأَرْضِ إِلَّا عَلَى اللَّهِ رِزْقُهَا", "translation_en": "And there is no creature on earth but that upon Allah is its provision." }
+      ]
+    },
+    {
+      "arabic": "الْكَرِيمُ",
+      "transliteration": "Al-Kareem",
+      "meaning_en": "The Most Generous",
+      "explanation": "His giving does not decrease Him. His generosity is not measured by what we deserve.",
+      "evidence_verses": [
+        { "verse_ref": "27:40", "arabic": "فَإِنَّ رَبِّي غَنِيٌّ كَرِيمٌ", "translation_en": "Indeed, my Lord is Free of need and Generous." },
+        { "verse_ref": "82:6", "arabic": "يَا أَيُّهَا الْإِنسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ", "translation_en": "O mankind, what has deceived you concerning your Lord, the Generous?" }
+      ]
+    },
+    {
+      "arabic": "الْوَهَّابُ",
+      "transliteration": "Al-Wahhab",
+      "meaning_en": "The Bestower",
+      "explanation": "He gives without being asked. He gives without condition. He gives without limit.",
+      "evidence_verses": [
+        { "verse_ref": "3:8", "arabic": "إِنَّكَ أَنتَ الْوَهَّابُ", "translation_en": "Indeed, You are the Bestower." },
+        { "verse_ref": "38:35", "arabic": "إِنَّكَ أَنتَ الْوَهَّابُ", "translation_en": "Indeed, You are the Bestower." }
+      ]
+    },
+    {
+      "arabic": "الْحَمِيدُ",
+      "transliteration": "Al-Hameed",
+      "meaning_en": "The Praiseworthy",
+      "explanation": "He is praised for who He is, not only for what He gives. Praise belongs to Him regardless of circumstance.",
+      "evidence_verses": [
+        { "verse_ref": "14:8", "arabic": "إِنَّ اللَّهَ لَغَنِيٌّ حَمِيدٌ", "translation_en": "Indeed, Allah is Free of need and Praiseworthy." },
+        { "verse_ref": "31:26", "arabic": "إِنَّ اللَّهَ هُوَ الْغَنِيُّ الْحَمِيدُ", "translation_en": "Indeed, Allah is the Free of need, the Praiseworthy." }
+      ]
+    }
+  ],
+  "personal_question": "What is one thing you have not yet thanked Allah for today?"
+}

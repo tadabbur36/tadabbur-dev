@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "slug": "why-feel-lonely",
+      "question": "Why do I feel lonely even when I have people around me?",
+      "short_answer": "Loneliness is not about the number of people around you. It is about the depth of connection.",
+      "topic_tags": ["loneliness", "anxiety"]
+    },
+    {
+      "slug": "why-does-allah-test-me",
+      "question": "Why does Allah test me?",
+      "short_answer": "The Quran presents tests as a part of the design, not as a punishment. They measure, refine, and reveal what is already inside the heart.",
+      "topic_tags": ["sadness", "anxiety", "hope"]
+    },
+    {
+      "slug": "how-do-i-find-peace",
+      "question": "How do I find peace?",
+      "short_answer": "The Quran places peace in remembrance, in trust, and in the nearness of Allah. It is not created. It is returned to.",
+      "topic_tags": ["anxiety", "loneliness"]
+    },
+    {
+      "slug": "why-do-i-feel-distant-from-allah",
+      "question": "Why do I feel distant from Allah?",
+      "short_answer": "The Quran describes closeness as immediate and without condition. The feeling of distance is a feeling, not a fact.",
+      "topic_tags": ["sadness", "anxiety"]
+    },
+    {
+      "slug": "what-is-my-purpose",
+      "question": "What is my purpose?",
+      "short_answer": "The Quran states the purpose directly. It is to know Allah, to worship Him, and to live in a way that reflects that knowing.",
+      "topic_tags": ["gratitude", "hope"]
+    }
+  ]
+}

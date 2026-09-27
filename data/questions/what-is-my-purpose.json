@@ -1,0 +1,106 @@
+{
+  "question_id": "what-is-my-purpose",
+  "question": "What is my purpose?",
+  "short_answer": "The Quran states the purpose directly. It is to know Allah, to worship Him, and to live in a way that reflects that knowing.",
+  "topic_tags": ["gratitude", "hope"],
+  "sections": [
+    {
+      "heading": "The stated purpose",
+      "body": "The Quran does not leave purpose unclear. It states it plainly. The purpose is tied to the One who created.",
+      "evidence": [
+        {
+          "verse_ref": "51:56",
+          "arabic": "وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ",
+          "translation_en": "And I did not create the jinn and mankind except to worship Me.",
+          "why_cited": "It names the purpose of creation directly."
+        },
+        {
+          "verse_ref": "23:115",
+          "arabic": "أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَاكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ",
+          "translation_en": "Then did you think that We created you uselessly and that to Us you would not be returned?",
+          "why_cited": "It denies that creation is without purpose."
+        },
+        {
+          "verse_ref": "67:2",
+          "arabic": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",
+          "translation_en": "It is He who created death and life to test you as to which of you is best in deed.",
+          "why_cited": "It places the purpose inside the test of action."
+        }
+      ]
+    },
+    {
+      "heading": "What worship means",
+      "body": "The Quran describes worship as broader than ritual. It includes gratitude, remembrance, patience, and doing good.",
+      "evidence": [
+        {
+          "verse_ref": "2:152",
+          "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ",
+          "translation_en": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
+          "why_cited": "It places remembrance and gratitude together."
+        },
+        {
+          "verse_ref": "16:90",
+          "arabic": "إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ وَإِيتَاءِ ذِي الْقُرْبَىٰ",
+          "translation_en": "Indeed, Allah orders justice and good conduct and giving to relatives.",
+          "why_cited": "It names justice, good conduct, and giving as commands."
+        },
+        {
+          "verse_ref": "2:177",
+          "arabic": "وَلَٰكِنَّ الْبِرَّ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَالْمَلَائِكَةِ وَالْكِتَابِ وَالنَّبِيِّينَ",
+          "translation_en": "But righteousness is one who believes in Allah, the Last Day, the angels, the Book, and the prophets.",
+          "why_cited": "It defines righteousness by what the heart holds."
+        }
+      ]
+    },
+    {
+      "heading": "The knowledge of Allah",
+      "body": "The Quran ties purpose to knowing Allah. It is not only worship in action. It is worship in awareness.",
+      "evidence": [
+        {
+          "verse_ref": "47:19",
+          "arabic": "فَاعْلَمْ أَنَّهُ لَا إِلَٰهَ إِلَّا اللَّهُ",
+          "translation_en": "So know that there is no deity except Allah.",
+          "why_cited": "The command is to know, not only to say."
+        },
+        {
+          "verse_ref": "65:12",
+          "arabic": "اللَّهُ الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ وَمِنَ الْأَرْضِ مِثْلَهُنَّ",
+          "translation_en": "It is Allah who has created seven heavens and of the earth, the like of them.",
+          "why_cited": "It names creation as a means of knowing."
+        },
+        {
+          "verse_ref": "3:190-191",
+          "arabic": "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِّأُولِي الْأَلْبَابِ",
+          "translation_en": "Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding.",
+          "why_cited": "It names the signs for those who reflect."
+        }
+      ]
+    },
+    {
+      "heading": "The end of the path",
+      "body": "The Quran places the return to Allah as the end of the path. The purpose runs toward that meeting.",
+      "evidence": [
+        {
+          "verse_ref": "2:156",
+          "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+          "translation_en": "Indeed we belong to Allah, and indeed to Him we will return.",
+          "why_cited": "It names the origin and the return."
+        },
+        {
+          "verse_ref": "84:6",
+          "arabic": "يَا أَيُّهَا الْإِنسَانُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَاقِيهِ",
+          "translation_en": "O mankind, indeed you are laboring toward your Lord with effort and will meet Him.",
+          "why_cited": "It names the meeting as certain."
+        },
+        {
+          "verse_ref": "18:110",
+          "arabic": "فَمَن كَانَ يَرْجُو لِقَاءَ رَبِّهِ فَلْيَعْمَلْ عَمَلًا صَالِحًا",
+          "translation_en": "So whoever hopes for the meeting with his Lord, let him do righteous work.",
+          "why_cited": "It links hope of the meeting with action."
+        }
+      ]
+    }
+  ],
+  "related_questions": ["why-does-allah-test-me", "how-do-i-find-peace"],
+  "related_verses": ["51:56", "23:115", "67:2", "2:152", "16:90", "2:177", "47:19", "65:12", "3:190-191", "2:156", "84:6", "18:110"]
+}

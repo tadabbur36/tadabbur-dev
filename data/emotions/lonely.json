@@ -1,0 +1,121 @@
+{
+  "id": "lonely",
+  "label": "Lonely",
+  "category": "difficult",
+  "icon": "Moon",
+  "acknowledgment": "Loneliness is not a flaw. The Quran speaks to it with nearness. These words have comforted hearts for 1400 years. They are here for you today.",
+  "verses": [
+    {
+      "verse_ref": "2:186",
+      "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
+      "translation_en": "And when My servants ask you concerning Me, indeed I am near.",
+      "context": "The 'say' is left out. Allah answers directly, without a barrier, without a messenger."
+    },
+    {
+      "verse_ref": "50:16",
+      "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
+      "translation_en": "And We are closer to him than his jugular vein.",
+      "context": "Closer than your own breath. Closer than your own thoughts."
+    },
+    {
+      "verse_ref": "57:4",
+      "arabic": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
+      "translation_en": "And He is with you wherever you are.",
+      "context": "Presence is stated without location, without condition, without exception."
+    },
+    {
+      "verse_ref": "9:40",
+      "arabic": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+      "translation_en": "Do not grieve; indeed Allah is with us.",
+      "context": "Said in the cave when two were alone. The 'us' included more than two."
+    },
+    {
+      "verse_ref": "20:46",
+      "arabic": "لَا تَخَافَا إِنَّنِي مَعَكُمَا أَسْمَعُ وَأَرَىٰ",
+      "translation_en": "Do not fear. Indeed, I am with you both; I hear and I see.",
+      "context": "Spoken to Musa and Harun when they were sent to Pharaoh and were afraid."
+    },
+    {
+      "verse_ref": "16:128",
+      "arabic": "إِنَّ اللَّهَ مَعَ الَّذِينَ اتَّقَوا وَّالَّذِينَ هُم مُّحْسِنُونَ",
+      "translation_en": "Indeed, Allah is with those who fear Him and those who are doers of good.",
+      "context": "Presence is named for those who fear and those who do good."
+    },
+    {
+      "verse_ref": "2:153",
+      "arabic": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+      "translation_en": "Indeed, Allah is with the patient.",
+      "context": "Presence is named for the patient."
+    },
+    {
+      "verse_ref": "3:173",
+      "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+      "translation_en": "Allah is sufficient for us, and He is the best Disposer of affairs.",
+      "context": "Said by Ibrahim when thrown into the fire. Said by the Prophet Muhammad ﷺ when facing an army."
+    },
+    {
+      "verse_ref": "39:53",
+      "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+      "translation_en": "Do not despair of the mercy of Allah.",
+      "context": "No matter how far you feel, His mercy is wider."
+    },
+    {
+      "verse_ref": "65:3",
+      "arabic": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
+      "translation_en": "And whoever relies upon Allah, then He is sufficient for him.",
+      "context": "He is enough. Complete. Sufficient."
+    }
+  ],
+  "names_of_allah": [
+    {
+      "arabic": "الْقَرِيبُ",
+      "transliteration": "Al-Qareeb",
+      "meaning_en": "The Near",
+      "explanation": "He is closer than your own jugular vein. Closeness is stated without condition, without distance, without delay.",
+      "evidence_verses": [
+        { "verse_ref": "2:186", "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ", "translation_en": "And when My servants ask you concerning Me, indeed I am near." },
+        { "verse_ref": "50:16", "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ", "translation_en": "And We are closer to him than his jugular vein." }
+      ]
+    },
+    {
+      "arabic": "السَّلَامُ",
+      "transliteration": "As-Salaam",
+      "meaning_en": "The Source of Peace",
+      "explanation": "Peace is not something you create. It is something you return to. When your mind will not settle, this name is a reminder that peace is already with Him.",
+      "evidence_verses": [
+        { "verse_ref": "59:23", "arabic": "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ", "translation_en": "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Source of Peace." }
+      ]
+    },
+    {
+      "arabic": "الْوَلِيُّ",
+      "transliteration": "Al-Wali",
+      "meaning_en": "The Protecting Friend",
+      "explanation": "He is not a distant Lord. He is a protector, a friend closer than any other.",
+      "evidence_verses": [
+        { "verse_ref": "2:257", "arabic": "اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا", "translation_en": "Allah is the ally of those who believe." },
+        { "verse_ref": "42:28", "arabic": "وَهُوَ الْوَلِيُّ الْحَمِيدُ", "translation_en": "And He is the Protecting Friend, the Praiseworthy." }
+      ]
+    },
+    {
+      "arabic": "الْحَفِيظُ",
+      "transliteration": "Al-Hafeez",
+      "meaning_en": "The Preserver",
+      "explanation": "He preserves what you cannot protect. Your peace, your future, your loved ones. Nothing is lost with Him.",
+      "evidence_verses": [
+        { "verse_ref": "11:57", "arabic": "إِنَّ رَبِّي عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ", "translation_en": "Indeed, my Lord is, over all things, a Preserver." },
+        { "verse_ref": "34:21", "arabic": "وَرَبُّكَ عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ", "translation_en": "And your Lord is, over all things, a Preserver." }
+      ]
+    },
+    {
+      "arabic": "الْمُجِيبُ",
+      "transliteration": "Al-Mujeeb",
+      "meaning_en": "The Responsive",
+      "explanation": "He responds. Not always in the way we expect. Not always in the time we choose. But He responds.",
+      "evidence_verses": [
+        { "verse_ref": "11:61", "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ", "translation_en": "Indeed, my Lord is Near and Responsive." },
+        { "verse_ref": "40:60", "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ", "translation_en": "Call upon Me; I will respond to you." }
+      ]
+    }
+  ],
+  "personal_question": "When no one is around, who do you turn to first?"
+}

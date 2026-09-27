@@ -1,0 +1,67 @@
+{
+  "id": "astaghfirullah",
+  "phrase_arabic": "أَسْتَغْفِرُ اللَّهَ",
+  "transliteration": "Astaghfirullah",
+  "meaning_en": "I seek forgiveness from Allah",
+  "deep_meaning": "The root GH-F-R means to cover, to conceal, to protect. When you say Astaghfirullah, you are asking Allah to cover what you have done, to protect you from its consequences, and to veil it from the record. It is not only a confession. It is a request for protection.",
+  "root_letters": "غ ف ر",
+  "why_this_phrase": "The Quran places forgiveness at the center of return. It is repeated in the commands, in the stories, and in the names of Allah. The door is never closed, and the command to seek forgiveness is never lifted.",
+  "verses": [
+    {
+      "verse_ref": "39:53",
+      "arabic": "قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ ۚ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا",
+      "translation_en": "Say, 'O My servants who have transgressed against themselves, do not despair of the mercy of Allah. Indeed, Allah forgives all sins.'",
+      "context": "The door is open, even for those who went too far."
+    },
+    {
+      "verse_ref": "4:110",
+      "arabic": "وَمَن يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ ثُمَّ يَسْتَغْفِرِ اللَّهَ يَجِدِ اللَّهَ غَفُورًا رَّحِيمًا",
+      "translation_en": "And whoever does a wrong or wrongs himself but then seeks forgiveness of Allah will find Allah Forgiving and Merciful.",
+      "context": "The promise tied to seeking forgiveness."
+    },
+    {
+      "verse_ref": "11:3",
+      "arabic": "وَأَنِ اسْتَغْفِرُوا رَبَّكُمْ ثُمَّ تُوبُوا إِلَيْهِ",
+      "translation_en": "And seek forgiveness of your Lord and then turn to Him in repentance.",
+      "context": "Forgiveness is paired with return."
+    },
+    {
+      "verse_ref": "71:10",
+      "arabic": "فَقُلْتُ اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا",
+      "translation_en": "And I said, 'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver.'",
+      "context": "Nuh's call to his people."
+    },
+    {
+      "verse_ref": "3:135",
+      "arabic": "وَالَّذِينَ إِذَا فَعَلُوا فَاحِشَةً أَوْ ظَلَمُوا أَنفُسَهُمْ ذَكَرُوا اللَّهَ فَاسْتَغْفَرُوا لِذُنُوبِهِمْ",
+      "translation_en": "And those who, when they commit an immorality or wrong themselves, remember Allah and seek forgiveness for their sins.",
+      "context": "The description of the righteous."
+    },
+    {
+      "verse_ref": "24:31",
+      "arabic": "وَتُوبُوا إِلَى اللَّهِ جَمِيعًا أَيُّهَ الْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "translation_en": "And turn to Allah in repentance, all of you, O believers, that you might succeed.",
+      "context": "The command is for all believers."
+    }
+  ],
+  "when_to_say": [
+    {
+      "moment": "When you have done wrong",
+      "verse_ref": "4:110",
+      "arabic": "وَمَن يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ ثُمَّ يَسْتَغْفِرِ اللَّهَ يَجِدِ اللَّهَ غَفُورًا رَّحِيمًا",
+      "translation_en": "And whoever does a wrong or wrongs himself but then seeks forgiveness of Allah will find Allah Forgiving and Merciful."
+    },
+    {
+      "moment": "When you feel far",
+      "verse_ref": "39:53",
+      "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ ۚ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا",
+      "translation_en": "Do not despair of the mercy of Allah. Indeed, Allah forgives all sins."
+    },
+    {
+      "moment": "When you want to return",
+      "verse_ref": "24:31",
+      "arabic": "وَتُوبُوا إِلَى اللَّهِ جَمِيعًا أَيُّهَ الْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "translation_en": "And turn to Allah in repentance, all of you, O believers, that you might succeed."
+    }
+  ]
+}

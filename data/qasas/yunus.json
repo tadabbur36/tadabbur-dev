@@ -1,0 +1,42 @@
+{
+  "id": "yunus",
+  "title": "Yunus",
+  "subtitle": "Multiple surahs",
+  "surah_refs": [21, 37, 68, 10],
+  "total_ayahs": 20,
+  "sections": [
+    {
+      "heading": "The Departure",
+      "ayahs": [
+        { "verse_ref": "37:139", "arabic": "وَإِنَّ يُونُسَ لَمِنَ الْمُرْسَلِينَ", "translation_en": "And indeed, Yunus was among the messengers." },
+        { "verse_ref": "37:140", "arabic": "إِذْ أَبَقَ إِلَى الْفُلْكِ الْمَشْحُونِ", "translation_en": "When he ran to the laden ship." },
+        { "verse_ref": "37:141", "arabic": "فَسَاهَمَ فَكَانَ مِنَ الْمُدْحَضِينَ", "translation_en": "And he drew lots and was among the losers." }
+      ]
+    },
+    {
+      "heading": "The Whale",
+      "ayahs": [
+        { "verse_ref": "37:142", "arabic": "فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ", "translation_en": "Then the fish swallowed him, while he was blameworthy." },
+        { "verse_ref": "68:48", "arabic": "فَاصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ الْحُوتِ", "translation_en": "So be patient for the decision of your Lord and do not be like the companion of the fish." },
+        { "verse_ref": "37:143", "arabic": "فَلَوْلَا أَنَّهُ كَانَ مِنَ الْمُسَبِّحِينَ", "translation_en": "And had he not been of those who exalt Allah," },
+        { "verse_ref": "37:144", "arabic": "لَلَبِثَ فِي بَطْنِهِ إِلَىٰ يَوْمِ يُبْعَثُونَ", "translation_en": "He would have remained inside its belly until the Day they are resurrected." }
+      ]
+    },
+    {
+      "heading": "The Call",
+      "ayahs": [
+        { "verse_ref": "21:87", "arabic": "وَذَا النُّونِ إِذ ذَّهَبَ مُغَاضِبًا فَظَنَّ أَن لَّن نَّقْدِرَ عَلَيْهِ فَنَادَىٰ فِي الظُّلُمَاتِ أَن لَّا إِلَٰهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ", "translation_en": "And the man of the fish, when he went off in anger and thought that We would not decree upon him. And he called out within the darknesses, 'There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.'" },
+        { "verse_ref": "21:88", "arabic": "فَاسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ الْغَمِّ ۚ وَكَذَٰلِكَ نُنجِي الْمُؤْمِنِينَ", "translation_en": "So We responded to him and saved him from the distress. And thus do We save the believers." }
+      ]
+    },
+    {
+      "heading": "The Return",
+      "ayahs": [
+        { "verse_ref": "37:145", "arabic": "فَنَبَذْنَاهُ بِالْعَرَاءِ وَهُوَ سَقِيمٌ", "translation_en": "Then We cast him onto the open shore while he was ill." },
+        { "verse_ref": "37:146", "arabic": "وَأَنبَتْنَا عَلَيْهِ شَجَرَةً مِّن يَقْطِينٍ", "translation_en": "And We caused to grow over him a gourd vine." },
+        { "verse_ref": "37:147", "arabic": "وَأَرْسَلْنَاهُ إِلَىٰ مِئَةِ أَلْفٍ أَوْ يَزِيدُونَ", "translation_en": "And We sent him to a hundred thousand or more." },
+        { "verse_ref": "37:148", "arabic": "فَآمَنُوا فَمَتَّعْنَاهُمْ إِلَىٰ حِينٍ", "translation_en": "And they believed, so We gave them enjoyment for a time." }
+      ]
+    }
+  ]
+}

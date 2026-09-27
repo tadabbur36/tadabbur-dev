@@ -1,0 +1,193 @@
+{
+  "id": "anxious",
+  "label": "Anxious",
+  "category": "difficult",
+  "icon": "Waves",
+  "acknowledgment": "Anxiety is not a flaw. The Quran speaks to this feeling with gentleness. These words have comforted hearts for 1400 years. They are here for you today.",
+  "verses": [
+    {
+      "verse_ref": "13:28",
+      "arabic": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
+      "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace.",
+      "context": "Revealed in Makkah. The disbelievers had asked for a sign. Allah answered with this verse: peace is in His remembrance, not in miracles."
+    },
+    {
+      "verse_ref": "2:286",
+      "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+      "translation_en": "Allah does not burden a soul beyond that it can bear.",
+      "context": "The closing of Surah Al-Baqarah, after a long series of tests and commands."
+    },
+    {
+      "verse_ref": "94:5-6",
+      "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "translation_en": "For indeed, with hardship comes ease.",
+      "context": "The Arabic places ease with hardship, not after it. They are intertwined."
+    },
+    {
+      "verse_ref": "65:3",
+      "arabic": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
+      "translation_en": "And whoever relies upon Allah, then He is sufficient for him.",
+      "context": "Tawakkul comes with effort. It is placed in Allah after the effort is made."
+    },
+    {
+      "verse_ref": "3:173",
+      "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+      "translation_en": "Allah is sufficient for us, and He is the best Disposer of affairs.",
+      "context": "Said by Ibrahim when thrown into the fire. Said by the Prophet Muhammad ﷺ when facing an army."
+    },
+    {
+      "verse_ref": "9:51",
+      "arabic": "قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا",
+      "translation_en": "Say, 'Never will we be struck except by what Allah has decreed for us.'",
+      "context": "Nothing reaches you without His permission, and what reaches you is measured."
+    },
+    {
+      "verse_ref": "10:62",
+      "arabic": "أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "translation_en": "Unquestionably, for the allies of Allah there will be no fear, nor will they grieve.",
+      "context": "A promise given to those who stay close to Him."
+    },
+    {
+      "verse_ref": "39:53",
+      "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+      "translation_en": "Do not despair of the mercy of Allah.",
+      "context": "No matter how far you feel, His mercy is wider."
+    },
+    {
+      "verse_ref": "50:16",
+      "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
+      "translation_en": "And We are closer to him than his jugular vein.",
+      "context": "Closer than your own breath. Closer than your own thoughts."
+    },
+    {
+      "verse_ref": "2:216",
+      "arabic": "وَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَّكُمْ وَعَسَىٰ أَن تُحِبُّوا شَيْئًا وَهُوَ شَرٌّ لَّكُمْ",
+      "translation_en": "And perhaps you hate a thing and it is good for you; and perhaps you love a thing and it is bad for you.",
+      "context": "The outcome may differ from what the moment feels like."
+    }
+  ],
+  "names_of_allah": [
+    {
+      "arabic": "السَّلَامُ",
+      "transliteration": "As-Salaam",
+      "meaning_en": "The Source of Peace",
+      "explanation": "Peace is not something you create. It is something you return to. When your mind will not settle, this name is a reminder that peace is already with Him.",
+      "evidence_verses": [
+        {
+          "verse_ref": "59:23",
+          "arabic": "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ",
+          "translation_en": "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Source of Peace."
+        }
+      ]
+    },
+    {
+      "arabic": "اللَّطِيفُ",
+      "transliteration": "Al-Lateef",
+      "meaning_en": "The Subtly Kind",
+      "explanation": "He knows the smallest details of what you carry. His kindness does not always look like what we expect, but it is always kindness.",
+      "evidence_verses": [
+        {
+          "verse_ref": "6:103",
+          "arabic": "وَهُوَ اللَّطِيفُ الْخَبِيرُ",
+          "translation_en": "And He is the Subtly Kind, the Acquainted."
+        },
+        {
+          "verse_ref": "42:19",
+          "arabic": "اللَّهُ لَطِيفٌ بِعِبَادِهِ",
+          "translation_en": "Allah is Subtly Kind to His servants."
+        }
+      ]
+    },
+    {
+      "arabic": "الْوَكِيلُ",
+      "transliteration": "Al-Wakeel",
+      "meaning_en": "The Trustee",
+      "explanation": "When you have done what you can, He handles what you cannot. Trust is not passive. It is what you do after your effort ends.",
+      "evidence_verses": [
+        {
+          "verse_ref": "3:173",
+          "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+          "translation_en": "Allah is sufficient for us, and He is the best Disposer of affairs."
+        },
+        {
+          "verse_ref": "65:3",
+          "arabic": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
+          "translation_en": "And whoever relies upon Allah, then He is sufficient for him."
+        }
+      ]
+    },
+    {
+      "arabic": "الْحَفِيظُ",
+      "transliteration": "Al-Hafeez",
+      "meaning_en": "The Preserver",
+      "explanation": "He preserves what you cannot protect. Your peace, your future, your loved ones. Nothing is lost with Him.",
+      "evidence_verses": [
+        {
+          "verse_ref": "11:57",
+          "arabic": "إِنَّ رَبِّي عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ",
+          "translation_en": "Indeed, my Lord is, over all things, a Preserver."
+        },
+        {
+          "verse_ref": "34:21",
+          "arabic": "وَرَبُّكَ عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ",
+          "translation_en": "And your Lord is, over all things, a Preserver."
+        }
+      ]
+    },
+    {
+      "arabic": "الْمُجِيبُ",
+      "transliteration": "Al-Mujeeb",
+      "meaning_en": "The Responsive",
+      "explanation": "He responds. Not always in the way we expect. Not always in the time we choose. But He responds.",
+      "evidence_verses": [
+        {
+          "verse_ref": "11:61",
+          "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ",
+          "translation_en": "Indeed, my Lord is Near and Responsive."
+        },
+        {
+          "verse_ref": "40:60",
+          "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ",
+          "translation_en": "Call upon Me; I will respond to you."
+        }
+      ]
+    },
+    {
+      "arabic": "الرَّحْمَٰنُ",
+      "transliteration": "Ar-Rahman",
+      "meaning_en": "The Most Compassionate",
+      "explanation": "His mercy is not a reward for the deserving. It is the air you are already breathing. It does not run out.",
+      "evidence_verses": [
+        {
+          "verse_ref": "55:1-2",
+          "arabic": "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ",
+          "translation_en": "The Most Compassionate, taught the Quran."
+        },
+        {
+          "verse_ref": "39:53",
+          "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+          "translation_en": "Do not despair of the mercy of Allah."
+        }
+      ]
+    },
+    {
+      "arabic": "الْقَرِيبُ",
+      "transliteration": "Al-Qareeb",
+      "meaning_en": "The Near",
+      "explanation": "He is closer than your own jugular vein. Closeness is stated without condition, without distance, without delay.",
+      "evidence_verses": [
+        {
+          "verse_ref": "2:186",
+          "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
+          "translation_en": "And when My servants ask you concerning Me, indeed I am near."
+        },
+        {
+          "verse_ref": "50:16",
+          "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
+          "translation_en": "And We are closer to him than his jugular vein."
+        }
+      ]
+    }
+  ],
+  "personal_question": "When did you last feel at peace? Was it when you were close to Allah, or when you were far?"
+}

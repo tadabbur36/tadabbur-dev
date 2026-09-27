@@ -1,0 +1,122 @@
+{
+  "id": "sad",
+  "label": "Sad",
+  "category": "difficult",
+  "icon": "CloudRain",
+  "acknowledgment": "Sadness is not a flaw. The Quran speaks to it with gentleness. These words have comforted hearts for 1400 years. They are here for you today.",
+  "verses": [
+    {
+      "verse_ref": "9:40",
+      "arabic": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+      "translation_en": "Do not grieve; indeed Allah is with us.",
+      "context": "Said in the cave of Thawr, when the Prophet Muhammad ﷺ and Abu Bakr were hiding. The pursuers were at the entrance."
+    },
+    {
+      "verse_ref": "94:5-6",
+      "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "translation_en": "For indeed, with hardship comes ease.",
+      "context": "The Arabic places ease with hardship, not after it. They are intertwined."
+    },
+    {
+      "verse_ref": "93:3",
+      "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "translation_en": "Your Lord has not forsaken you, nor has He become displeased.",
+      "context": "Revealed when the Prophet ﷺ had not received revelation for some time, and the disbelievers mocked him."
+    },
+    {
+      "verse_ref": "12:86",
+      "arabic": "إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ",
+      "translation_en": "I only complain of my suffering and my grief to Allah.",
+      "context": "Yaqub spoke these words after losing Yusuf. Grief was spoken, not suppressed."
+    },
+    {
+      "verse_ref": "39:53",
+      "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+      "translation_en": "Do not despair of the mercy of Allah.",
+      "context": "No matter how far you feel, His mercy is wider."
+    },
+    {
+      "verse_ref": "3:139",
+      "arabic": "وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ",
+      "translation_en": "And do not weaken and do not grieve, for you will be superior.",
+      "context": "Strength and elevation are placed beside the command against grief."
+    },
+    {
+      "verse_ref": "2:155",
+      "arabic": "وَبَشِّرِ الصَّابِرِينَ",
+      "translation_en": "And give good tidings to the patient.",
+      "context": "The verses that follow name the blessings, mercy, and guidance given to them."
+    },
+    {
+      "verse_ref": "2:286",
+      "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+      "translation_en": "Allah does not burden a soul beyond that it can bear.",
+      "context": "The burden is measured by the soul's widest capacity."
+    },
+    {
+      "verse_ref": "10:62",
+      "arabic": "أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "translation_en": "Unquestionably, for the allies of Allah there will be no fear, nor will they grieve.",
+      "context": "A promise given to those who stay close to Him."
+    },
+    {
+      "verse_ref": "28:60",
+      "arabic": "وَمَا عِندَ اللَّهِ خَيْرٌ وَأَبْقَىٰ",
+      "translation_en": "And what is with Allah is better and more lasting.",
+      "context": "What is with Allah is better and more lasting than the present."
+    }
+  ],
+  "names_of_allah": [
+    {
+      "arabic": "الْحَفِيظُ",
+      "transliteration": "Al-Hafeez",
+      "meaning_en": "The Preserver",
+      "explanation": "He preserves what you cannot protect. Your peace, your future, your loved ones. Nothing is lost with Him.",
+      "evidence_verses": [
+        { "verse_ref": "11:57", "arabic": "إِنَّ رَبِّي عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ", "translation_en": "Indeed, my Lord is, over all things, a Preserver." },
+        { "verse_ref": "34:21", "arabic": "وَرَبُّكَ عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ", "translation_en": "And your Lord is, over all things, a Preserver." }
+      ]
+    },
+    {
+      "arabic": "الرَّحْمَٰنُ",
+      "transliteration": "Ar-Rahman",
+      "meaning_en": "The Most Compassionate",
+      "explanation": "His mercy is not a reward for the deserving. It is the air you are already breathing. It does not run out.",
+      "evidence_verses": [
+        { "verse_ref": "55:1-2", "arabic": "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ", "translation_en": "The Most Compassionate, taught the Quran." },
+        { "verse_ref": "39:53", "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ", "translation_en": "Do not despair of the mercy of Allah." }
+      ]
+    },
+    {
+      "arabic": "الصَّبُورُ",
+      "transliteration": "As-Saboor",
+      "meaning_en": "The Most Patient",
+      "explanation": "He does not rush. He waits. He gives time for return. His patience is a door held open.",
+      "evidence_verses": [
+        { "verse_ref": "2:225", "arabic": "وَاللَّهُ غَفُورٌ حَلِيمٌ", "translation_en": "And Allah is Forgiving and Forbearing." },
+        { "verse_ref": "17:44", "arabic": "إِنَّهُ كَانَ حَلِيمًا غَفُورًا", "translation_en": "Indeed, He is ever Forbearing and Forgiving." }
+      ]
+    },
+    {
+      "arabic": "الْمُجِيبُ",
+      "transliteration": "Al-Mujeeb",
+      "meaning_en": "The Responsive",
+      "explanation": "He responds. Not always in the way we expect. Not always in the time we choose. But He responds.",
+      "evidence_verses": [
+        { "verse_ref": "11:61", "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ", "translation_en": "Indeed, my Lord is Near and Responsive." },
+        { "verse_ref": "40:60", "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ", "translation_en": "Call upon Me; I will respond to you." }
+      ]
+    },
+    {
+      "arabic": "الْقَرِيبُ",
+      "transliteration": "Al-Qareeb",
+      "meaning_en": "The Near",
+      "explanation": "He is closer than your own jugular vein. Closeness is stated without condition, without distance, without delay.",
+      "evidence_verses": [
+        { "verse_ref": "2:186", "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ", "translation_en": "And when My servants ask you concerning Me, indeed I am near." },
+        { "verse_ref": "50:16", "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ", "translation_en": "And We are closer to him than his jugular vein." }
+      ]
+    }
+  ],
+  "personal_question": "Where do you take your grief? To people, or to Allah?"
+}
