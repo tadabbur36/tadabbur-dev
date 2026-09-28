@@ -3,7 +3,6 @@
   "topic_title": "Loneliness",
   "topic_icon": "Moon",
   "topic_description": "When no one seems near",
-  "disclaimer": "This topic addresses general feelings of loneliness. It is not a substitute for professional mental health care. If you are in crisis, please contact a qualified professional.",
   "reassurance_anchor": {
     "verse_ref": "2:186",
     "text_en": "And when My servants ask you concerning Me, indeed I am near."
@@ -61,19 +60,19 @@
       "socratic_dropdowns": [
         {
           "question": "What is the jugular vein?",
-          "answer": "It is the vein in the neck. It is one of the closest things to a person. The verse places Allah closer than that.",
+          "answer": "It is the vein in the neck. It is one of the closest things to a person. The verse describes Allah as closer than that.",
           "evidence": [
             {
               "verse_ref": "50:16",
               "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
               "translation_en": "And We are closer to him than his jugular vein.",
-              "why_cited": "It describes closeness as physical and immediate."
+              "why_cited": ""
             },
             {
               "verse_ref": "50:17",
               "arabic": "إِذْ يَتَلَقَّى الْمُتَلَقِّيَانِ عَنِ الْيَمِينِ وَعَنِ الشِّمَالِ قَعِيدٌ",
               "translation_en": "When the two receivers receive, seated on the right and on the left.",
-              "why_cited": "It shows angels are also near, recording."
+              "why_cited": ""
             }
           ]
         }
@@ -95,25 +94,25 @@
       "socratic_dropdowns": [
         {
           "question": "What does 'with us' mean?",
-          "answer": "It is stated directly. Presence is promised, not earned.",
+          "answer": "It is stated directly. The Quran also describes Allah as being with those who are patient, mindful of Him, and do good.",
           "evidence": [
             {
               "verse_ref": "9:40",
               "arabic": "إِنَّ اللَّهَ مَعَنَا",
               "translation_en": "Indeed Allah is with us.",
-              "why_cited": "It states presence without condition."
+              "why_cited": ""
             },
             {
               "verse_ref": "2:153",
               "arabic": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
               "translation_en": "Indeed, Allah is with the patient.",
-              "why_cited": "It names patience as a station of His presence."
+              "why_cited": ""
             },
             {
               "verse_ref": "16:128",
               "arabic": "إِنَّ اللَّهَ مَعَ الَّذِينَ اتَّقَوا وَّالَّذِينَ هُم مُّحْسِنُونَ",
               "translation_en": "Indeed, Allah is with those who fear Him and those who are doers of good.",
-              "why_cited": "It names two more stations of His presence."
+              "why_cited": ""
             }
           ]
         }
@@ -135,19 +134,19 @@
       "socratic_dropdowns": [
         {
           "question": "What does this verse say about presence?",
-          "answer": "It is without location. Without condition. Without exception.",
+          "answer": "It says it directly: wherever you are, He is with you.",
           "evidence": [
             {
               "verse_ref": "57:4",
               "arabic": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
               "translation_en": "And He is with you wherever you are.",
-              "why_cited": "It states presence without location."
+              "why_cited": ""
             },
             {
               "verse_ref": "57:4",
               "arabic": "وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
               "translation_en": "And Allah is Seeing of what you do.",
-              "why_cited": "It links presence with awareness."
+              "why_cited": ""
             }
           ]
         }
@@ -176,13 +175,13 @@
               "verse_ref": "20:46",
               "arabic": "لَا تَخَافَا إِنَّنِي مَعَكُمَا أَسْمَعُ وَأَرَىٰ",
               "translation_en": "Do not fear. Indeed, I am with you both; I hear and I see.",
-              "why_cited": "It names hearing and seeing as part of His presence."
+              "why_cited": ""
             },
             {
               "verse_ref": "20:47",
               "arabic": "إِنَّا رَسُولَا رَبِّكَ",
               "translation_en": "Indeed, we are messengers of your Lord.",
-              "why_cited": "It shows the comfort was given before the mission began."
+              "why_cited": ""
             }
           ]
         }

@@ -3,7 +3,7 @@
   "label": "Hopeful",
   "category": "positive",
   "icon": "Sunrise",
-  "acknowledgment": "Hope is not optimism. The Quran speaks of it as confidence. These words have lifted hearts for 1400 years. They are here for you today.",
+  "acknowledgment": "Hope is not pretending everything will be okay. It is trusting that Allah's mercy is greater than what you can see right now.",
   "verses": [
     {
       "verse_ref": "39:53",
@@ -21,19 +21,19 @@
       "verse_ref": "12:87",
       "arabic": "وَلَا تَيْأَسُوا مِن رَّوْحِ اللَّهِ",
       "translation_en": "And do not despair of the relief of Allah.",
-      "context": "Spoken by Yaqub after losing Yusuf for years. His words were still hope."
+      "context": "Spoken by Yaqub after years without Yusuf. Even then, he did not let hope in Allah disappear."
     },
     {
       "verse_ref": "65:2",
       "arabic": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا",
       "translation_en": "And whoever fears Allah, He will make for him a way out.",
-      "context": "The way out is not described. It is left open. The verse promises a way, not the shape of it."
+      "context": "You may stand in a place where every door seems closed. Allah promises that He can make a way where you cannot yet see one."
     },
     {
       "verse_ref": "2:214",
       "arabic": "أَلَا إِنَّ نَصْرَ اللَّهِ قَرِيبٌ",
       "translation_en": "Unquestionably, the help of Allah is near.",
-      "context": "Comes after a description of tests, answering the question: when will help come?"
+      "context": "After describing severe trials, the verse records the believers asking, “When will Allah’s help come?” It then answers: “Indeed, the help of Allah is near.”"
     },
     {
       "verse_ref": "93:5",
@@ -57,13 +57,13 @@
       "verse_ref": "28:60",
       "arabic": "وَمَا عِندَ اللَّهِ خَيْرٌ وَأَبْقَىٰ",
       "translation_en": "And what is with Allah is better and more lasting.",
-      "context": "What is with Allah is better and more lasting than the present."
+      "context": ""
     },
     {
       "verse_ref": "40:60",
       "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ",
       "translation_en": "Call upon Me; I will respond to you.",
-      "context": "The response is promised. The form it takes is not always what we expect."
+      "context": "The verse pairs the call with a promise of response."
     }
   ],
   "names_of_allah": [
@@ -71,7 +71,7 @@
       "arabic": "الرَّحْمَٰنُ",
       "transliteration": "Ar-Rahman",
       "meaning_en": "The Most Compassionate",
-      "explanation": "His mercy is not a reward for the deserving. It is the air you are already breathing. It does not run out.",
+      "explanation": "His mercy does not wait for you to deserve it. It is already with you.",
       "evidence_verses": [
         { "verse_ref": "55:1-2", "arabic": "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ", "translation_en": "The Most Compassionate, taught the Quran." },
         { "verse_ref": "39:53", "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ", "translation_en": "Do not despair of the mercy of Allah." }
@@ -91,7 +91,7 @@
       "arabic": "الْمُجِيبُ",
       "transliteration": "Al-Mujeeb",
       "meaning_en": "The Responsive",
-      "explanation": "He responds. Not always in the way we expect. Not always in the time we choose. But He responds.",
+      "explanation": "He responds. When you call, He is already near.",
       "evidence_verses": [
         { "verse_ref": "11:61", "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ", "translation_en": "Indeed, my Lord is Near and Responsive." },
         { "verse_ref": "40:60", "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ", "translation_en": "Call upon Me; I will respond to you." }

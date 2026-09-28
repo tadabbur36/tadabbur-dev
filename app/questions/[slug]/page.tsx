@@ -368,7 +368,7 @@ export default function QuestionPage({
         </div>
 
         {/* Related Verses */}
-        {question.related_verses.length > 0 && (
+        {question.related_verses && question.related_verses.length > 0 && (
           <div className="mt-20">
             <p
               className="mb-4 uppercase tracking-wider"

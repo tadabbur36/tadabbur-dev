@@ -3,7 +3,7 @@
   "label": "Sad",
   "category": "difficult",
   "icon": "CloudRain",
-  "acknowledgment": "Sadness is not a flaw. The Quran speaks to it with gentleness. These words have comforted hearts for 1400 years. They are here for you today.",
+  "acknowledgment": "The Quran does not treat sadness as a weakness. Yaqub (as) wept until he lost his sight. His grief was not a failure. It was part of his trust in Allah.",
   "verses": [
     {
       "verse_ref": "9:40",
@@ -45,13 +45,13 @@
       "verse_ref": "2:155",
       "arabic": "وَبَشِّرِ الصَّابِرِينَ",
       "translation_en": "And give good tidings to the patient.",
-      "context": "The verses that follow name the blessings, mercy, and guidance given to them."
+      "context": "The verses that follow describe them: when loss strikes, they say 'To Allah we belong, and to Him we return.' (2:156-157) Their reward is blessings from their Lord, mercy, and guidance. "
     },
     {
       "verse_ref": "2:286",
       "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
       "translation_en": "Allah does not burden a soul beyond that it can bear.",
-      "context": "The burden is measured by the soul's widest capacity."
+      "context": "He does not set you up to break."
     },
     {
       "verse_ref": "10:62",
@@ -81,7 +81,7 @@
       "arabic": "الرَّحْمَٰنُ",
       "transliteration": "Ar-Rahman",
       "meaning_en": "The Most Compassionate",
-      "explanation": "His mercy is not a reward for the deserving. It is the air you are already breathing. It does not run out.",
+      "explanation": "His mercy does not wait for you to deserve it. It is already with you.",
       "evidence_verses": [
         { "verse_ref": "55:1-2", "arabic": "الرَّحْمَٰنُ عَلَّمَ الْقُرْآنَ", "translation_en": "The Most Compassionate, taught the Quran." },
         { "verse_ref": "39:53", "arabic": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ", "translation_en": "Do not despair of the mercy of Allah." }
@@ -91,7 +91,7 @@
       "arabic": "الصَّبُورُ",
       "transliteration": "As-Saboor",
       "meaning_en": "The Most Patient",
-      "explanation": "He does not rush. He waits. He gives time for return. His patience is a door held open.",
+      "explanation": "He does not rush to punish you. He waits. He gives time for return. His patience is a door held open.",
       "evidence_verses": [
         { "verse_ref": "2:225", "arabic": "وَاللَّهُ غَفُورٌ حَلِيمٌ", "translation_en": "And Allah is Forgiving and Forbearing." },
         { "verse_ref": "17:44", "arabic": "إِنَّهُ كَانَ حَلِيمًا غَفُورًا", "translation_en": "Indeed, He is ever Forbearing and Forgiving." }
@@ -101,7 +101,7 @@
       "arabic": "الْمُجِيبُ",
       "transliteration": "Al-Mujeeb",
       "meaning_en": "The Responsive",
-      "explanation": "He responds. Not always in the way we expect. Not always in the time we choose. But He responds.",
+      "explanation": "He responds. When you call, He is already near.",
       "evidence_verses": [
         { "verse_ref": "11:61", "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ", "translation_en": "Indeed, my Lord is Near and Responsive." },
         { "verse_ref": "40:60", "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ", "translation_en": "Call upon Me; I will respond to you." }

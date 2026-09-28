@@ -1,48 +1,50 @@
 {
   "question_id": "why-does-allah-test-me",
   "question": "Why does Allah test me?",
-  "short_answer": "The Quran presents tests as a part of the design, not as a punishment. They measure, refine, and reveal what is already inside the heart.",
   "topic_tags": ["sadness", "anxiety", "hope"],
   "sections": [
     {
       "heading": "The purpose of tests",
-      "body": "The Quran describes tests as a way of measuring and refining. They are not random. They are not punishment. They are a process that works on the heart.",
       "evidence": [
         {
           "verse_ref": "29:2",
           "arabic": "أَحَسِبَ النَّاسُ أَن يُتْرَكُوا أَن يَقُولُوا آمَنَّا وَهُمْ لَا يُفْتَنُونَ",
-          "translation_en": "Do the people think that they will be left to say, 'We believe' and they will not be tried?",
-          "why_cited": "It names tests as part of the claim of faith."
+          "translation_en": "Do the people think that they will be left to say, 'We believe' and they will not be tried?"
         },
         {
           "verse_ref": "2:155",
           "arabic": "وَلَنَبْلُوَنَّكُم بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنفُسِ وَالثَّمَرَاتِ",
-          "translation_en": "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits.",
-          "why_cited": "It names the kinds of tests, and the promise that follows."
+          "translation_en": "And We will surely test you with something of fear and hunger and a loss of wealth and lives and fruits."
         },
         {
           "verse_ref": "2:156",
           "arabic": "الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
-          "translation_en": "Who, when disaster strikes them, say, 'Indeed we belong to Allah, and indeed to Him we will return.'",
-          "why_cited": "It names the words that come from a heart that knows its return."
+          "translation_en": "Who, when disaster strikes them, say, 'Indeed we belong to Allah, and indeed to Him we will return.'"
+        },
+        {
+          "verse_ref": "67:2",
+          "arabic": "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",
+          "translation_en": "It is He who created death and life to test you as to which of you is best in deed."
+        },
+        {
+          "verse_ref": "18:7",
+          "arabic": "إِنَّا جَعَلْنَا مَا عَلَى الْأَرْضِ زِينَةً لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًا",
+          "translation_en": "Indeed, We have made that which is on the earth adornment for it, that We may test them as to which of them is best in deed."
         }
       ],
       "sub_sections": [
         {
           "heading": "What does the Quran say about the reward of tests?",
-          "body": "The reward is named directly. Blessings, mercy, and guidance are placed on those who stay patient through the test.",
           "evidence": [
             {
               "verse_ref": "2:157",
               "arabic": "أُولَٰئِكَ عَلَيْهِمْ صَلَوَاتٌ مِّن رَّبِّهِمْ وَرَحْمَةٌ ۖ وَأُولَٰئِكَ هُمُ الْمُهْتَدُونَ",
-              "translation_en": "Those are the ones upon whom are blessings from their Lord and mercy. And it is those who are the rightly guided.",
-              "why_cited": "It names the reward in three parts."
+              "translation_en": "Those are the ones upon whom are blessings from their Lord and mercy. And it is those who are the rightly guided."
             },
             {
               "verse_ref": "3:200",
               "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا",
-              "translation_en": "O you who have believed, persevere and endure and remain stationed.",
-              "why_cited": "The command is for patient endurance, not relief."
+              "translation_en": "O you who have believed, persevere and endure and remain stationed."
             }
           ]
         }
@@ -50,77 +52,95 @@
     },
     {
       "heading": "What tests reveal",
-      "body": "The Quran describes tests as a way of bringing out what is hidden. They show the truth of the heart, to the one who carries it.",
       "evidence": [
         {
           "verse_ref": "3:179",
           "arabic": "وَلِيَبْتَلِيَ اللَّهُ مَا فِي صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِي قُلُوبِكُمْ",
-          "translation_en": "And that Allah may test what is in your chests and purify what is in your hearts.",
-          "why_cited": "It names the test and purification together."
+          "translation_en": "And that Allah may test what is in your chests and purify what is in your hearts."
         },
         {
           "verse_ref": "47:31",
           "arabic": "وَلَنَبْلُوَنَّكُمْ حَتَّىٰ نَعْلَمَ الْمُجَاهِدِينَ مِنكُمْ وَالصَّابِرِينَ",
-          "translation_en": "And We will surely test you until We make evident those who strive among you and the patient.",
-          "why_cited": "It names the test as a means of making evident."
+          "translation_en": "And We will surely test you until We make evident those who strive among you and the patient."
         },
         {
           "verse_ref": "21:35",
           "arabic": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ ۗ وَنَبْلُوكُم بِالشَّرِّ وَالْخَيْرِ فِتْنَةً",
-          "translation_en": "Every soul will taste death. And We test you with evil and with good as trial.",
-          "why_cited": "It names both good and bad as tests."
+          "translation_en": "Every soul will taste death. And We test you with evil and with good as trial."
+        },
+        {
+          "verse_ref": "29:3",
+          "arabic": "وَلَقَدْ فَتَنَّا الَّذِينَ مِن قَبْلِهِمْ ۖ فَلَيَعْلَمَنَّ اللَّهُ الَّذِينَ صَدَقُوا وَلَيَعْلَمَنَّ الْكَاذِبِينَ",
+          "translation_en": "And We have certainly tested those before them. And Allah will surely make evident those who are truthful, and He will surely make evident the liars."
+        },
+        {
+          "verse_ref": "29:10",
+          "arabic": "وَمِنَ النَّاسِ مَن يَقُولُ آمَنَّا بِاللَّهِ فَإِذَا أُوذِيَ فِي اللَّهِ جَعَلَ فِتْنَةَ النَّاسِ كَعَذَابِ اللَّهِ",
+          "translation_en": "And among the people are those who say, ‘We believe in Allah,’ but when they are harmed for the sake of Allah, they treat the persecution of people as if it were the punishment of Allah."
         }
       ]
     },
     {
       "heading": "The measure of capacity",
-      "body": "The Quran places every test inside the measure of the soul's capacity. Nothing is placed beyond what can be carried.",
       "evidence": [
         {
           "verse_ref": "2:286",
           "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
-          "translation_en": "Allah does not burden a soul beyond that it can bear.",
-          "why_cited": "It places the burden inside the soul's widest capacity."
+          "translation_en": "Allah does not burden a soul beyond that it can bear."
         },
         {
           "verse_ref": "65:7",
           "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا مَا آتَاهَا",
-          "translation_en": "Allah does not burden a soul except with what He has given it.",
-          "why_cited": "It links the burden to what has been given."
+          "translation_en": "Allah does not burden a soul except with what He has given it."
         },
         {
           "verse_ref": "94:5-6",
           "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
-          "translation_en": "For indeed, with hardship comes ease.",
-          "why_cited": "It places ease with hardship, not after it."
+          "translation_en": "For indeed, with hardship comes ease."
+        },
+        {
+          "verse_ref": "23:62",
+          "arabic": "وَلَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا",
+          "translation_en": "And We do not burden a soul except with what it can bear."
+        },
+        {
+          "verse_ref": "7:42",
+          "arabic": "وَلَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا",
+          "translation_en": "And We do not burden a soul except with what it can bear."
         }
       ]
     },
     {
       "heading": "What to do in the test",
-      "body": "The Quran names patience, prayer, and remembrance as the response. It does not promise the removal of the test. It promises presence within it.",
       "evidence": [
         {
           "verse_ref": "2:153",
           "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
-          "translation_en": "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient.",
-          "why_cited": "It names patience and prayer as the means."
-        },
-        {
-          "verse_ref": "94:5-6",
-          "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
-          "translation_en": "For indeed, with hardship comes ease.",
-          "why_cited": "It repeats the promise, showing emphasis."
+          "translation_en": "O you who have believed, seek help through patience and prayer. Indeed, Allah is with the patient."
         },
         {
           "verse_ref": "2:216",
           "arabic": "وَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَّكُمْ وَعَسَىٰ أَن تُحِبُّوا شَيْئًا وَهُوَ شَرٌّ لَّكُمْ",
-          "translation_en": "And perhaps you hate a thing and it is good for you; and perhaps you love a thing and it is bad for you.",
-          "why_cited": "It places both sides together."
+          "translation_en": "And perhaps you hate a thing and it is good for you; and perhaps you love a thing and it is bad for you."
+        },
+        {
+          "verse_ref": "3:160",
+          "arabic": "إِن يَنصُرْكُمُ اللَّهُ فَلَا غَالِبَ لَكُمْ",
+          "translation_en": "If Allah should help you, none can overcome you."
+        },
+        {
+          "verse_ref": "9:51",
+          "arabic": "قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا هُوَ مَوْلَانَا ۚ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
+          "translation_en": "Say, 'Never will we be struck except by what Allah has decreed for us; He is our protector.' And upon Allah let the believers rely."
+        },
+        {
+          "verse_ref": "64:11",
+          "arabic": "وَمَن يُؤْمِن بِاللَّهِ يَهْدِ قَلْبَهُ",
+          "translation_en": "And whoever believes in Allah, He will guide his heart."
         }
       ]
     }
   ],
   "related_questions": ["why-feel-lonely"],
-  "related_verses": ["29:2", "2:155", "2:156", "2:157", "3:179", "47:31", "21:35", "2:286", "65:7", "94:5-6", "2:153", "2:216"]
+  "related_verses": ["29:2", "2:155", "2:156", "67:2", "18:7", "2:157", "3:200", "3:179", "47:31", "21:35", "29:3", "2:214", "2:286", "65:7", "94:5-6", "23:62", "7:42", "2:153", "2:216", "3:139", "9:51", "64:11"]
 }

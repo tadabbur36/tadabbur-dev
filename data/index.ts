@@ -84,8 +84,74 @@ export {
   type QuranWord,
 } from "./quran-loader";
 
-// Cross-reference utilities
+// ═══════════════════════════════════════════════════════════════
+//  GLOBAL ROOT SEARCH — searches EVERYWHERE
+//  Quran surahs + Topics + Emotions + Dhikr + Qasas + Questions
+// ═══════════════════════════════════════════════════════════════
+
 import { topics } from "./topics-loader";
+import { surahs } from "./quran-loader";
+
+export type RootMatch = {
+  ref: string;
+  surah_name: string;
+  arabic: string;
+  translation: string;
+  source: string;
+};
+
+export function findAyahsByRootGlobal(root: string): RootMatch[] {
+  const results: RootMatch[] = [];
+  const seen = new Set<string>();
+
+  // 1. Quran surahs
+  Object.values(surahs).forEach((surah) => {
+    surah.ayahs.forEach((ayah) => {
+      ayah.word_by_word.forEach((word) => {
+        if (word.root === root) {
+          const key = `${surah.surah}:${ayah.ayah}-${ayah.arabic}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            results.push({
+              ref: `${surah.surah}:${ayah.ayah}`,
+              surah_name: surah.name_transliteration,
+              arabic: ayah.arabic,
+              translation: ayah.translation_en,
+              source: "Quran",
+            });
+          }
+        }
+      });
+    });
+  });
+
+  // 2. Topics
+  Object.entries(topics).forEach(([slug, topic]) => {
+    topic.verses.forEach((v) => {
+      v.word_by_word.forEach((w) => {
+        if (w.root === root) {
+          const key = `${v.surah}:${v.ayah}-${v.arabic_text}`;
+          if (!seen.has(key)) {
+            seen.add(key);
+            results.push({
+              ref: `${v.surah}:${v.ayah}`,
+              surah_name: v.surah_name_en,
+              arabic: v.arabic_text,
+              translation: v.translation_en,
+              source: `Topic: ${topic.topic_title}`,
+            });
+          }
+        }
+      });
+    });
+  });
+
+  return results;
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  OLD FUNCTIONS — kept for backward compatibility
+// ═══════════════════════════════════════════════════════════════
 
 export function findVersesByRoot(root: string) {
   const results: Array<{

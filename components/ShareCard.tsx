@@ -1,5 +1,6 @@
 "use client";
 
+import { forwardRef } from "react";
 import { ShareStyle, ShareSize } from "@/data/share-styles";
 
 type Props = {
@@ -15,18 +16,21 @@ type Props = {
   scale?: number;
 };
 
-export default function ShareCard({
-  arabic,
-  translation,
-  reference,
-  style,
-  size,
-  isGift,
-  fromName,
-  message,
-  isPro,
-  scale = 1,
-}: Props) {
+const ShareCard = forwardRef<HTMLDivElement, Props>(function ShareCard(
+  {
+    arabic,
+    translation,
+    reference,
+    style,
+    size,
+    isGift,
+    fromName,
+    message,
+    isPro,
+    scale = 1,
+  },
+  ref
+) {
   const baseSize = Math.min(size.width, size.height);
   const arabicSize = Math.round(baseSize * 0.075 * scale);
   const translationSize = Math.round(baseSize * 0.028 * scale);
@@ -34,11 +38,11 @@ export default function ShareCard({
   const watermarkSize = Math.round(baseSize * 0.02 * scale);
   const fromSize = Math.round(baseSize * 0.022 * scale);
   const messageSize = Math.round(baseSize * 0.02 * scale);
-
   const padding = Math.round(baseSize * 0.08 * scale);
 
   return (
     <div
+      ref={ref}
       style={{
         width: size.width * scale,
         height: size.height * scale,
@@ -173,4 +177,6 @@ export default function ShareCard({
       )}
     </div>
   );
-}
+});
+
+export default ShareCard;

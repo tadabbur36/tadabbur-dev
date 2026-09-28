@@ -97,6 +97,30 @@
   --accent-text: #1a0f14;
 }
 
+[data-theme="lavender"] {
+  --bg-primary: #14101f;
+  --bg-card: #1d1830;
+  --bg-card-hover: #262040;
+  --bg-border: #332a50;
+  --text-primary: #f5f3ff;
+  --text-secondary: #c4b5fd;
+  --text-muted: #8078a0;
+  --accent: #c4b5fd;
+  --accent-text: #14101f;
+}
+
+[data-theme="ocean"] {
+  --bg-primary: #0a1220;
+  --bg-card: #121c30;
+  --bg-card-hover: #1a2640;
+  --bg-border: #243250;
+  --text-primary: #eff6ff;
+  --text-secondary: #a8bcd8;
+  --text-muted: #6a80a0;
+  --accent: #60a5fa;
+  --accent-text: #0a1220;
+}
+
 html {
   color-scheme: dark;
 }

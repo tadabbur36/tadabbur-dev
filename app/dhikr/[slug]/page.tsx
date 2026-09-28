@@ -2,8 +2,9 @@
 
 import { getDhikr } from "@/data";
 import Link from "next/link";
-import { use } from "react";
+import { use, useState } from "react";
 import { useTheme } from "@/components/ThemeProvider";
+import ShareModal from "@/components/ShareModal";
 
 export default function DhikrDetailPage({
   params,
@@ -13,6 +14,12 @@ export default function DhikrDetailPage({
   const { slug } = use(params);
   const dhikr = getDhikr(slug);
   const { textSize } = useTheme();
+
+  const [shareData, setShareData] = useState<{
+    arabic: string;
+    translation: string;
+    reference: string;
+  } | null>(null);
 
   const sizes = {
     sm: { main: "1.75rem", body: "1rem", context: "0.875rem" },
@@ -49,6 +56,26 @@ export default function DhikrDetailPage({
           <p style={{ color: "var(--text-muted)", fontSize: sizes.body }}>
             {dhikr.meaning_en}
           </p>
+
+          {/* Share button */}
+          <div className="mt-6">
+            <button
+              onClick={() =>
+                setShareData({
+                  arabic: dhikr.phrase_arabic,
+                  translation: dhikr.meaning_en,
+                  reference: dhikr.transliteration,
+                })
+              }
+              className="text-xs px-4 py-2 rounded-full transition"
+              style={{
+                background: "var(--bg-card)",
+                color: "var(--text-muted)",
+              }}
+            >
+              Share
+            </button>
+          </div>
         </div>
 
         {/* Deep Meaning */}
@@ -78,10 +105,7 @@ export default function DhikrDetailPage({
             >
               Root letters
             </p>
-            <p
-              className="arabic text-2xl"
-              style={{ color: "var(--accent)" }}
-            >
+            <p className="arabic text-2xl" style={{ color: "var(--accent)" }}>
               {dhikr.root_letters}
             </p>
           </div>
@@ -117,12 +141,27 @@ export default function DhikrDetailPage({
           <div className="space-y-14">
             {dhikr.verses.map((verse, i) => (
               <div key={i}>
-                <p
-                  className="mb-4"
-                  style={{ color: "var(--accent)", fontSize: sizes.context }}
-                >
-                  {verse.verse_ref}
-                </p>
+                <div className="flex items-center justify-between mb-4">
+                  <p style={{ color: "var(--accent)", fontSize: sizes.context }}>
+                    {verse.verse_ref}
+                  </p>
+                  <button
+                    onClick={() =>
+                      setShareData({
+                        arabic: verse.arabic,
+                        translation: verse.translation_en,
+                        reference: verse.verse_ref,
+                      })
+                    }
+                    className="text-xs px-3 py-1.5 rounded-full transition"
+                    style={{
+                      background: "var(--bg-card)",
+                      color: "var(--text-muted)",
+                    }}
+                  >
+                    Share
+                  </button>
+                </div>
                 <p
                   className="arabic text-right mb-5"
                   style={{ fontSize: sizes.main }}
@@ -187,6 +226,16 @@ export default function DhikrDetailPage({
           </div>
         </div>
       </div>
+
+      {/* Share Modal */}
+      {shareData && (
+        <ShareModal
+          arabic={shareData.arabic}
+          translation={shareData.translation}
+          reference={shareData.reference}
+          onClose={() => setShareData(null)}
+        />
+      )}
     </main>
   );
 }

@@ -4,6 +4,7 @@ import { getEmotion } from "@/data";
 import Link from "next/link";
 import { use, useState, useEffect } from "react";
 import { useTheme } from "@/components/ThemeProvider";
+import ShareModal from "@/components/ShareModal";
 
 type Bookmark = {
   ref: string;
@@ -68,6 +69,11 @@ export default function EmotionPage({
   const [journal, setJournal] = useState<Record<string, string>>({});
   const [activeJournal, setActiveJournal] = useState<string | null>(null);
   const [streak, setStreak] = useState(0);
+  const [shareData, setShareData] = useState<{
+    arabic: string;
+    translation: string;
+    reference: string;
+  } | null>(null);
 
   useEffect(() => {
     const savedBookmarks = JSON.parse(
@@ -181,10 +187,7 @@ export default function EmotionPage({
             <button
               onClick={() => setShowSettings(!showSettings)}
               className="text-sm px-3 py-1.5 rounded-full transition hover:opacity-80"
-              style={{
-                background: "var(--bg-card)",
-                color: "var(--text-secondary)",
-              }}
+              style={{ background: "var(--bg-card)", color: "var(--text-secondary)" }}
             >
               Settings
             </button>
@@ -207,12 +210,8 @@ export default function EmotionPage({
                   onClick={() => setTheme(t.id)}
                   className="flex items-center gap-3 p-3 rounded-xl text-xs transition text-left"
                   style={{
-                    background:
-                      theme === t.id ? "var(--accent)" : "var(--bg-card-hover)",
-                    color:
-                      theme === t.id
-                        ? "var(--accent-text)"
-                        : "var(--text-primary)",
+                    background: theme === t.id ? "var(--accent)" : "var(--bg-card-hover)",
+                    color: theme === t.id ? "var(--accent-text)" : "var(--text-primary)",
                   }}
                 >
                   <span
@@ -237,12 +236,8 @@ export default function EmotionPage({
                   onClick={() => setTextSize(s)}
                   className="p-3 rounded-xl text-xs uppercase transition"
                   style={{
-                    background:
-                      textSize === s ? "var(--accent)" : "var(--bg-card-hover)",
-                    color:
-                      textSize === s
-                        ? "var(--accent-text)"
-                        : "var(--text-primary)",
+                    background: textSize === s ? "var(--accent)" : "var(--bg-card-hover)",
+                    color: textSize === s ? "var(--accent-text)" : "var(--text-primary)",
                   }}
                 >
                   {s}
@@ -305,30 +300,48 @@ export default function EmotionPage({
                   >
                     {verse.verse_ref}
                   </span>
-                  <button
-                    onClick={() => {
-                      if (marked) {
-                        removeBookmark(verse.verse_ref);
-                      } else {
-                        setShowFolderPicker({
-                          ref: verse.verse_ref,
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() =>
+                        setShareData({
                           arabic: verse.arabic,
                           translation: verse.translation_en,
-                          surah_name: "Quran",
-                          type: "verse",
-                        });
+                          reference: verse.verse_ref,
+                        })
                       }
-                    }}
-                    className="text-xs px-3 py-1.5 rounded-full transition"
-                    style={{
-                      background: marked
-                        ? "var(--accent)"
-                        : "var(--bg-card)",
-                      color: marked ? "var(--accent-text)" : "var(--text-muted)",
-                    }}
-                  >
-                    {marked ? "Saved" : "Save"}
-                  </button>
+                      className="text-xs px-3 py-1.5 rounded-full transition"
+                      style={{
+                        background: "var(--bg-card)",
+                        color: "var(--text-muted)",
+                      }}
+                    >
+                      Share
+                    </button>
+                    {isPro && (
+                      <button
+                        onClick={() => {
+                          if (marked) {
+                            removeBookmark(verse.verse_ref);
+                          } else {
+                            setShowFolderPicker({
+                              ref: verse.verse_ref,
+                              arabic: verse.arabic,
+                              translation: verse.translation_en,
+                              surah_name: "Quran",
+                              type: "verse",
+                            });
+                          }
+                        }}
+                        className="text-xs px-3 py-1.5 rounded-full transition"
+                        style={{
+                          background: marked ? "var(--accent)" : "var(--bg-card)",
+                          color: marked ? "var(--accent-text)" : "var(--text-muted)",
+                        }}
+                      >
+                        {marked ? "Saved" : "Save"}
+                      </button>
+                    )}
+                  </div>
                 </div>
 
                 <p
@@ -352,37 +365,40 @@ export default function EmotionPage({
                   {verse.context}
                 </p>
 
-                {/* Journal */}
-                <button
-                  onClick={() =>
-                    setActiveJournal(
-                      activeJournal === verse.verse_ref ? null : verse.verse_ref
-                    )
-                  }
-                  className="transition hover:opacity-80 mb-3"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                >
-                  {activeJournal === verse.verse_ref
-                    ? "Close journal"
-                    : "Write in journal"}
-                  {journalText && " • saved"}
-                </button>
-                {activeJournal === verse.verse_ref && (
-                  <textarea
-                    value={journalText}
-                    onChange={(e) =>
-                      saveJournal(verse.verse_ref, e.target.value)
-                    }
-                    placeholder="Your reflection..."
-                    className="w-full p-4 rounded-2xl resize-none outline-none transition"
-                    rows={4}
-                    style={{
-                      background: "var(--bg-card)",
-                      color: "var(--text-primary)",
-                      border: "none",
-                      fontSize: sizes.body,
-                    }}
-                  />
+                {isPro && (
+                  <>
+                    <button
+                      onClick={() =>
+                        setActiveJournal(
+                          activeJournal === verse.verse_ref ? null : verse.verse_ref
+                        )
+                      }
+                      className="transition hover:opacity-80 mb-3"
+                      style={{ color: "var(--text-muted)", fontSize: sizes.context }}
+                    >
+                      {activeJournal === verse.verse_ref
+                        ? "Close journal"
+                        : "Write in journal"}
+                      {journalText && " • saved"}
+                    </button>
+                    {activeJournal === verse.verse_ref && (
+                      <textarea
+                        value={journalText}
+                        onChange={(e) =>
+                          saveJournal(verse.verse_ref, e.target.value)
+                        }
+                        placeholder="Your reflection..."
+                        className="w-full p-4 rounded-2xl resize-none outline-none transition"
+                        rows={4}
+                        style={{
+                          background: "var(--bg-card)",
+                          color: "var(--text-primary)",
+                          border: "none",
+                          fontSize: sizes.body,
+                        }}
+                      />
+                    )}
+                  </>
                 )}
 
                 {i < emotion.verses.length - 1 && (
@@ -420,32 +436,48 @@ export default function EmotionPage({
                     >
                       {name.transliteration}
                     </span>
-                    <button
-                      onClick={() => {
-                        if (marked) {
-                          removeBookmark(nameRef);
-                        } else {
-                          setShowFolderPicker({
-                            ref: nameRef,
+                    <div className="flex items-center gap-2">
+                      <button
+                        onClick={() =>
+                          setShareData({
                             arabic: name.arabic,
                             translation: name.meaning_en,
-                            surah_name: "Name of Allah",
-                            type: "name",
-                          });
+                            reference: name.transliteration,
+                          })
                         }
-                      }}
-                      className="text-xs px-3 py-1.5 rounded-full transition"
-                      style={{
-                        background: marked
-                          ? "var(--accent)"
-                          : "var(--bg-card)",
-                        color: marked
-                          ? "var(--accent-text)"
-                          : "var(--text-muted)",
-                      }}
-                    >
-                      {marked ? "Saved" : "Save"}
-                    </button>
+                        className="text-xs px-3 py-1.5 rounded-full transition"
+                        style={{
+                          background: "var(--bg-card)",
+                          color: "var(--text-muted)",
+                        }}
+                      >
+                        Share
+                      </button>
+                      {isPro && (
+                        <button
+                          onClick={() => {
+                            if (marked) {
+                              removeBookmark(nameRef);
+                            } else {
+                              setShowFolderPicker({
+                                ref: nameRef,
+                                arabic: name.arabic,
+                                translation: name.meaning_en,
+                                surah_name: "Name of Allah",
+                                type: "name",
+                              });
+                            }
+                          }}
+                          className="text-xs px-3 py-1.5 rounded-full transition"
+                          style={{
+                            background: marked ? "var(--accent)" : "var(--bg-card)",
+                            color: marked ? "var(--accent-text)" : "var(--text-muted)",
+                          }}
+                        >
+                          {marked ? "Saved" : "Save"}
+                        </button>
+                      )}
+                    </div>
                   </div>
 
                   <p
@@ -465,10 +497,7 @@ export default function EmotionPage({
                   </p>
                   <p
                     className="leading-relaxed mb-6 max-w-xl mx-auto text-center"
-                    style={{
-                      color: "var(--text-secondary)",
-                      fontSize: sizes.body,
-                    }}
+                    style={{ color: "var(--text-secondary)", fontSize: sizes.body }}
                   >
                     {name.explanation}
                   </p>
@@ -482,10 +511,7 @@ export default function EmotionPage({
                       >
                         <p
                           className="mb-3"
-                          style={{
-                            color: "var(--accent)",
-                            fontSize: sizes.reference,
-                          }}
+                          style={{ color: "var(--accent)", fontSize: sizes.reference }}
                         >
                           {ev.verse_ref}
                         </p>
@@ -497,10 +523,7 @@ export default function EmotionPage({
                         </p>
                         <p
                           className="leading-relaxed"
-                          style={{
-                            color: "var(--text-secondary)",
-                            fontSize: sizes.body,
-                          }}
+                          style={{ color: "var(--text-secondary)", fontSize: sizes.body }}
                         >
                           {ev.translation_en}
                         </p>
@@ -508,31 +531,34 @@ export default function EmotionPage({
                     ))}
                   </div>
 
-                  {/* Journal for name */}
-                  <button
-                    onClick={() =>
-                      setActiveJournal(activeJournal === nameRef ? null : nameRef)
-                    }
-                    className="transition hover:opacity-80 mb-3"
-                    style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                  >
-                    {activeJournal === nameRef ? "Close journal" : "Write in journal"}
-                    {journalText && " • saved"}
-                  </button>
-                  {activeJournal === nameRef && (
-                    <textarea
-                      value={journalText}
-                      onChange={(e) => saveJournal(nameRef, e.target.value)}
-                      placeholder="Your reflection..."
-                      className="w-full p-4 rounded-2xl resize-none outline-none transition"
-                      rows={4}
-                      style={{
-                        background: "var(--bg-card)",
-                        color: "var(--text-primary)",
-                        border: "none",
-                        fontSize: sizes.body,
-                      }}
-                    />
+                  {isPro && (
+                    <>
+                      <button
+                        onClick={() =>
+                          setActiveJournal(activeJournal === nameRef ? null : nameRef)
+                        }
+                        className="transition hover:opacity-80 mb-3"
+                        style={{ color: "var(--text-muted)", fontSize: sizes.context }}
+                      >
+                        {activeJournal === nameRef ? "Close journal" : "Write in journal"}
+                        {journalText && " • saved"}
+                      </button>
+                      {activeJournal === nameRef && (
+                        <textarea
+                          value={journalText}
+                          onChange={(e) => saveJournal(nameRef, e.target.value)}
+                          placeholder="Your reflection..."
+                          className="w-full p-4 rounded-2xl resize-none outline-none transition"
+                          rows={4}
+                          style={{
+                            background: "var(--bg-card)",
+                            color: "var(--text-primary)",
+                            border: "none",
+                            fontSize: sizes.body,
+                          }}
+                        />
+                      )}
+                    </>
                   )}
 
                   {i < emotion.names_of_allah.length - 1 && (
@@ -625,6 +651,16 @@ export default function EmotionPage({
             </button>
           </div>
         </div>
+      )}
+
+      {/* Share Modal */}
+      {shareData && (
+        <ShareModal
+          arabic={shareData.arabic}
+          translation={shareData.translation}
+          reference={shareData.reference}
+          onClose={() => setShareData(null)}
+        />
       )}
     </main>
   );

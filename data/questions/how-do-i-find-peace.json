@@ -1,48 +1,50 @@
 {
   "question_id": "how-do-i-find-peace",
   "question": "How do I find peace?",
-  "short_answer": "The Quran places peace in remembrance, in trust, and in the nearness of Allah. It is not created. It is returned to.",
   "topic_tags": ["anxiety", "loneliness"],
   "sections": [
     {
-      "heading": "Peace is in remembrance",
-      "body": "The Quran names remembrance as the place where the heart finds rest. It is a return, not a creation.",
+      "heading": "Peace in remembrance",
       "evidence": [
         {
           "verse_ref": "13:28",
           "arabic": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
-          "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace.",
-          "why_cited": "It names the place where peace is found."
+          "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace."
         },
         {
           "verse_ref": "2:152",
           "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ",
-          "translation_en": "So remember Me; I will remember you.",
-          "why_cited": "It shows remembrance is a two-way relationship."
+          "translation_en": "So remember Me; I will remember you."
         },
         {
           "verse_ref": "33:41",
           "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا",
-          "translation_en": "O you who have believed, remember Allah with much remembrance.",
-          "why_cited": "The command is for much remembrance."
+          "translation_en": "O you who have believed, remember Allah with much remembrance."
+        },
+        {
+          "verse_ref": "4:103",
+          "arabic": "فَإِذَا قَضَيْتُمُ الصَّلَاةَ فَاذْكُرُوا اللَّهَ قِيَامًا وَقُعُودًا وَعَلَىٰ جُنُوبِكُمْ",
+          "translation_en": "And when you have completed the prayer, remember Allah standing, sitting, or on your sides."
+        },
+        {
+          "verse_ref": "29:45",
+          "arabic": "وَلَذِكْرُ اللَّهِ أَكْبَرُ",
+          "translation_en": "And the remembrance of Allah is greater."
         }
       ],
       "sub_sections": [
         {
           "heading": "How is Dhikr different from Dua?",
-          "body": "Dua is asking, while Dhikr is remembering. Dua is a moment. Dhikr is a state.",
           "evidence": [
             {
               "verse_ref": "2:186",
               "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
-              "translation_en": "And when My servants ask you concerning Me, indeed I am near.",
-              "why_cited": "It is about asking, which is Dua."
+              "translation_en": "And when My servants ask you concerning Me, indeed I am near."
             },
             {
               "verse_ref": "40:60",
               "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ",
-              "translation_en": "Call upon Me; I will respond to you.",
-              "why_cited": "It names the command to call."
+              "translation_en": "Call upon Me; I will respond to you."
             }
           ]
         }
@@ -50,77 +52,95 @@
     },
     {
       "heading": "Peace through trust",
-      "body": "The Quran places peace in trust. It is not passive. It is what you do after your effort ends.",
       "evidence": [
         {
           "verse_ref": "65:3",
           "arabic": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
-          "translation_en": "And whoever relies upon Allah, then He is sufficient for him.",
-          "why_cited": "It names sufficiency as the fruit of trust."
+          "translation_en": "And whoever relies upon Allah, then He is sufficient for him."
         },
         {
           "verse_ref": "3:159",
           "arabic": "فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ",
-          "translation_en": "And when you have decided, then rely upon Allah.",
-          "why_cited": "It places trust after decision and effort."
+          "translation_en": "And when you have decided, then rely upon Allah."
         },
         {
           "verse_ref": "14:12",
           "arabic": "وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُتَوَكِّلُونَ",
-          "translation_en": "And upon Allah let the reliant rely.",
-          "why_cited": "It names reliance as a practice."
+          "translation_en": "And upon Allah let the reliant rely."
+        },
+        {
+          "verse_ref": "3:173",
+          "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+          "translation_en": "Sufficient for us is Allah, and He is the best Disposer of affairs"
+        },
+        {
+          "verse_ref": "9:51",
+          "arabic": "قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا هُوَ مَوْلَانَا ۚ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
+          "translation_en": "Say, 'Never will we be struck except by what Allah has decreed for us; He is our protector.' And upon Allah let the believers rely."
         }
       ]
     },
     {
       "heading": "Peace through nearness",
-      "body": "The Quran describes Allah as near. Not distant. Not delayed. Near.",
       "evidence": [
         {
           "verse_ref": "2:186",
           "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
-          "translation_en": "And when My servants ask you concerning Me, indeed I am near.",
-          "why_cited": "The 'say' is left out, and the answer comes directly."
+          "translation_en": "And when My servants ask you concerning Me, indeed I am near."
         },
         {
           "verse_ref": "50:16",
           "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
-          "translation_en": "And We are closer to him than his jugular vein.",
-          "why_cited": "It describes closeness as physical and immediate."
+          "translation_en": "And We are closer to him than his jugular vein."
         },
         {
           "verse_ref": "11:61",
           "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ",
-          "translation_en": "Indeed, my Lord is Near and Responsive.",
-          "why_cited": "It joins nearness with response."
+          "translation_en": "Indeed, my Lord is Near and Responsive."
+        },
+        {
+          "verse_ref": "57:4",
+          "arabic": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
+          "translation_en": "And He is with you wherever you are."
+        },
+        {
+          "verse_ref": "16:128",
+          "arabic": "إِنَّ اللَّهَ مَعَ الَّذِينَ اتَّقَوا وَّالَّذِينَ هُم مُّحْسِنُونَ",
+          "translation_en": "Indeed, Allah is with those who fear Him and those who are doers of good."
         }
       ]
     },
     {
       "heading": "Peace through the Quran",
-      "body": "The Quran describes itself as a healing and mercy. In its words, the heart finds what it needs.",
       "evidence": [
         {
           "verse_ref": "17:82",
           "arabic": "وَنُنَزِّلُ مِنَ الْقُرْآنِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِّلْمُؤْمِنِينَ",
-          "translation_en": "And We send down of the Quran that which is healing and mercy for the believers.",
-          "why_cited": "It names the Quran as healing and mercy."
+          "translation_en": "And We send down of the Quran that which is healing and mercy for the believers."
         },
         {
           "verse_ref": "10:57",
           "arabic": "يَا أَيُّهَا النَّاسُ قَدْ جَاءَتْكُم مَّوْعِظَةٌ مِّن رَّبِّكُمْ وَشِفَاءٌ لِّمَا فِي الصُّدُورِ",
-          "translation_en": "O mankind, there has come to you instruction from your Lord and healing for what is in the chests.",
-          "why_cited": "It names healing for what is in the chests."
+          "translation_en": "O mankind, there has come to you instruction from your Lord and healing for what is in the chests."
         },
         {
           "verse_ref": "13:28",
           "arabic": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
-          "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace.",
-          "why_cited": "It names remembrance as the place of peace."
+          "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace."
+        },
+        {
+          "verse_ref": "41:44",
+          "arabic": "قُلْ هُوَ لِلَّذِينَ آمَنُوا هُدًى وَشِفَاءٌ",
+          "translation_en": "Say, 'It is, for those who believe, a guidance and healing.'"
+        },
+        {
+          "verse_ref": "39:23",
+          "arabic": "اللَّهُ نَزَّلَ أَحْسَنَ الْحَدِيثِ كِتَابًا مُّتَشَابِهًا مَّثَانِيَ تَقْشَعِرُّ مِنْهُ جُلُودُ الَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ اللَّهِ",
+          "translation_en": "Allah has sent down the best statement, a consistent Book in which is reiteration. The skins shiver from it of those who fear their Lord; then their skins and hearts relax at the remembrance of Allah"
         }
       ]
     }
   ],
   "related_questions": ["why-feel-lonely", "why-does-allah-test-me"],
-  "related_verses": ["13:28", "2:152", "33:41", "65:3", "3:159", "14:12", "2:186", "50:16", "11:61", "17:82", "10:57"]
+  "related_verses": ["13:28", "2:152", "33:41", "4:103", "29:45", "65:3", "3:159", "14:12", "8:2", "9:51", "2:186", "50:16", "11:61", "57:4", "16:128", "17:82", "10:57", "41:44", "26:80"]
 }

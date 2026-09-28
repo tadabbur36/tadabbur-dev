@@ -1,6 +1,6 @@
 "use client";
 
-import { getSurah, findAyahsByRoot } from "@/data";
+import { getSurah, findAyahsByRootGlobal } from "@/data";
 import Link from "next/link";
 import { use, useState, useEffect } from "react";
 import { useTheme } from "@/components/ThemeProvider";
@@ -548,45 +548,17 @@ export default function SurahPage({
                   </p>
                 </div>
 
-                {isPro ? (
-                  <button
-                    onClick={() => setShowRootGraph(selectedWord.root)}
-                    className="w-full py-3 rounded-2xl font-medium transition mb-3"
-                    style={{
-                      background: "var(--accent)",
-                      color: "var(--accent-text)",
-                      fontSize: sizes.body,
-                    }}
-                  >
-                    Show all verses with this root
-                  </button>
-                ) : (
-                  <div
-                    className="rounded-2xl p-4 mb-3 text-center"
-                    style={{ background: "var(--bg-card-hover)" }}
-                  >
-                    <p className="mb-2" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
-                      Pro feature
-                    </p>
-                    <p className="mb-3" style={{ color: "var(--text-secondary)", fontSize: sizes.context }}>
-                      See every verse using this root word
-                    </p>
-                    <button
-                      onClick={() => {
-                        setIsPro(true);
-                        setShowRootGraph(selectedWord.root);
-                      }}
-                      className="w-full py-2.5 rounded-xl font-medium transition"
-                      style={{
-                        background: "var(--accent)",
-                        color: "var(--accent-text)",
-                        fontSize: sizes.body,
-                      }}
-                    >
-                      Activate Pro
-                    </button>
-                  </div>
-                )}
+                <button
+                  onClick={() => setShowRootGraph(selectedWord.root)}
+                  className="w-full py-3 rounded-2xl font-medium transition mb-3"
+                  style={{
+                    background: "var(--accent)",
+                    color: "var(--accent-text)",
+                    fontSize: sizes.body,
+                  }}
+                >
+                  Show all verses with this root
+                </button>
 
                 <button
                   onClick={() => setSelectedWord(null)}
@@ -617,17 +589,22 @@ export default function SurahPage({
                     {showRootGraph}
                   </p>
                 </div>
-                {findAyahsByRoot(showRootGraph).length > 0 ? (
+                {findAyahsByRootGlobal(showRootGraph).length > 0 ? (
                   <div className="space-y-3">
-                    {findAyahsByRoot(showRootGraph).map((v, i) => (
+                    {findAyahsByRootGlobal(showRootGraph).map((v, i) => (
                       <div
                         key={i}
                         className="rounded-xl p-4"
                         style={{ background: "var(--bg-card-hover)" }}
                       >
-                        <p className="mb-2" style={{ color: "var(--accent)", fontSize: sizes.context }}>
-                          {v.surah_name} {v.ref}
-                        </p>
+                        <div className="flex items-baseline justify-between mb-2">
+                          <p style={{ color: "var(--accent)", fontSize: sizes.context }}>
+                            {v.surah_name} {v.ref}
+                          </p>
+                          <p style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
+                            {v.source}
+                          </p>
+                        </div>
                         <p className="arabic text-lg mb-2 text-right">{v.arabic}</p>
                         <p style={{ color: "var(--text-secondary)", fontSize: sizes.context }}>
                           {v.translation}

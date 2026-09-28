@@ -80,10 +80,8 @@ export default function Home() {
     : [];
 
   const filteredQuestions = q
-    ? questionsIndex.filter(
-        (qq) =>
-          qq.question.toLowerCase().includes(q) ||
-          qq.short_answer.toLowerCase().includes(q)
+    ? questionsIndex.filter((qq) =>
+        qq.question.toLowerCase().includes(q)
       )
     : [];
 
@@ -504,37 +502,39 @@ export default function Home() {
         {/* DEFAULT MODE */}
         {!isSearching && (
           <div className="space-y-4">
-            {/* Saved */}
-            <Link
-              href="/saved"
-              className="group flex items-center justify-between p-5 rounded-3xl transition hover:scale-[1.01]"
-              style={{ background: "var(--bg-card)" }}
-            >
-              <div className="flex items-center gap-4">
-                <span style={{ color: "var(--accent)", fontSize: sizes.body }}>
-                  ★
-                </span>
-                <div>
-                  <span
-                    className="font-medium block mb-0.5"
-                    style={{ fontSize: sizes.cardTitle }}
-                  >
-                    Saved
-                  </span>
-                  <span
-                    style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}
-                  >
-                    Your verses and names
-                  </span>
-                </div>
-              </div>
-              <span
-                className="transition group-hover:translate-x-1"
-                style={{ color: "var(--text-muted)" }}
+            {/* Saved — Pro only */}
+            {isPro && (
+              <Link
+                href="/saved"
+                className="group flex items-center justify-between p-5 rounded-3xl transition hover:scale-[1.01]"
+                style={{ background: "var(--bg-card)" }}
               >
-                →
-              </span>
-            </Link>
+                <div className="flex items-center gap-4">
+                  <span style={{ color: "var(--accent)", fontSize: sizes.body }}>
+                    ★
+                  </span>
+                  <div>
+                    <span
+                      className="font-medium block mb-0.5"
+                      style={{ fontSize: sizes.cardTitle }}
+                    >
+                      Saved
+                    </span>
+                    <span
+                      style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}
+                    >
+                      Your verses and names
+                    </span>
+                  </div>
+                </div>
+                <span
+                  className="transition group-hover:translate-x-1"
+                  style={{ color: "var(--text-muted)" }}
+                >
+                  →
+                </span>
+              </Link>
+            )}
 
             {/* Quran */}
             <Link
@@ -552,7 +552,7 @@ export default function Home() {
                 <span
                   style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}
                 >
-                  "And We have sent down to you the Book as clarification for all things." (16.89)
+                  "And We have sent down to you the Book as clarification for all things." (16:89)
                 </span>
               </div>
               <span
@@ -701,23 +701,12 @@ export default function Home() {
                       className="group flex items-start justify-between p-5 rounded-3xl transition hover:scale-[1.01]"
                       style={{ background: "var(--bg-card)" }}
                     >
-                      <div className="flex-1 pr-4">
-                        <span
-                          className="font-medium block mb-2 leading-snug"
-                          style={{ fontSize: sizes.cardTitle }}
-                        >
-                          {qq.question}
-                        </span>
-                        <span
-                          className="block leading-relaxed"
-                          style={{
-                            color: "var(--text-secondary)",
-                            fontSize: sizes.cardDesc,
-                          }}
-                        >
-                          {qq.short_answer}
-                        </span>
-                      </div>
+                      <span
+                        className="font-medium leading-snug pr-4"
+                        style={{ fontSize: sizes.cardTitle }}
+                      >
+                        {qq.question}
+                      </span>
                       <span
                         className="transition group-hover:translate-x-1 flex-shrink-0"
                         style={{ color: "var(--text-muted)" }}

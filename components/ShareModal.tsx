@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
+import { toPng } from "html-to-image";
 import { useTheme } from "./ThemeProvider";
 import { shareStyles, shareSizes } from "@/data/share-styles";
 import ShareCard from "./ShareCard";
@@ -28,6 +29,11 @@ export default function ShareModal({
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
+  // Hidden full-size card ref (for capture)
+  const captureRef = useRef<HTMLDivElement>(null);
+  // Visible preview card ref
+  const previewRef = useRef<HTMLDivElement>(null);
+
   const style = shareStyles.find((s) => s.id === selectedStyle) || shareStyles[0];
 
   const size =
@@ -40,32 +46,48 @@ export default function ShareModal({
         }
       : shareSizes.find((s) => s.id === selectedSize) || shareSizes[0];
 
-  // Calculate preview scale so it fits nicely in modal
   const maxPreviewSize = 280;
   const previewScale = Math.min(
     maxPreviewSize / size.width,
     maxPreviewSize / size.height
   );
 
-  const buildImageUrl = () => {
-    return `/api/og?arabic=${encodeURIComponent(
-      arabic
-    )}&translation=${encodeURIComponent(
-      translation
-    )}&reference=${encodeURIComponent(
-      reference
-    )}&style=${selectedStyle}&width=${size.width}&height=${
-      size.height
-    }&watermark=${!isPro}&gift=${isGift}&from=${encodeURIComponent(
-      fromName
-    )}&message=${encodeURIComponent(message)}`;
+  const generateImage = async (): Promise<Blob | null> => {
+    if (!captureRef.current) {
+      alert("Card not ready. Please try again.");
+      return null;
+    }
+
+    try {
+      // Small delay to ensure Arabic font is loaded
+      await document.fonts.ready;
+
+      const dataUrl = await toPng(captureRef.current, {
+        width: size.width,
+        height: size.height,
+        pixelRatio: 1,
+        cacheBust: true,
+        backgroundColor: style.bg,
+      });
+
+      const res = await fetch(dataUrl);
+      return await res.blob();
+    } catch (err) {
+      console.error("Image generation error:", err);
+      alert("Failed to generate image. Check console.");
+      return null;
+    }
   };
 
   const handleDownload = async () => {
     setLoading(true);
     try {
-      const response = await fetch(buildImageUrl());
-      const blob = await response.blob();
+      const blob = await generateImage();
+      if (!blob) {
+        setLoading(false);
+        return;
+      }
+
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
@@ -75,6 +97,7 @@ export default function ShareModal({
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
     } catch (err) {
+      console.error("Download error:", err);
       alert("Failed to download. Please try again.");
     }
     setLoading(false);
@@ -83,8 +106,12 @@ export default function ShareModal({
   const handleShare = async () => {
     setLoading(true);
     try {
-      const response = await fetch(buildImageUrl());
-      const blob = await response.blob();
+      const blob = await generateImage();
+      if (!blob) {
+        setLoading(false);
+        return;
+      }
+
       const file = new File(
         [blob],
         `tadabbur-${reference.replace(":", "-")}.png`,
@@ -101,16 +128,15 @@ export default function ShareModal({
         handleDownload();
       }
     } catch (err) {
+      console.error("Share error:", err);
       handleDownload();
     }
     setLoading(false);
   };
 
-  const availableStyles = shareStyles.filter((s) => !s.pro || isPro);
-
   return (
     <div
-      className="fixed inset-0 bg-black/60 backdrop-blur-md z-50 flex items-end sm:items-center justify-center p-4 overflow-y-auto"
+      className="fixed inset-0 bg-black/60 backdrop-blur-md z-50 flex items-start justify-center p-4 overflow-y-auto"
       onClick={onClose}
     >
       <div
@@ -134,6 +160,7 @@ export default function ShareModal({
         <div className="mb-6 flex justify-center">
           <div className="overflow-hidden rounded-xl">
             <ShareCard
+              ref={previewRef}
               arabic={arabic}
               translation={translation}
               reference={reference}
@@ -148,8 +175,37 @@ export default function ShareModal({
           </div>
         </div>
 
+        {/* Hidden Full-Size Card for Capture */}
+        <div
+          style={{
+            position: "fixed",
+            left: "-99999px",
+            top: "0",
+            pointerEvents: "none",
+            zIndex: -1,
+          }}
+          aria-hidden="true"
+        >
+          <ShareCard
+            ref={captureRef}
+            arabic={arabic}
+            translation={translation}
+            reference={reference}
+            style={style}
+            size={size}
+            isGift={isGift}
+            fromName={fromName}
+            message={message}
+            isPro={isPro}
+            scale={1}
+          />
+        </div>
+
         {/* Gift Toggle */}
-        <div className="flex items-center justify-between mb-4 p-3 rounded-xl" style={{ background: "var(--bg-card-hover)" }}>
+        <div
+          className="flex items-center justify-between mb-4 p-3 rounded-xl"
+          style={{ background: "var(--bg-card-hover)" }}
+        >
           <span className="text-sm">Send as a gift</span>
           <button
             onClick={() => setIsGift(!isGift)}

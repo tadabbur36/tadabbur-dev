@@ -1,171 +1,197 @@
 {
   "question_id": "why-feel-lonely",
   "question": "Why do I feel lonely even when I have people around me?",
-  "short_answer": "Loneliness is not about the number of people around you. It is about the depth of connection. The Quran addresses this as a spiritual condition, not a social one.",
   "topic_tags": ["loneliness", "anxiety"],
   "sections": [
     {
       "heading": "The Quranic view of loneliness",
-      "body": "The Quran does not treat loneliness as a flaw. It treats it as a state that can lead to deeper awareness. When no one is around, the heart can turn to the One who is always near.",
       "evidence": [
         {
           "verse_ref": "2:186",
           "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
-          "translation_en": "And when My servants ask you concerning Me, indeed I am near.",
-          "why_cited": "It places nearness as an answer without condition, without barrier."
+          "translation_en": "And when My servants ask you concerning Me, indeed I am near."
         },
         {
           "verse_ref": "50:16",
           "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
-          "translation_en": "And We are closer to him than his jugular vein.",
-          "why_cited": "It describes closeness as physical and immediate."
+          "translation_en": "And We are closer to him than his jugular vein."
         },
         {
           "verse_ref": "57:4",
           "arabic": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
-          "translation_en": "And He is with you wherever you are.",
-          "why_cited": "It states presence without location, without exception."
+          "translation_en": "And He is with you wherever you are."
+        },
+        {
+          "verse_ref": "34:50",
+          "arabic": "إِنَّهُ سَمِيعٌ قَرِيبٌ",
+          "translation_en": "Indeed, He is Hearing and Near."
+        },
+        {
+          "verse_ref": "11:61",
+          "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ",
+          "translation_en": "Indeed, my Lord is Near and Responsive."
         }
       ],
       "sub_sections": [
         {
           "heading": "What does 'with us' mean in the Quran?",
-          "body": "It is stated directly. Presence is promised, not earned. It is named for the patient, the conscious, and the doers of good.",
           "evidence": [
             {
               "verse_ref": "9:40",
               "arabic": "إِنَّ اللَّهَ مَعَنَا",
-              "translation_en": "Indeed Allah is with us.",
-              "why_cited": "It states presence without condition."
+              "translation_en": "Indeed Allah is with us."
             },
             {
               "verse_ref": "2:153",
               "arabic": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
-              "translation_en": "Indeed, Allah is with the patient.",
-              "why_cited": "It names patience as a station of His presence."
+              "translation_en": "Indeed, Allah is with the patient."
             },
             {
               "verse_ref": "16:128",
               "arabic": "إِنَّ اللَّهَ مَعَ الَّذِينَ اتَّقَوا وَّالَّذِينَ هُم مُّحْسِنُونَ",
-              "translation_en": "Indeed, Allah is with those who fear Him and those who are doers of good.",
-              "why_cited": "It names two more stations of His presence."
+              "translation_en": "Indeed, Allah is with those who fear Him and those who are doers of good."
             }
           ]
         }
       ]
     },
     {
-      "heading": "Why modern life increases loneliness",
-      "body": "The Quran describes a state of ghaflah, a heedlessness, where a person is surrounded by noise but disconnected from what matters. Many connections, few depths.",
+      "heading": "When the heart becomes distant",
       "evidence": [
         {
           "verse_ref": "23:1-2",
           "arabic": "قَدْ أَفْلَحَ الْمُؤْمِنُونَ الَّذِينَ هُمْ فِي صَلَاتِهِمْ خَاشِعُونَ",
-          "translation_en": "Successful indeed are the believers who are humble in their prayers.",
-          "why_cited": "Khushu is the practice of being fully present, the opposite of heedlessness."
+          "translation_en": "Successful indeed are the believers who are humble in their prayers."
         },
         {
           "verse_ref": "57:16",
           "arabic": "أَلَمْ يَأْنِ لِلَّذِينَ آمَنُوا أَن تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ اللَّهِ",
-          "translation_en": "Has the time not come for those who have believed that their hearts should become humbly submissive at the remembrance of Allah?",
-          "why_cited": "It names the slow drift of the heart over time."
+          "translation_en": "Has the time not come for those who have believed that their hearts should become humbly submissive at the remembrance of Allah?"
         },
         {
           "verse_ref": "102:1-2",
           "arabic": "أَلْهَاكُمُ التَّكَاثُرُ حَتَّىٰ زُرْتُمُ الْمَقَابِرَ",
-          "translation_en": "Competition in increase has diverted you, until you visit the graves.",
-          "why_cited": "It names the race for more as a distraction from what matters."
+          "translation_en": "Competition in increase has diverted you, until you visit the graves."
+        },
+        {
+          "verse_ref": "43:36",
+          "arabic": "وَمَن يَعْشُ عَن ذِكْرِ الرَّحْمَٰنِ نُقَيِّضْ لَهُ شَيْطَانًا فَهُوَ لَهُ قَرِينٌ",
+          "translation_en": "And whoever turns away from the remembrance of the Most Merciful, We appoint for him a devil, and he is to him a companion."
+        },
+        {
+          "verse_ref": "18:28",
+          "arabic": "وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُ عَن ذِكْرِنَا وَاتَّبَعَ هَوَاهُ",
+          "translation_en": "And do not obey one whose heart We have made heedless of Our remembrance and who follows his desire."
         }
       ]
     },
     {
       "heading": "What to do when lonely",
-      "body": "The Quran's answer is not to find more people. It is to establish a connection with Allah that does not depend on anyone else's presence.",
       "evidence": [
         {
           "verse_ref": "2:186",
           "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ ۚ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ",
-          "translation_en": "And when My servants ask you concerning Me, indeed I am near. I respond to the invocation of the supplicant when he calls upon Me.",
-          "why_cited": "It joins nearness with response in the same verse."
+          "translation_en": "And when My servants ask you concerning Me, indeed I am near. I respond to the invocation of the supplicant when he calls upon Me."
         },
         {
           "verse_ref": "40:60",
           "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ",
-          "translation_en": "Call upon Me; I will respond to you.",
-          "why_cited": "The command is direct, and the response is promised."
+          "translation_en": "Call upon Me; I will respond to you."
         },
         {
           "verse_ref": "13:28",
           "arabic": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
-          "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace.",
-          "why_cited": "It names remembrance as the place where peace is found."
+          "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace."
+        },
+        {
+          "verse_ref": "33:41",
+          "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا",
+          "translation_en": "O you who have believed, remember Allah with much remembrance."
+        },
+        {
+          "verse_ref": "29:45",
+          "arabic": "وَلَذِكْرُ اللَّهِ أَكْبَرُ",
+          "translation_en": "And the remembrance of Allah is greater."
         }
       ],
       "sub_sections": [
         {
           "heading": "What does the Quran say about the heart?",
-          "body": "The heart in Quranic Arabic is the center of understanding, intention, and awareness. What it holds shapes the whole self.",
           "evidence": [
             {
               "verse_ref": "13:28",
               "arabic": "وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ اللَّهِ",
-              "translation_en": "And their hearts find peace in the remembrance of Allah.",
-              "why_cited": "The heart finds peace in remembrance."
+              "translation_en": "And their hearts find peace in the remembrance of Allah."
             },
             {
               "verse_ref": "22:46",
               "arabic": "فَتَكُونَ لَهُمْ قُلُوبٌ يَعْقِلُونَ بِهَا",
-              "translation_en": "Having hearts with which they understand.",
-              "why_cited": "The heart is described as a place of understanding."
+              "translation_en": "Having hearts with which they understand."
             },
             {
               "verse_ref": "6:125",
               "arabic": "فَمَن يُرِدِ اللَّهُ أَن يَهْدِيَهُ يَشْرَحْ صَدْرَهُ لِلْإِسْلَامِ",
-              "translation_en": "So whoever Allah wants to guide, He expands his chest to Islam.",
-              "why_cited": "The chest is described as expandable by Allah."
+              "translation_en": "So whoever Allah wants to guide, He expands his chest to Islam."
             }
           ]
         }
       ]
     },
     {
-      "heading": "The company of the Quran",
-      "body": "The Quran speaks of itself as a companion. It is read, remembered, and recited. In that, the reader is not alone.",
+      "heading": "Do not grieve",
       "evidence": [
         {
           "verse_ref": "41:30",
           "arabic": "إِنَّ الَّذِينَ قَالُوا رَبُّنَا اللَّهُ ثُمَّ اسْتَقَامُوا تَتَنَزَّلُ عَلَيْهِمُ الْمَلَائِكَةُ أَلَّا تَخَافُوا وَلَا تَحْزَنُوا",
-          "translation_en": "Indeed, those who have said, 'Our Lord is Allah' and then remained on a right course, the angels will descend upon them, 'Do not fear and do not grieve.'",
-          "why_cited": "It names the angels as companions for those who hold to their Lord."
+          "translation_en": "Indeed, those who have said, 'Our Lord is Allah' and then remained on a right course, the angels will descend upon them, 'Do not fear and do not grieve.'"
         },
         {
           "verse_ref": "9:40",
           "arabic": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
-          "translation_en": "Do not grieve; indeed Allah is with us.",
-          "why_cited": "It names presence as the answer to grief, in the moment it is felt."
+          "translation_en": "Do not grieve; indeed Allah is with us."
         },
         {
           "verse_ref": "10:62",
           "arabic": "أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
-          "translation_en": "Unquestionably, for the allies of Allah there will be no fear, nor will they grieve.",
-          "why_cited": "It names the allies of Allah and what is promised to them."
+          "translation_en": "Unquestionably, for the allies of Allah there will be no fear, nor will they grieve."
+        },
+        {
+          "verse_ref": "39:53",
+          "arabic": "قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+          "translation_en": "Say, 'O My servants who have transgressed against themselves, do not despair of the mercy of Allah.'"
+        },
+        {
+          "verse_ref": "2:152",
+          "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ",
+          "translation_en": "So remember Me; I will remember you."
         }
       ]
     }
   ],
   "related_questions": [],
   "related_verses": [
-    "13:28",
     "2:186",
-    "2:153",
-    "9:40",
     "50:16",
     "57:4",
+    "34:50",
+    "11:61",
+    "9:40",
+    "2:153",
     "16:128",
-    "40:60",
     "23:1-2",
+    "57:16",
     "102:1-2",
+    "43:36",
+    "18:28",
+    "40:60",
+    "13:28",
+    "33:41",
+    "29:45",
+    "22:46",
+    "6:125",
     "41:30",
-    "10:62"
+    "10:62",
+    "39:53",
+    "2:152"
   ]
 }

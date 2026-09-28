@@ -3,13 +3,13 @@
   "label": "Lonely",
   "category": "difficult",
   "icon": "Moon",
-  "acknowledgment": "Loneliness is not a flaw. The Quran speaks to it with nearness. These words have comforted hearts for 1400 years. They are here for you today.",
+  "acknowledgment": "Yunus (as) was alone in the belly of the whale. He called out, and he was heard. Yusuf (as) was alone in the well. He was not forgotten. You are not outside His reach. The One who made you has not left you. ",
   "verses": [
     {
       "verse_ref": "2:186",
       "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
       "translation_en": "And when My servants ask you concerning Me, indeed I am near.",
-      "context": "The 'say' is left out. Allah answers directly, without a barrier, without a messenger."
+      "context": "The 'say' is left out. Allah answers directly, without a barrier."
     },
     {
       "verse_ref": "50:16",
@@ -27,7 +27,7 @@
       "verse_ref": "9:40",
       "arabic": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
       "translation_en": "Do not grieve; indeed Allah is with us.",
-      "context": "Said in the cave when two were alone. The 'us' included more than two."
+      "context": "Said by the Prophet ﷺ in the cave at Thawr during the hijrah, when he and Abu Bakr AS were hiding from those who hunted them."
     },
     {
       "verse_ref": "20:46",
@@ -39,13 +39,13 @@
       "verse_ref": "16:128",
       "arabic": "إِنَّ اللَّهَ مَعَ الَّذِينَ اتَّقَوا وَّالَّذِينَ هُم مُّحْسِنُونَ",
       "translation_en": "Indeed, Allah is with those who fear Him and those who are doers of good.",
-      "context": "Presence is named for those who fear and those who do good."
+      "context": ""
     },
     {
       "verse_ref": "2:153",
       "arabic": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
       "translation_en": "Indeed, Allah is with the patient.",
-      "context": "Presence is named for the patient."
+      "context": ""
     },
     {
       "verse_ref": "3:173",
@@ -63,7 +63,7 @@
       "verse_ref": "65:3",
       "arabic": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
       "translation_en": "And whoever relies upon Allah, then He is sufficient for him.",
-      "context": "He is enough. Complete. Sufficient."
+      "context": ""
     }
   ],
   "names_of_allah": [
@@ -81,7 +81,7 @@
       "arabic": "السَّلَامُ",
       "transliteration": "As-Salaam",
       "meaning_en": "The Source of Peace",
-      "explanation": "Peace is not something you create. It is something you return to. When your mind will not settle, this name is a reminder that peace is already with Him.",
+      "explanation": "Peace is something you return to. When your mind cannot settle, this name is a reminder that peace is already with Him.",
       "evidence_verses": [
         { "verse_ref": "59:23", "arabic": "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ", "translation_en": "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Source of Peace." }
       ]
@@ -110,7 +110,7 @@
       "arabic": "الْمُجِيبُ",
       "transliteration": "Al-Mujeeb",
       "meaning_en": "The Responsive",
-      "explanation": "He responds. Not always in the way we expect. Not always in the time we choose. But He responds.",
+      "explanation": "He responds. When you call, He is already near.",
       "evidence_verses": [
         { "verse_ref": "11:61", "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ", "translation_en": "Indeed, my Lord is Near and Responsive." },
         { "verse_ref": "40:60", "arabic": "ادْعُونِي أَسْتَجِبْ لَكُمْ", "translation_en": "Call upon Me; I will respond to you." }

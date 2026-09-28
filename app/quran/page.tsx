@@ -34,7 +34,7 @@ export default function QuranPage() {
             Quran
           </h1>
           <p style={{ color: "var(--text-muted)", fontSize: sizes.body }}>
-            "And We have sent down to you the Book as clarification for all things." (16.89)
+            "And We have sent down to you the Book as clarification for all things." (16:89)
           </p>
         </div>
 

@@ -1,106 +1,129 @@
 {
   "question_id": "why-do-i-feel-distant-from-allah",
   "question": "Why do I feel distant from Allah?",
-  "short_answer": "The Quran describes closeness as immediate and without condition. The feeling of distance is a feeling, not a fact. The Quran speaks to it directly.",
   "topic_tags": ["sadness", "anxiety"],
   "sections": [
     {
-      "heading": "The Quran names nearness",
-      "body": "The Quran does not describe Allah as distant. It describes Him as near, closer than the self.",
+      "heading": "The Quran reminds us that He is near",
       "evidence": [
         {
           "verse_ref": "2:186",
           "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
-          "translation_en": "And when My servants ask you concerning Me, indeed I am near.",
-          "why_cited": "The answer is placed directly after the question."
+          "translation_en": "And when My servants ask you concerning Me, indeed I am near."
         },
         {
           "verse_ref": "50:16",
           "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
-          "translation_en": "And We are closer to him than his jugular vein.",
-          "why_cited": "It describes closeness as immediate."
+          "translation_en": "And We are closer to him than his jugular vein."
         },
         {
           "verse_ref": "57:4",
           "arabic": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
-          "translation_en": "And He is with you wherever you are.",
-          "why_cited": "It names presence without condition."
+          "translation_en": "And He is with you wherever you are."
+        },
+        {
+          "verse_ref": "11:61",
+          "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ",
+          "translation_en": "Indeed, my Lord is Near and Responsive."
+        },
+        {
+          "verse_ref": "34:50",
+          "arabic": "إِنَّهُ سَمِيعٌ قَرِيبٌ",
+          "translation_en": "Indeed, He is Hearing and Near."
         }
       ]
     },
     {
       "heading": "The feeling of distance",
-      "body": "The Quran describes a heart that has drifted, not a Lord who has left. The distance is from the side of the one who feels it.",
       "evidence": [
         {
           "verse_ref": "57:16",
           "arabic": "أَلَمْ يَأْنِ لِلَّذِينَ آمَنُوا أَن تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ اللَّهِ",
-          "translation_en": "Has the time not come for those who have believed that their hearts should become humbly submissive at the remembrance of Allah?",
-          "why_cited": "It names the slow hardening of the heart over time."
+          "translation_en": "Has the time not come for those who have believed that their hearts should become humbly submissive at the remembrance of Allah?"
         },
         {
           "verse_ref": "13:11",
           "arabic": "إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا مَا بِأَنفُسِهِمْ",
-          "translation_en": "Indeed, Allah will not change the condition of a people until they change what is in themselves.",
-          "why_cited": "It names the inner change as the starting point."
+          "translation_en": "Indeed, Allah will not change the condition of a people until they change what is in themselves."
         },
         {
-          "verse_ref": "2:10",
-          "arabic": "فِي قُلُوبِهِم مَّرَضٌ",
-          "translation_en": "In their hearts is disease.",
-          "why_cited": "It names disease as a state that can settle in the heart."
+          "verse_ref": "20:124",
+          "arabic": "وَمَنْ أَعْرَضَ عَن ذِكْرِي فَإِنَّ لَهُ مَعِيشَةً ضَنكًا",
+          "translation_en": "And whoever turns away from My remembrance, he will have a constricted life"
+        },
+        {
+          "verse_ref": "43:36",
+          "arabic": "وَمَن يَعْشُ عَن ذِكْرِ الرَّحْمَٰنِ نُقَيِّضْ لَهُ شَيْطَانًا فَهُوَ لَهُ قَرِينٌ",
+          "translation_en": "And whoever turns away from the remembrance of the Most Merciful, We appoint for him a devil, and he is to him a companion."
+        },
+        {
+          "verse_ref": "18:28",
+          "arabic": "وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُ عَن ذِكْرِنَا وَاتَّبَعَ هَوَاهُ",
+          "translation_en": "And do not obey one whose heart We have made heedless of Our remembrance and who follows his desire."
         }
       ]
     },
     {
       "heading": "What brings the heart back",
-      "body": "The Quran names remembrance, forgiveness, and return as the way back. The door is held open.",
       "evidence": [
         {
           "verse_ref": "39:53",
           "arabic": "قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
-          "translation_en": "Say, 'O My servants who have transgressed against themselves, do not despair of the mercy of Allah.'",
-          "why_cited": "The address is to those who went too far, not the perfect."
+          "translation_en": "Say, 'O My servants who have transgressed against themselves, do not despair of the mercy of Allah.'"
         },
         {
           "verse_ref": "39:54",
           "arabic": "وَأَنِيبُوا إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا لَهُ",
-          "translation_en": "And return to your Lord and submit to Him.",
-          "why_cited": "The call to return is placed right after the mercy."
+          "translation_en": "And return to your Lord and submit to Him."
         },
         {
           "verse_ref": "4:110",
           "arabic": "وَمَن يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ ثُمَّ يَسْتَغْفِرِ اللَّهَ يَجِدِ اللَّهَ غَفُورًا رَّحِيمًا",
-          "translation_en": "And whoever does a wrong or wrongs himself but then seeks forgiveness of Allah will find Allah Forgiving and Merciful.",
-          "why_cited": "The promise is tied to seeking forgiveness."
+          "translation_en": "And whoever does a wrong or wrongs himself but then seeks forgiveness of Allah will find Allah Forgiving and Merciful."
+        },
+        {
+          "verse_ref": "25:70",
+          "arabic": "إِلَّا مَن تَابَ وَآمَنَ وَعَمِلَ عَمَلًا صَالِحًا فَأُولَٰئِكَ يُبَدِّلُ اللَّهُ سَيِّئَاتِهِمْ حَسَنَاتٍ",
+          "translation_en": "Except for those who repent, believe, and do righteous work. For them Allah will replace their evil deeds with good."
+        },
+        {
+          "verse_ref": "2:222",
+          "arabic": "إِنَّ اللَّهَ يُحِبُّ التَّوَّابِينَ وَيُحِبُّ الْمُتَطَهِّرِينَ",
+          "translation_en": "Indeed, Allah loves those who repent and loves those who purify themselves."
         }
       ]
     },
     {
       "heading": "The nearness that does not change",
-      "body": "The Quran places nearness as a constant. It is not dependent on how the heart feels in the moment.",
       "evidence": [
         {
           "verse_ref": "34:50",
-          "arabic": "قُلْ إِن ضَلَلْتُ فَإِنَّمَا أَضِلُّ عَلَىٰ نَفْسِي ۖ وَإِنِ اهْتَدَيْتُ فَبِمَا يُوحِي إِلَيَّ رَبِّي ۚ إِنَّهُ سَمِيعٌ قَرِيبٌ",
-          "translation_en": "Say, 'If I err, I err only to my own loss, and if I am rightly guided, it is because of what my Lord has revealed to me. Indeed, He is Hearing and Near.'",
-          "why_cited": "It joins hearing and nearness together."
+          "arabic": "إِنَّهُ سَمِيعٌ قَرِيبٌ",
+          "translation_en": "Indeed, He is Hearing and Near."
         },
         {
           "verse_ref": "11:61",
           "arabic": "إِنَّ رَبِّي قَرِيبٌ مُّجِيبٌ",
-          "translation_en": "Indeed, my Lord is Near and Responsive.",
-          "why_cited": "Nearness and response are joined."
+          "translation_en": "Indeed, my Lord is Near and Responsive."
         },
         {
           "verse_ref": "2:186",
           "arabic": "فَإِنِّي قَرِيبٌ ۚ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ",
-          "translation_en": "Indeed I am near. I respond to the invocation of the supplicant when he calls upon Me.",
-          "why_cited": "It names both nearness and response in one verse."
+          "translation_en": "Indeed I am near. I respond to the invocation of the supplicant when he calls upon Me."
+        },
+        {
+          "verse_ref": "50:16",
+          "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
+          "translation_en": "And We are closer to him than his jugular vein."
+        },
+        {
+          "verse_ref": "57:4",
+          "arabic": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
+          "translation_en": "And He is with you wherever you are."
         }
       ]
     }
   ],
   "related_questions": ["why-feel-lonely", "how-do-i-find-peace"],
-  "related_verses": ["2:186", "50:16", "57:4", "57:16", "13:11", "2:10", "39:53", "39:54", "4:110", "34:50", "11:61"]
+  "related_verses": ["2:186", "50:16", "57:4", "11:61", "34:50", "57:16", "13:11", "2:10", "43:36", "18:28", "39:53", "39:54", "4:110", "25:70", "2:222"]
 }

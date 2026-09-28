@@ -14,13 +14,13 @@ export type QuestionEvidence = {
 
 export type QuestionSubSection = {
   heading: string;
-  body: string;
+  body?: string;
   evidence: QuestionEvidence[];
 };
 
 export type QuestionSection = {
   heading: string;
-  body: string;
+  body?: string;
   evidence: QuestionEvidence[];
   sub_sections?: QuestionSubSection[];
 };
@@ -28,32 +28,38 @@ export type QuestionSection = {
 export type Question = {
   question_id: string;
   question: string;
-  short_answer: string;
+  short_answer?: string;
   topic_tags: string[];
   sections: QuestionSection[];
-  related_questions: string[];
-  related_verses: string[];
+  related_questions?: string[];
+  related_verses?: string[];
 };
 
 export type QuestionIndexItem = {
   slug: string;
   question: string;
-  short_answer: string;
+  short_answer?: string;
   topic_tags: string[];
 };
 
 export const questions: Record<string, Question> = {
-  "why-feel-lonely": lonelyData as Question,
-  "why-does-allah-test-me": allahTestData as Question,
-  "how-do-i-find-peace": findPeaceData as Question,
-  "why-do-i-feel-distant-from-allah": distantData as Question,
-  "what-is-my-purpose": purposeData as Question,
+  "why-feel-lonely": lonelyData as unknown as Question,
+  "why-does-allah-test-me": allahTestData as unknown as Question,
+  "how-do-i-find-peace": findPeaceData as unknown as Question,
+  "why-do-i-feel-distant-from-allah": distantData as unknown as Question,
+  "what-is-my-purpose": purposeData as unknown as Question,
 };
 
 export const questionsIndex: QuestionIndexItem[] = questionsIndexData.questions;
 
 export function getQuestion(slug: string): Question | undefined {
-  return questions[slug];
+  const q = questions[slug];
+  if (!q) return undefined;
+  return {
+    ...q,
+    related_questions: q.related_questions || [],
+    related_verses: q.related_verses || [],
+  };
 }
 
 export function getAllQuestions(): QuestionIndexItem[] {

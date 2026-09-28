@@ -4,6 +4,7 @@ import { getQasas } from "@/data";
 import Link from "next/link";
 import { use, useState, useEffect } from "react";
 import { useTheme } from "@/components/ThemeProvider";
+import ShareModal from "@/components/ShareModal";
 
 type Bookmark = {
   ref: string;
@@ -16,34 +17,10 @@ type Bookmark = {
 };
 
 const sizeMap = {
-  sm: {
-    main: "1.75rem",
-    body: "0.875rem",
-    context: "0.8125rem",
-    reference: "0.8125rem",
-    heading: "1.125rem",
-  },
-  md: {
-    main: "2.25rem",
-    body: "1rem",
-    context: "0.9375rem",
-    reference: "0.9375rem",
-    heading: "1.375rem",
-  },
-  lg: {
-    main: "2.75rem",
-    body: "1.125rem",
-    context: "1.0625rem",
-    reference: "1.0625rem",
-    heading: "1.625rem",
-  },
-  xl: {
-    main: "3.5rem",
-    body: "1.25rem",
-    context: "1.1875rem",
-    reference: "1.1875rem",
-    heading: "1.875rem",
-  },
+  sm: { main: "1.75rem", body: "0.875rem", context: "0.8125rem", reference: "0.8125rem", heading: "1.125rem" },
+  md: { main: "2.25rem", body: "1rem", context: "0.9375rem", reference: "0.9375rem", heading: "1.375rem" },
+  lg: { main: "2.75rem", body: "1.125rem", context: "1.0625rem", reference: "1.0625rem", heading: "1.625rem" },
+  xl: { main: "3.5rem", body: "1.25rem", context: "1.1875rem", reference: "1.1875rem", heading: "1.875rem" },
 };
 
 export default function QasasDetailPage({
@@ -66,6 +43,11 @@ export default function QasasDetailPage({
   const [journal, setJournal] = useState<Record<string, string>>({});
   const [activeJournal, setActiveJournal] = useState<string | null>(null);
   const [streak, setStreak] = useState(0);
+  const [shareData, setShareData] = useState<{
+    arabic: string;
+    translation: string;
+    reference: string;
+  } | null>(null);
 
   useEffect(() => {
     const savedBookmarks = JSON.parse(
@@ -179,10 +161,7 @@ export default function QasasDetailPage({
             <button
               onClick={() => setShowSettings(!showSettings)}
               className="text-sm px-3 py-1.5 rounded-full transition hover:opacity-80"
-              style={{
-                background: "var(--bg-card)",
-                color: "var(--text-secondary)",
-              }}
+              style={{ background: "var(--bg-card)", color: "var(--text-secondary)" }}
             >
               Settings
             </button>
@@ -205,12 +184,8 @@ export default function QasasDetailPage({
                   onClick={() => setTheme(t.id)}
                   className="flex items-center gap-3 p-3 rounded-xl text-xs transition text-left"
                   style={{
-                    background:
-                      theme === t.id ? "var(--accent)" : "var(--bg-card-hover)",
-                    color:
-                      theme === t.id
-                        ? "var(--accent-text)"
-                        : "var(--text-primary)",
+                    background: theme === t.id ? "var(--accent)" : "var(--bg-card-hover)",
+                    color: theme === t.id ? "var(--accent-text)" : "var(--text-primary)",
                   }}
                 >
                   <span
@@ -235,12 +210,8 @@ export default function QasasDetailPage({
                   onClick={() => setTextSize(s)}
                   className="p-3 rounded-xl text-xs uppercase transition"
                   style={{
-                    background:
-                      textSize === s ? "var(--accent)" : "var(--bg-card-hover)",
-                    color:
-                      textSize === s
-                        ? "var(--accent-text)"
-                        : "var(--text-primary)",
+                    background: textSize === s ? "var(--accent)" : "var(--bg-card-hover)",
+                    color: textSize === s ? "var(--accent-text)" : "var(--text-primary)",
                   }}
                 >
                   {s}
@@ -300,103 +271,108 @@ export default function QasasDetailPage({
                       <div className="flex items-center justify-between mb-4">
                         <span
                           className="font-medium"
-                          style={{
-                            color: "var(--accent)",
-                            fontSize: sizes.reference,
-                          }}
+                          style={{ color: "var(--accent)", fontSize: sizes.reference }}
                         >
                           {ayah.verse_ref}
                         </span>
-                        <button
-                          onClick={() => {
-                            if (marked) {
-                              removeBookmark(ayah.verse_ref);
-                            } else {
-                              setShowFolderPicker({
-                                ref: ayah.verse_ref,
+                        <div className="flex items-center gap-2">
+                          <button
+                            onClick={() =>
+                              setShareData({
                                 arabic: ayah.arabic,
                                 translation: ayah.translation_en,
-                              });
+                                reference: ayah.verse_ref,
+                              })
                             }
-                          }}
-                          className="text-xs px-3 py-1.5 rounded-full transition"
-                          style={{
-                            background: marked
-                              ? "var(--accent)"
-                              : "var(--bg-card)",
-                            color: marked
-                              ? "var(--accent-text)"
-                              : "var(--text-muted)",
-                          }}
-                        >
-                          {marked ? "Saved" : "Save"}
-                        </button>
+                            className="text-xs px-3 py-1.5 rounded-full transition"
+                            style={{
+                              background: "var(--bg-card)",
+                              color: "var(--text-muted)",
+                            }}
+                          >
+                            Share
+                          </button>
+                          {isPro && (
+                            <button
+                              onClick={() => {
+                                if (marked) {
+                                  removeBookmark(ayah.verse_ref);
+                                } else {
+                                  setShowFolderPicker({
+                                    ref: ayah.verse_ref,
+                                    arabic: ayah.arabic,
+                                    translation: ayah.translation_en,
+                                  });
+                                }
+                              }}
+                              className="text-xs px-3 py-1.5 rounded-full transition"
+                              style={{
+                                background: marked ? "var(--accent)" : "var(--bg-card)",
+                                color: marked ? "var(--accent-text)" : "var(--text-muted)",
+                              }}
+                            >
+                              {marked ? "Saved" : "Save"}
+                            </button>
+                          )}
+                        </div>
                       </div>
 
                       <p
                         className="arabic text-right mb-5"
-                        style={{
-                          fontSize: sizes.main,
-                          color: "var(--text-primary)",
-                        }}
+                        style={{ fontSize: sizes.main, color: "var(--text-primary)" }}
                       >
                         {ayah.arabic}
                       </p>
 
                       <p
                         className="leading-relaxed mb-6"
-                        style={{
-                          color: "var(--text-secondary)",
-                          fontSize: sizes.body,
-                        }}
+                        style={{ color: "var(--text-secondary)", fontSize: sizes.body }}
                       >
                         {ayah.translation_en}
                       </p>
 
-                      <button
-                        onClick={() =>
-                          setActiveJournal(
-                            activeJournal === ayah.verse_ref
-                              ? null
-                              : ayah.verse_ref
-                          )
-                        }
-                        className="transition hover:opacity-80 mb-3"
-                        style={{
-                          color: "var(--text-muted)",
-                          fontSize: sizes.context,
-                        }}
-                      >
-                        {activeJournal === ayah.verse_ref
-                          ? "Close journal"
-                          : "Write in journal"}
-                        {journalText && " • saved"}
-                      </button>
-                      {activeJournal === ayah.verse_ref && (
-                        <textarea
-                          value={journalText}
-                          onChange={(e) =>
-                            saveJournal(ayah.verse_ref, e.target.value)
-                          }
-                          placeholder="Your reflection..."
-                          className="w-full p-4 rounded-2xl resize-none outline-none transition"
-                          rows={4}
-                          style={{
-                            background: "var(--bg-card)",
-                            color: "var(--text-primary)",
-                            border: "none",
-                            fontSize: sizes.body,
-                          }}
-                        />
+                      {isPro && (
+                        <>
+                          <button
+                            onClick={() =>
+                              setActiveJournal(
+                                activeJournal === ayah.verse_ref
+                                  ? null
+                                  : ayah.verse_ref
+                              )
+                            }
+                            className="transition hover:opacity-80 mb-3"
+                            style={{ color: "var(--text-muted)", fontSize: sizes.context }}
+                          >
+                            {activeJournal === ayah.verse_ref
+                              ? "Close journal"
+                              : "Write in journal"}
+                            {journalText && " • saved"}
+                          </button>
+                          {activeJournal === ayah.verse_ref && (
+                            <textarea
+                              value={journalText}
+                              onChange={(e) =>
+                                saveJournal(ayah.verse_ref, e.target.value)
+                              }
+                              placeholder="Your reflection..."
+                              className="w-full p-4 rounded-2xl resize-none outline-none transition"
+                              rows={4}
+                              style={{
+                                background: "var(--bg-card)",
+                                color: "var(--text-primary)",
+                                border: "none",
+                                fontSize: sizes.body,
+                              }}
+                            />
+                          )}
+                        </>
                       )}
 
                       {aIdx < section.ayahs.length - 1 && (
                         <div
                           className="mt-14"
-                          style={{
-                            height: "1px",
-                            background: "var(--bg-border)",
-                          }}
+                          style={{ height: "1px", background: "var(--bg-border)" }}
                         />
                       )}
                     </div>
@@ -425,10 +401,7 @@ export default function QasasDetailPage({
               <button
                 onClick={() => saveBookmark("all")}
                 className="w-full text-left p-4 rounded-2xl transition hover:opacity-90"
-                style={{
-                  background: "var(--bg-card-hover)",
-                  fontSize: sizes.body,
-                }}
+                style={{ background: "var(--bg-card-hover)", fontSize: sizes.body }}
               >
                 All Saved
               </button>
@@ -438,10 +411,7 @@ export default function QasasDetailPage({
                   key={f.id}
                   onClick={() => saveBookmark(f.id)}
                   className="w-full text-left p-4 rounded-2xl transition hover:opacity-90"
-                  style={{
-                    background: "var(--bg-card-hover)",
-                    fontSize: sizes.body,
-                  }}
+                  style={{ background: "var(--bg-card-hover)", fontSize: sizes.body }}
                 >
                   {f.name}
                 </button>
@@ -450,10 +420,7 @@ export default function QasasDetailPage({
               {folders.length === 0 && (
                 <p
                   className="text-center p-4"
-                  style={{
-                    color: "var(--text-muted)",
-                    fontSize: sizes.context,
-                  }}
+                  style={{ color: "var(--text-muted)", fontSize: sizes.context }}
                 >
                   No folders yet. Create one on the Saved page.
                 </p>
@@ -473,6 +440,16 @@ export default function QasasDetailPage({
             </button>
           </div>
         </div>
+      )}
+
+      {/* Share Modal */}
+      {shareData && (
+        <ShareModal
+          arabic={shareData.arabic}
+          translation={shareData.translation}
+          reference={shareData.reference}
+          onClose={() => setShareData(null)}
+        />
       )}
     </main>
   );

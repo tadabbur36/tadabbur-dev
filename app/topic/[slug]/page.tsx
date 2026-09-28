@@ -1,9 +1,10 @@
 "use client";
 
-import { getTopic, findVersesByRoot, getQuestionsByTopic } from "@/data";
+import { getTopic, findAyahsByRootGlobal, getQuestionsByTopic } from "@/data";
 import Link from "next/link";
 import { useState, useEffect, use } from "react";
 import { useTheme } from "@/components/ThemeProvider";
+import ShareModal from "@/components/ShareModal";
 
 type WordInfo = {
   arabic: string;
@@ -12,38 +13,10 @@ type WordInfo = {
 };
 
 const sizeMap = {
-  sm: {
-    main: "1.75rem",
-    body: "0.875rem",
-    word: "1rem",
-    evidence: "0.9375rem",
-    context: "0.8125rem",
-    reference: "0.8125rem",
-  },
-  md: {
-    main: "2.25rem",
-    body: "1rem",
-    word: "1.125rem",
-    evidence: "1.0625rem",
-    context: "0.9375rem",
-    reference: "0.9375rem",
-  },
-  lg: {
-    main: "2.75rem",
-    body: "1.125rem",
-    word: "1.25rem",
-    evidence: "1.1875rem",
-    context: "1.0625rem",
-    reference: "1.0625rem",
-  },
-  xl: {
-    main: "3.5rem",
-    body: "1.25rem",
-    word: "1.375rem",
-    evidence: "1.3125rem",
-    context: "1.1875rem",
-    reference: "1.1875rem",
-  },
+  sm: { main: "1.75rem", body: "0.875rem", word: "1rem", evidence: "0.9375rem", context: "0.8125rem", reference: "0.8125rem" },
+  md: { main: "2.25rem", body: "1rem", word: "1.125rem", evidence: "1.0625rem", context: "0.9375rem", reference: "0.9375rem" },
+  lg: { main: "2.75rem", body: "1.125rem", word: "1.25rem", evidence: "1.1875rem", context: "1.0625rem", reference: "1.0625rem" },
+  xl: { main: "3.5rem", body: "1.25rem", word: "1.375rem", evidence: "1.3125rem", context: "1.1875rem", reference: "1.1875rem" },
 };
 
 export default function TopicPage({
@@ -62,6 +35,11 @@ export default function TopicPage({
   const [journal, setJournal] = useState<Record<string, string>>({});
   const [activeJournal, setActiveJournal] = useState<string | null>(null);
   const [streak, setStreak] = useState(0);
+  const [shareData, setShareData] = useState<{
+    arabic: string;
+    translation: string;
+    reference: string;
+  } | null>(null);
 
   useEffect(() => {
     const savedBookmarks = JSON.parse(
@@ -140,19 +118,13 @@ export default function TopicPage({
               <>
                 <span
                   className="text-xs px-2.5 py-1 rounded-full font-medium"
-                  style={{
-                    background: "var(--accent)",
-                    color: "var(--accent-text)",
-                  }}
+                  style={{ background: "var(--accent)", color: "var(--accent-text)" }}
                 >
                   {streak} day streak
                 </span>
                 <span
                   className="text-xs px-2.5 py-1 rounded-full font-medium"
-                  style={{
-                    background: "var(--accent)",
-                    color: "var(--accent-text)",
-                  }}
+                  style={{ background: "var(--accent)", color: "var(--accent-text)" }}
                 >
                   PRO
                 </span>
@@ -161,10 +133,7 @@ export default function TopicPage({
             <button
               onClick={() => setShowSettings(!showSettings)}
               className="text-sm px-3 py-1.5 rounded-full transition hover:opacity-80"
-              style={{
-                background: "var(--bg-card)",
-                color: "var(--text-secondary)",
-              }}
+              style={{ background: "var(--bg-card)", color: "var(--text-secondary)" }}
             >
               Settings
             </button>
@@ -187,12 +156,8 @@ export default function TopicPage({
                   onClick={() => setTheme(t.id)}
                   className="flex items-center gap-3 p-3 rounded-xl text-xs transition text-left"
                   style={{
-                    background:
-                      theme === t.id ? "var(--accent)" : "var(--bg-card-hover)",
-                    color:
-                      theme === t.id
-                        ? "var(--accent-text)"
-                        : "var(--text-primary)",
+                    background: theme === t.id ? "var(--accent)" : "var(--bg-card-hover)",
+                    color: theme === t.id ? "var(--accent-text)" : "var(--text-primary)",
                   }}
                 >
                   <span
@@ -217,12 +182,8 @@ export default function TopicPage({
                   onClick={() => setTextSize(s)}
                   className="p-3 rounded-xl text-xs uppercase transition"
                   style={{
-                    background:
-                      textSize === s ? "var(--accent)" : "var(--bg-card-hover)",
-                    color:
-                      textSize === s
-                        ? "var(--accent-text)"
-                        : "var(--text-primary)",
+                    background: textSize === s ? "var(--accent)" : "var(--bg-card-hover)",
+                    color: textSize === s ? "var(--accent-text)" : "var(--text-primary)",
                   }}
                 >
                   {s}
@@ -261,7 +222,6 @@ export default function TopicPage({
             the Quran
           </p>
 
-          {/* Disclaimer */}
           {topic.disclaimer && (
             <div
               className="rounded-2xl p-5 mt-6"
@@ -301,36 +261,46 @@ export default function TopicPage({
                       {verse.surah_name_en}
                     </span>
                     <span
-                      style={{
-                        color: "var(--text-muted)",
-                        fontSize: sizes.reference,
-                      }}
+                      style={{ color: "var(--text-muted)", fontSize: sizes.reference }}
                     >
                       {verse.surah}:{verse.ayah}
                     </span>
                   </div>
-                  <button
-                    onClick={() => toggleBookmark(ref)}
-                    className="text-xs px-3 py-1.5 rounded-full transition"
-                    style={{
-                      background: isBookmarked
-                        ? "var(--accent)"
-                        : "var(--bg-card)",
-                      color: isBookmarked
-                        ? "var(--accent-text)"
-                        : "var(--text-muted)",
-                    }}
-                  >
-                    {isBookmarked ? "Saved" : "Save"}
-                  </button>
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() =>
+                        setShareData({
+                          arabic: verse.arabic_text,
+                          translation: verse.translation_en,
+                          reference: ref,
+                        })
+                      }
+                      className="text-xs px-3 py-1.5 rounded-full transition"
+                      style={{
+                        background: "var(--bg-card)",
+                        color: "var(--text-muted)",
+                      }}
+                    >
+                      Share
+                    </button>
+                    {isPro && (
+                      <button
+                        onClick={() => toggleBookmark(ref)}
+                        className="text-xs px-3 py-1.5 rounded-full transition"
+                        style={{
+                          background: isBookmarked ? "var(--accent)" : "var(--bg-card)",
+                          color: isBookmarked ? "var(--accent-text)" : "var(--text-muted)",
+                        }}
+                      >
+                        {isBookmarked ? "Saved" : "Save"}
+                      </button>
+                    )}
+                  </div>
                 </div>
 
                 <p
                   className="arabic text-right mb-8"
-                  style={{
-                    fontSize: sizes.main,
-                    color: "var(--text-primary)",
-                  }}
+                  style={{ fontSize: sizes.main, color: "var(--text-primary)" }}
                 >
                   {verse.arabic_text}
                 </p>
@@ -343,12 +313,14 @@ export default function TopicPage({
                 </p>
 
                 <div className="mb-10">
-                  <p
-                    className="mb-4"
-                    style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                  >
-                    Word by word — tap any word
-                  </p>
+                   {verseIndex === 0 && (
+                    <p
+                      className="mb-4"
+                      style={{ color: "var(--text-muted)", fontSize: sizes.context }}
+                    >
+                      Word by word — tap any word
+                    </p>
+                  )}
                   <div className="flex flex-wrap gap-2">
                     {verse.word_by_word.map((word, i) => (
                       <button
@@ -365,10 +337,7 @@ export default function TopicPage({
                         </span>
                         <span
                           className="block"
-                          style={{
-                            color: "var(--text-muted)",
-                            fontSize: sizes.context,
-                          }}
+                          style={{ color: "var(--text-muted)", fontSize: sizes.context }}
                         >
                           {word.meaning_en}
                         </span>
@@ -377,7 +346,6 @@ export default function TopicPage({
                   </div>
                 </div>
 
-                {/* Socratic Dropdowns */}
                 <div>
                   {verse.socratic_dropdowns.map((dropdown, i) => (
                     <details
@@ -395,10 +363,7 @@ export default function TopicPage({
                         <span>{dropdown.question}</span>
                         <span
                           className="chevron transition"
-                          style={{
-                            color: "var(--text-muted)",
-                            fontSize: sizes.context,
-                          }}
+                          style={{ color: "var(--text-muted)", fontSize: sizes.context }}
                         >
                           ▸
                         </span>
@@ -409,10 +374,7 @@ export default function TopicPage({
                       >
                         <p
                           className="leading-relaxed mb-5"
-                          style={{
-                            color: "var(--text-secondary)",
-                            fontSize: sizes.body,
-                          }}
+                          style={{ color: "var(--text-secondary)", fontSize: sizes.body }}
                         >
                           {dropdown.answer}
                         </p>
@@ -429,10 +391,7 @@ export default function TopicPage({
                             >
                               <div
                                 className="font-medium mb-3"
-                                style={{
-                                  color: "var(--accent)",
-                                  fontSize: sizes.reference,
-                                }}
+                                style={{ color: "var(--accent)", fontSize: sizes.reference }}
                               >
                                 {ev.verse_ref}
                               </div>
@@ -444,19 +403,13 @@ export default function TopicPage({
                               </p>
                               <p
                                 className="mb-3 leading-relaxed"
-                                style={{
-                                  color: "var(--text-primary)",
-                                  fontSize: sizes.body,
-                                }}
+                                style={{ color: "var(--text-primary)", fontSize: sizes.body }}
                               >
                                 {ev.translation_en}
                               </p>
                               <p
                                 className="italic leading-relaxed"
-                                style={{
-                                  color: "var(--text-muted)",
-                                  fontSize: sizes.context,
-                                }}
+                                style={{ color: "var(--text-muted)", fontSize: sizes.context }}
                               >
                                 {ev.why_cited}
                               </p>
@@ -465,47 +418,44 @@ export default function TopicPage({
                         </div>
 
                         {dropdown.sub_dropdowns?.map((sub, k) => (
-                          <NestedDropdown
-                            key={k}
-                            dropdown={sub}
-                            depth={1}
-                            sizes={sizes}
-                          />
+                          <NestedDropdown key={k} dropdown={sub} depth={1} sizes={sizes} />
                         ))}
                       </div>
                     </details>
                   ))}
                 </div>
 
-                <div className="mt-6">
-                  <button
-                    onClick={() =>
-                      setActiveJournal(activeJournal === ref ? null : ref)
-                    }
-                    className="transition hover:opacity-80"
-                    style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                  >
-                    {activeJournal === ref ? "Close journal" : "Write in journal"}
-                    {journalText && " • saved"}
-                  </button>
-                  {activeJournal === ref && (
-                    <div className="mt-3">
-                      <textarea
-                        value={journalText}
-                        onChange={(e) => saveJournal(ref, e.target.value)}
-                        placeholder="Your reflection..."
-                        className="w-full p-4 rounded-2xl resize-none outline-none transition"
-                        rows={4}
-                        style={{
-                          background: "var(--bg-card)",
-                          color: "var(--text-primary)",
-                          border: "none",
-                          fontSize: sizes.body,
-                        }}
-                      />
-                    </div>
-                  )}
-                </div>
+                {isPro && (
+                  <div className="mt-6">
+                    <button
+                      onClick={() =>
+                        setActiveJournal(activeJournal === ref ? null : ref)
+                      }
+                      className="transition hover:opacity-80"
+                      style={{ color: "var(--text-muted)", fontSize: sizes.context }}
+                    >
+                      {activeJournal === ref ? "Close journal" : "Write in journal"}
+                      {journalText && " • saved"}
+                    </button>
+                    {activeJournal === ref && (
+                      <div className="mt-3">
+                        <textarea
+                          value={journalText}
+                          onChange={(e) => saveJournal(ref, e.target.value)}
+                          placeholder="Your reflection..."
+                          className="w-full p-4 rounded-2xl resize-none outline-none transition"
+                          rows={4}
+                          style={{
+                            background: "var(--bg-card)",
+                            color: "var(--text-primary)",
+                            border: "none",
+                            fontSize: sizes.body,
+                          }}
+                        />
+                      </div>
+                    )}
+                  </div>
+                )}
 
                 {verseIndex < topic.verses.length - 1 && (
                   <div
@@ -518,7 +468,6 @@ export default function TopicPage({
           })}
         </div>
 
-        {/* Related Questions */}
         {relatedQuestions.length > 0 && (
           <div className="mt-20">
             <p
@@ -535,10 +484,7 @@ export default function TopicPage({
                   className="group flex items-start justify-between p-5 rounded-2xl transition hover:scale-[1.01]"
                   style={{ background: "var(--bg-card)" }}
                 >
-                  <span
-                    className="font-medium leading-snug pr-4"
-                    style={{ fontSize: sizes.body }}
-                  >
+                  <span className="font-medium leading-snug pr-4" style={{ fontSize: sizes.body }}>
                     {q.question}
                   </span>
                   <span
@@ -553,15 +499,11 @@ export default function TopicPage({
           </div>
         )}
 
-        {/* Reassurance */}
         <div
           className="rounded-3xl p-8 mt-20 text-center"
           style={{ background: "var(--bg-card)" }}
         >
-          <p
-            className="mb-4"
-            style={{ color: "var(--accent)", fontSize: sizes.context }}
-          >
+          <p className="mb-4" style={{ color: "var(--accent)", fontSize: sizes.context }}>
             Reassurance
           </p>
           <p
@@ -596,24 +538,15 @@ export default function TopicPage({
                   {selectedWord.arabic}
                 </p>
                 <div className="text-center mb-6">
-                  <p
-                    className="mb-2"
-                    style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                  >
+                  <p className="mb-2" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
                     Root letters
                   </p>
-                  <p
-                    className="arabic text-2xl"
-                    style={{ color: "var(--accent)" }}
-                  >
+                  <p className="arabic text-2xl" style={{ color: "var(--accent)" }}>
                     {selectedWord.root}
                   </p>
                 </div>
                 <div className="text-center mb-8">
-                  <p
-                    className="mb-2"
-                    style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                  >
+                  <p className="mb-2" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
                     Meaning
                   </p>
                   <p style={{ color: "var(--text-primary)", fontSize: sizes.body }}>
@@ -621,54 +554,17 @@ export default function TopicPage({
                   </p>
                 </div>
 
-                {isPro ? (
-                  <button
-                    onClick={() => setShowRootGraph(selectedWord.root)}
-                    className="w-full py-3 rounded-2xl font-medium transition mb-3"
-                    style={{
-                      background: "var(--accent)",
-                      color: "var(--accent-text)",
-                      fontSize: sizes.body,
-                    }}
-                  >
-                    Show all verses with this root
-                  </button>
-                ) : (
-                  <div
-                    className="rounded-2xl p-4 mb-3 text-center"
-                    style={{ background: "var(--bg-card-hover)" }}
-                  >
-                    <p
-                      className="mb-2"
-                      style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                    >
-                      Pro feature
-                    </p>
-                    <p
-                      className="mb-3"
-                      style={{
-                        color: "var(--text-secondary)",
-                        fontSize: sizes.context,
-                      }}
-                    >
-                      See every verse using this root word
-                    </p>
-                    <button
-                      onClick={() => {
-                        setIsPro(true);
-                        setShowRootGraph(selectedWord.root);
-                      }}
-                      className="w-full py-2.5 rounded-xl font-medium transition"
-                      style={{
-                        background: "var(--accent)",
-                        color: "var(--accent-text)",
-                        fontSize: sizes.body,
-                      }}
-                    >
-                      Activate Pro
-                    </button>
-                  </div>
-                )}
+                <button
+                  onClick={() => setShowRootGraph(selectedWord.root)}
+                  className="w-full py-3 rounded-2xl font-medium transition mb-3"
+                  style={{
+                    background: "var(--accent)",
+                    color: "var(--accent-text)",
+                    fontSize: sizes.body,
+                  }}
+                >
+                  Show all verses with this root
+                </button>
 
                 <button
                   onClick={() => setSelectedWord(null)}
@@ -692,55 +588,38 @@ export default function TopicPage({
                   ← Back
                 </button>
                 <div className="text-center mb-8">
-                  <p
-                    className="mb-2"
-                    style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                  >
+                  <p className="mb-2" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
                     Root
                   </p>
-                  <p
-                    className="arabic text-3xl"
-                    style={{ color: "var(--accent)" }}
-                  >
+                  <p className="arabic text-3xl" style={{ color: "var(--accent)" }}>
                     {showRootGraph}
                   </p>
                 </div>
-                {findVersesByRoot(showRootGraph).length > 0 ? (
+                {findAyahsByRootGlobal(showRootGraph).length > 0 ? (
                   <div className="space-y-3">
-                    {findVersesByRoot(showRootGraph).map((v, i) => (
+                    {findAyahsByRootGlobal(showRootGraph).map((v, i) => (
                       <div
                         key={i}
                         className="rounded-xl p-4"
                         style={{ background: "var(--bg-card-hover)" }}
                       >
-                        <p
-                          className="mb-2"
-                          style={{
-                            color: "var(--accent)",
-                            fontSize: sizes.context,
-                          }}
-                        >
-                          {v.surah_name} {v.ref}
-                        </p>
-                        <p className="arabic text-lg mb-2 text-right">
-                          {v.arabic}
-                        </p>
-                        <p
-                          style={{
-                            color: "var(--text-secondary)",
-                            fontSize: sizes.context,
-                          }}
-                        >
+                        <div className="flex items-baseline justify-between mb-2">
+                          <p style={{ color: "var(--accent)", fontSize: sizes.context }}>
+                            {v.surah_name} {v.ref}
+                          </p>
+                          <p style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
+                            {v.source}
+                          </p>
+                        </div>
+                        <p className="arabic text-lg mb-2 text-right">{v.arabic}</p>
+                        <p style={{ color: "var(--text-secondary)", fontSize: sizes.context }}>
                           {v.translation}
                         </p>
                       </div>
                     ))}
                   </div>
                 ) : (
-                  <p
-                    className="text-center"
-                    style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                  >
+                  <p className="text-center" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
                     No other verses in current data use this root yet.
                   </p>
                 )}
@@ -748,6 +627,16 @@ export default function TopicPage({
             )}
           </div>
         </div>
+      )}
+
+      {/* Share Modal */}
+      {shareData && (
+        <ShareModal
+          arabic={shareData.arabic}
+          translation={shareData.translation}
+          reference={shareData.reference}
+          onClose={() => setShareData(null)}
+        />
       )}
     </main>
   );

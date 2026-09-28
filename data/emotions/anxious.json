@@ -3,13 +3,13 @@
   "label": "Anxious",
   "category": "difficult",
   "icon": "Waves",
-  "acknowledgment": "Anxiety is not a flaw. The Quran speaks to this feeling with gentleness. These words have comforted hearts for 1400 years. They are here for you today.",
+  "acknowledgment": "Anxiety is not a flaw. The Quran speaks to this feeling with gentleness. These words have comforted hearts for 1400 years.",
   "verses": [
     {
       "verse_ref": "13:28",
       "arabic": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
       "translation_en": "Unquestionably, by the remembrance of Allah hearts find peace.",
-      "context": "Revealed in Makkah. The disbelievers had asked for a sign. Allah answered with this verse: peace is in His remembrance, not in miracles."
+      "context": "Revealed in Makkah. The disbelievers had asked for a sign. Allah answered with this verse: peace is in His remembrance."
     },
     {
       "verse_ref": "2:286",
@@ -27,7 +27,7 @@
       "verse_ref": "65:3",
       "arabic": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
       "translation_en": "And whoever relies upon Allah, then He is sufficient for him.",
-      "context": "Tawakkul comes with effort. It is placed in Allah after the effort is made."
+      "context": "Tawakkul comes with effort. You do your part, then you place your trust in Allah."
     },
     {
       "verse_ref": "3:173",
@@ -63,7 +63,7 @@
       "verse_ref": "2:216",
       "arabic": "وَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَّكُمْ وَعَسَىٰ أَن تُحِبُّوا شَيْئًا وَهُوَ شَرٌّ لَّكُمْ",
       "translation_en": "And perhaps you hate a thing and it is good for you; and perhaps you love a thing and it is bad for you.",
-      "context": "The outcome may differ from what the moment feels like."
+      "context": "The moment does not decide the outcome. Allah does."
     }
   ],
   "names_of_allah": [
@@ -71,7 +71,7 @@
       "arabic": "السَّلَامُ",
       "transliteration": "As-Salaam",
       "meaning_en": "The Source of Peace",
-      "explanation": "Peace is not something you create. It is something you return to. When your mind will not settle, this name is a reminder that peace is already with Him.",
+      "explanation": "Peace is something you return to. When your mind cannot settle, this name is a reminder that peace is already with Him.",
       "evidence_verses": [
         {
           "verse_ref": "59:23",
@@ -84,7 +84,7 @@
       "arabic": "اللَّطِيفُ",
       "transliteration": "Al-Lateef",
       "meaning_en": "The Subtly Kind",
-      "explanation": "He knows the smallest details of what you carry. His kindness does not always look like what we expect, but it is always kindness.",
+      "explanation": "He knows the smallest details of what you carry. He sees what no one else sees, and He does not turn away.",
       "evidence_verses": [
         {
           "verse_ref": "6:103",
@@ -102,7 +102,7 @@
       "arabic": "الْوَكِيلُ",
       "transliteration": "Al-Wakeel",
       "meaning_en": "The Trustee",
-      "explanation": "When you have done what you can, He handles what you cannot. Trust is not passive. It is what you do after your effort ends.",
+      "explanation": "When you have done what you can, He handles what you cannot. Trust is not passive. It is what you do after you have done your part.",
       "evidence_verses": [
         {
           "verse_ref": "3:173",
@@ -138,7 +138,7 @@
       "arabic": "الْمُجِيبُ",
       "transliteration": "Al-Mujeeb",
       "meaning_en": "The Responsive",
-      "explanation": "He responds. Not always in the way we expect. Not always in the time we choose. But He responds.",
+      "explanation": "He responds. When you call, He is already near.",
       "evidence_verses": [
         {
           "verse_ref": "11:61",
@@ -156,7 +156,7 @@
       "arabic": "الرَّحْمَٰنُ",
       "transliteration": "Ar-Rahman",
       "meaning_en": "The Most Compassionate",
-      "explanation": "His mercy is not a reward for the deserving. It is the air you are already breathing. It does not run out.",
+      "explanation": "His mercy does not wait for you to deserve it. It is already with you.",
       "evidence_verses": [
         {
           "verse_ref": "55:1-2",

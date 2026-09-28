@@ -3,7 +3,6 @@
   "topic_title": "Hope",
   "topic_icon": "Sunrise",
   "topic_description": "When the heart looks forward",
-  "disclaimer": "This topic is for reflection and spiritual growth. It is not a substitute for professional care.",
   "reassurance_anchor": {
     "verse_ref": "39:53",
     "text_en": "Do not despair of the mercy of Allah."
@@ -31,13 +30,13 @@
               "verse_ref": "39:53",
               "arabic": "قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ",
               "translation_en": "Say, 'O My servants who have transgressed against themselves.'",
-              "why_cited": "It names those who went too far, not the perfect."
+              "why_cited": ""
             },
             {
               "verse_ref": "39:53",
               "arabic": "إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ",
               "translation_en": "Indeed, it is He who is the Forgiving, the Merciful.",
-              "why_cited": "It names forgiveness and mercy as His attributes."
+              "why_cited": ""
             }
           ]
         }
@@ -64,13 +63,13 @@
               "verse_ref": "94:5-6",
               "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
               "translation_en": "For indeed, with hardship comes ease.",
-              "why_cited": "It repeats the promise twice."
+              "why_cited": ""
             },
             {
               "verse_ref": "65:4",
               "arabic": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مِنْ أَمْرِهِ يُسْرًا",
               "translation_en": "And whoever fears Allah, He will make for him ease in his affair.",
-              "why_cited": "It places ease as a promise tied to taqwa."
+              "why_cited": ""
             }
           ]
         }
@@ -92,19 +91,19 @@
       "socratic_dropdowns": [
         {
           "question": "Who said this?",
-          "answer": "Yaqub, to his sons. He had lost Yusuf. Years had passed. And yet, his words were hope.",
+          "answer": "He had lost Yusuf. Years had passed. Yet he told his sons not to despair of the relief of Allah.",
           "evidence": [
             {
               "verse_ref": "12:86",
               "arabic": "إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ",
               "translation_en": "I only complain of my suffering and my grief to Allah.",
-              "why_cited": "It shows grief spoken, but not without hope."
+              "why_cited": ""
             },
             {
               "verse_ref": "12:87",
               "arabic": "وَلَا تَيْأَسُوا مِن رَّوْحِ اللَّهِ",
               "translation_en": "And do not despair of the relief of Allah.",
-              "why_cited": "It commands hope after long grief."
+              "why_cited": ""
             }
           ]
         }
@@ -127,19 +126,19 @@
       "socratic_dropdowns": [
         {
           "question": "What is the way out?",
-          "answer": "It is not described. It is left open. The verse promises a way, not the shape of it.",
+          "answer": "Allah promises a way out. Provision can come from where you do not expect.",
           "evidence": [
             {
               "verse_ref": "65:2",
               "arabic": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا",
               "translation_en": "And whoever fears Allah, He will make for him a way out.",
-              "why_cited": "It promises a way out without describing it."
+              "why_cited": ""
             },
             {
               "verse_ref": "65:3",
               "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ",
               "translation_en": "And will provide for him from where he does not expect.",
-              "why_cited": "It adds provision from unexpected places."
+              "why_cited": ""
             }
           ]
         }
@@ -161,19 +160,19 @@
       "socratic_dropdowns": [
         {
           "question": "What is the context of this verse?",
-          "answer": "It comes after a description of tests. The verse answers the question: when will help come?",
+          "answer": "After describing severe testing, the verse brings the question: “When is the help of Allah?” The answer: “Unquestionably, the help of Allah is near.” (2:214)",
           "evidence": [
             {
               "verse_ref": "2:214",
               "arabic": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا الْجَنَّةَ وَلَمَّا يَأْتِكُم مَّثَلُ الَّذِينَ خَلَوْا مِن قَبْلِكُم",
               "translation_en": "Or do you think that you will enter Paradise while such testing has not yet come to you?",
-              "why_cited": "It names the test before the promise."
+              "why_cited": ""
             },
             {
               "verse_ref": "2:214",
               "arabic": "أَلَا إِنَّ نَصْرَ اللَّهِ قَرِيبٌ",
               "translation_en": "Unquestionably, the help of Allah is near.",
-              "why_cited": "It answers the question of timing."
+              "why_cited": ""
             }
           ]
         }
