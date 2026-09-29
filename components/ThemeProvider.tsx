@@ -15,9 +15,19 @@ export type Theme =
   | "amoled"
   | "forest"
   | "rose"
-  | "blossom"
+  | "slate"
+  | "blush"
+  | "sakura"
+  | "desert"
+  | "ember"
+  | "obsidian"
+  | "mint"
   | "ocean"
-  | "lavender";
+  | "lavender"
+  | "gold"
+  | "crimson"
+  | "cobalt"
+  | "coral";
 
 export type TextSize = "sm" | "md" | "lg" | "xl";
 
@@ -29,20 +39,15 @@ type ThemeContextType = {
   isPro: boolean;
   setIsPro: (v: boolean) => void;
   tryUnlockCode: (code: string) => boolean;
+  checkLicenseKey: () => Promise<boolean>;
 };
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-// ═══════════════════════════════════════════════════════════════
-//  HARDCODED UNLOCK CODES
-//  Only used via URL parameter: ?unlock=CODE
-//  Never shown in the UI.
-//  To revoke a leaked code: remove it from this array and redeploy.
-// ═══════════════════════════════════════════════════════════════
 const VALID_CODES = [
   "TADABBUR-FAMILY-2026",
   "TADABBUR-FRIENDS-2026",
-  "TADABBUR-SPECIAL-001",
+  "TADABBBUR-SPECIAL-001",
 ];
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
@@ -50,16 +55,20 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [textSize, setTextSizeState] = useState<TextSize>("md");
   const [isPro, setIsProState] = useState(false);
 
-  // Initial load: check localStorage + URL param
   useEffect(() => {
     const savedTheme = localStorage.getItem("tadabbur-theme") as Theme;
     const savedSize = localStorage.getItem("tadabbur-text-size") as TextSize;
     const savedPro = localStorage.getItem("tadabbur-is-pro") === "true";
+    const savedKey = localStorage.getItem("tadabbur-license-key");
+
     if (savedTheme) setThemeState(savedTheme);
     if (savedSize) setTextSizeState(savedSize);
-    setIsProState(savedPro);
+    if (savedPro || savedKey) setIsProState(true);
 
-    // Check URL for ?unlock=CODE
+    if (savedKey) {
+      checkLicenseKey();
+    }
+
     if (typeof window !== "undefined") {
       const params = new URLSearchParams(window.location.search);
       const codeFromUrl = params.get("unlock");
@@ -70,7 +79,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
           localStorage.setItem("tadabbur-is-pro", "true");
           localStorage.setItem("tadabbur-pro-unlocked-by", cleaned);
         }
-        // Remove ?unlock= from URL for cleanliness
         const url = new URL(window.location.href);
         url.searchParams.delete("unlock");
         window.history.replaceState({}, "", url.toString());
@@ -107,6 +115,31 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     return false;
   };
 
+  const checkLicenseKey = async (): Promise<boolean> => {
+    const savedKey = localStorage.getItem("tadabbur-license-key");
+    if (!savedKey) return false;
+
+    try {
+      const res = await fetch("/api/lemonsqueezy/validate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ licenseKey: savedKey }),
+      });
+      const data = await res.json();
+      if (data.valid) {
+        setIsProState(true);
+        return true;
+      } else {
+        localStorage.removeItem("tadabbur-license-key");
+        localStorage.removeItem("tadabbur-is-pro");
+        setIsProState(false);
+        return false;
+      }
+    } catch {
+      return false;
+    }
+  };
+
   return (
     <ThemeContext.Provider
       value={{
@@ -117,6 +150,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
         isPro,
         setIsPro,
         tryUnlockCode,
+        checkLicenseKey,
       }}
     >
       {children}

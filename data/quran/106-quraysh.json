@@ -1,0 +1,56 @@
+{
+  "surah": 106,
+  "name_en": "Quraysh",
+  "name_ar": "قريش",
+  "name_transliteration": "Quraysh",
+  "meaning_en": "Quraysh",
+  "revelation_type": "Meccan",
+  "total_ayahs": 4,
+  "ayahs": [
+    {
+      "ayah": 1,
+      "arabic": "لِإِيلَافِ قُرَيْشٍ",
+      "translation_en": "For the familiarity of the Quraysh,",
+      "word_by_word": [
+        { "arabic": "لِإِيلَافِ", "root": "أ-ل-ف", "meaning_en": "For the familiarity" },
+        { "arabic": "قُرَيْشٍ", "root": "ق-ر-ش", "meaning_en": "Of the Quraysh" }
+      ]
+    },
+    {
+      "ayah": 2,
+      "arabic": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+      "translation_en": "Their familiarity with the journey of winter and summer,",
+      "word_by_word": [
+        { "arabic": "إِيلَافِهِمْ", "root": "أ-ل-ف", "meaning_en": "Their familiarity" },
+        { "arabic": "رِحْلَةَ", "root": "ر-ح-ل", "meaning_en": "With the journey" },
+        { "arabic": "الشِّتَاءِ", "root": "ش-ت-ي", "meaning_en": "Of winter" },
+        { "arabic": "وَالصَّيْفِ", "root": "ص-ي-ف", "meaning_en": "And summer" }
+      ]
+    },
+    {
+      "ayah": 3,
+      "arabic": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ",
+      "translation_en": "Let them worship the Lord of this House,",
+      "word_by_word": [
+        { "arabic": "فَلْيَعْبُدُوا", "root": "ع-ب-د", "meaning_en": "Let them worship" },
+        { "arabic": "رَبَّ", "root": "ر-ب-ب", "meaning_en": "The Lord" },
+        { "arabic": "هَٰذَا", "root": "ه-ذ-ا", "meaning_en": "Of this" },
+        { "arabic": "الْبَيْتِ", "root": "ب-ي-ت", "meaning_en": "House" }
+      ]
+    },
+    {
+      "ayah": 4,
+      "arabic": "الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ",
+      "translation_en": "Who has fed them, saving them from hunger, and made them safe from fear.",
+      "word_by_word": [
+        { "arabic": "الَّذِي", "root": "ال-ذ-ي", "meaning_en": "Who" },
+        { "arabic": "أَطْعَمَهُم", "root": "ط-ع-م", "meaning_en": "Has fed them" },
+        { "arabic": "مِّن", "root": "م-ن", "meaning_en": "From" },
+        { "arabic": "جُوعٍ", "root": "ج-و-ع", "meaning_en": "Hunger" },
+        { "arabic": "وَآمَنَهُم", "root": "أ-م-ن", "meaning_en": "And made them safe" },
+        { "arabic": "مِّنْ", "root": "م-ن", "meaning_en": "From" },
+        { "arabic": "خَوْفٍ", "root": "خ-و-ف", "meaning_en": "Fear" }
+      ]
+    }
+  ]
+}

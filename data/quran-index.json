@@ -1,7 +1,17 @@
 {
   "surahs": [
     { "surah": 1, "name_en": "Al-Fatiha", "name_ar": "الفاتحة", "name_transliteration": "Al-Fatiha", "meaning_en": "The Opening", "revelation_type": "Meccan", "total_ayahs": 7 },
+    { "surah": 67, "name_en": "Al-Mulk", "name_ar": "الملك", "name_transliteration": "Al-Mulk", "meaning_en": "The Sovereignty", "revelation_type": "Meccan", "total_ayahs": 30 },
+    { "surah": 97, "name_en": "Al-Qadr", "name_ar": "القدر", "name_transliteration": "Al-Qadr", "meaning_en": "The Power, Fate", "revelation_type": "Meccan", "total_ayahs": 5 },
+    { "surah": 102, "name_en": "At-Takathur", "name_ar": "التكاثر", "name_transliteration": "At-Takathur", "meaning_en": "The Rivalry in World Increase", "revelation_type": "Meccan", "total_ayahs": 8 },
+    { "surah": 103, "name_en": "Al-Asr", "name_ar": "العصر", "name_transliteration": "Al-Asr", "meaning_en": "The Time", "revelation_type": "Meccan", "total_ayahs": 3 },
+    { "surah": 105, "name_en": "Al-Fil", "name_ar": "الفيل", "name_transliteration": "Al-Fil", "meaning_en": "The Elephant", "revelation_type": "Meccan", "total_ayahs": 5 },
+    { "surah": 106, "name_en": "Quraysh", "name_ar": "قريش", "name_transliteration": "Quraysh", "meaning_en": "Quraysh", "revelation_type": "Meccan", "total_ayahs": 4 },
+    { "surah": 107, "name_en": "Al-Ma'un", "name_ar": "الماعون", "name_transliteration": "Al-Ma'un", "meaning_en": "The Small Kindnesses", "revelation_type": "Meccan", "total_ayahs": 7 },
     { "surah": 108, "name_en": "Al-Kawthar", "name_ar": "الكوثر", "name_transliteration": "Al-Kawthar", "meaning_en": "The Abundance", "revelation_type": "Meccan", "total_ayahs": 3 },
+    { "surah": 109, "name_en": "Al-Kafirun", "name_ar": "الكافرون", "name_transliteration": "Al-Kafirun", "meaning_en": "The Disbelievers", "revelation_type": "Meccan", "total_ayahs": 6 },
+    { "surah": 110, "name_en": "An-Nasr", "name_ar": "النصر", "name_transliteration": "An-Nasr", "meaning_en": "The Divine Support", "revelation_type": "Medinan", "total_ayahs": 3 },
+    { "surah": 111, "name_en": "Al-Masad", "name_ar": "المسد", "name_transliteration": "Al-Masad", "meaning_en": "The Palm Fibre", "revelation_type": "Meccan", "total_ayahs": 5 },
     { "surah": 112, "name_en": "Al-Ikhlas", "name_ar": "الإخلاص", "name_transliteration": "Al-Ikhlas", "meaning_en": "The Sincerity", "revelation_type": "Meccan", "total_ayahs": 4 },
     { "surah": 113, "name_en": "Al-Falaq", "name_ar": "الفلق", "name_transliteration": "Al-Falaq", "meaning_en": "The Daybreak", "revelation_type": "Meccan", "total_ayahs": 5 },
     { "surah": 114, "name_en": "An-Nas", "name_ar": "الناس", "name_transliteration": "An-Nas", "meaning_en": "Mankind", "revelation_type": "Meccan", "total_ayahs": 6 }

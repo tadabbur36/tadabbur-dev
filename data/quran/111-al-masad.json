@@ -1,0 +1,69 @@
+{
+  "surah": 111,
+  "name_en": "Al-Masad",
+  "name_ar": "المسد",
+  "name_transliteration": "Al-Masad",
+  "meaning_en": "The Palm Fibre",
+  "revelation_type": "Meccan",
+  "total_ayahs": 5,
+  "ayahs": [
+    {
+      "ayah": 1,
+      "arabic": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
+      "translation_en": "May the hands of Abu Lahab be ruined, and ruined is he.",
+      "word_by_word": [
+        { "arabic": "تَبَّتْ", "root": "ت-ب-ب", "meaning_en": "May be ruined" },
+        { "arabic": "يَدَا", "root": "ي-د-ي", "meaning_en": "The hands" },
+        { "arabic": "أَبِي", "root": "أ-ب-و", "meaning_en": "Of the father" },
+        { "arabic": "لَهَبٍ", "root": "ل-ه-ب", "meaning_en": "Of flame" },
+        { "arabic": "وَتَبَّ", "root": "ت-ب-ب", "meaning_en": "And ruined is he" }
+      ]
+    },
+    {
+      "ayah": 2,
+      "arabic": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
+      "translation_en": "His wealth will not avail him or that which he gained.",
+      "word_by_word": [
+        { "arabic": "مَا", "root": "م-ا", "meaning_en": "Not" },
+        { "arabic": "أَغْنَىٰ", "root": "غ-ن-ي", "meaning_en": "Will avail" },
+        { "arabic": "عَنْهُ", "root": "ع-ن", "meaning_en": "Him" },
+        { "arabic": "مَالُهُ", "root": "م-و-ل", "meaning_en": "His wealth" },
+        { "arabic": "وَمَا", "root": "و-م-ا", "meaning_en": "And what" },
+        { "arabic": "كَسَبَ", "root": "ك-س-ب", "meaning_en": "He gained" }
+      ]
+    },
+    {
+      "ayah": 3,
+      "arabic": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+      "translation_en": "He will enter to burn in a Fire of blazing flame,",
+      "word_by_word": [
+        { "arabic": "سَيَصْلَىٰ", "root": "ص-ل-ي", "meaning_en": "He will enter to burn" },
+        { "arabic": "نَارًا", "root": "ن-و-ر", "meaning_en": "A Fire" },
+        { "arabic": "ذَاتَ", "root": "ذ-و", "meaning_en": "Of" },
+        { "arabic": "لَهَبٍ", "root": "ل-ه-ب", "meaning_en": "Blazing flame" }
+      ]
+    },
+    {
+      "ayah": 4,
+      "arabic": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
+      "translation_en": "And his wife, the carrier of firewood,",
+      "word_by_word": [
+        { "arabic": "وَامْرَأَتُهُ", "root": "م-ر-أ", "meaning_en": "And his wife" },
+        { "arabic": "حَمَّالَةَ", "root": "ح-م-ل", "meaning_en": "The carrier" },
+        { "arabic": "الْحَطَبِ", "root": "ح-ط-ب", "meaning_en": "Of firewood" }
+      ]
+    },
+    {
+      "ayah": 5,
+      "arabic": "فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ",
+      "translation_en": "Will have a rope of palm fibre around her neck.",
+      "word_by_word": [
+        { "arabic": "فِي", "root": "ف-ي", "meaning_en": "In" },
+        { "arabic": "جِيدِهَا", "root": "ج-ي-د", "meaning_en": "Her neck" },
+        { "arabic": "حَبْلٌ", "root": "ح-ب-ل", "meaning_en": "A rope" },
+        { "arabic": "مِّن", "root": "م-ن", "meaning_en": "Of" },
+        { "arabic": "مَّسَدٍ", "root": "م-س-د", "meaning_en": "Palm fibre" }
+      ]
+    }
+  ]
+}

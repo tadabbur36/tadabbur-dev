@@ -1,0 +1,76 @@
+{
+  "surah": 97,
+  "name_en": "Al-Qadr",
+  "name_ar": "القدر",
+  "name_transliteration": "Al-Qadr",
+  "meaning_en": "The Power, Fate",
+  "revelation_type": "Meccan",
+  "total_ayahs": 5,
+  "ayahs": [
+    {
+      "ayah": 1,
+      "arabic": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
+      "translation_en": "Indeed, We sent it down during the Night of Decree.",
+      "word_by_word": [
+        { "arabic": "إِنَّا", "root": "إ-ن", "meaning_en": "Indeed, We" },
+        { "arabic": "أَنزَلْنَاهُ", "root": "ن-ز-ل", "meaning_en": "Sent it down" },
+        { "arabic": "فِي", "root": "ف-ي", "meaning_en": "During" },
+        { "arabic": "لَيْلَةِ", "root": "ل-ي-ل", "meaning_en": "The Night" },
+        { "arabic": "الْقَدْرِ", "root": "ق-د-ر", "meaning_en": "Of Decree" }
+      ]
+    },
+    {
+      "ayah": 2,
+      "arabic": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ",
+      "translation_en": "And what can make you know what is the Night of Decree?",
+      "word_by_word": [
+        { "arabic": "وَمَا", "root": "و-م-ا", "meaning_en": "And what" },
+        { "arabic": "أَدْرَاكَ", "root": "د-ر-ي", "meaning_en": "Can make you know" },
+        { "arabic": "مَا", "root": "م-ا", "meaning_en": "What" },
+        { "arabic": "لَيْلَةُ", "root": "ل-ي-ل", "meaning_en": "Is the Night" },
+        { "arabic": "الْقَدْرِ", "root": "ق-د-ر", "meaning_en": "Of Decree" }
+      ]
+    },
+    {
+      "ayah": 3,
+      "arabic": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+      "translation_en": "The Night of Decree is better than a thousand months.",
+      "word_by_word": [
+        { "arabic": "لَيْلَةُ", "root": "ل-ي-ل", "meaning_en": "The Night" },
+        { "arabic": "الْقَدْرِ", "root": "ق-د-ر", "meaning_en": "Of Decree" },
+        { "arabic": "خَيْرٌ", "root": "خ-ي-ر", "meaning_en": "Is better" },
+        { "arabic": "مِّنْ", "root": "م-ن", "meaning_en": "Than" },
+        { "arabic": "أَلْفِ", "root": "أ-ل-ف", "meaning_en": "A thousand" },
+        { "arabic": "شَهْرٍ", "root": "ش-ه-ر", "meaning_en": "Months" }
+      ]
+    },
+    {
+      "ayah": 4,
+      "arabic": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
+      "translation_en": "The angels and the Spirit descend therein by permission of their Lord for every matter.",
+      "word_by_word": [
+        { "arabic": "تَنَزَّلُ", "root": "ن-ز-ل", "meaning_en": "Descend" },
+        { "arabic": "الْمَلَائِكَةُ", "root": "م-ل-ك", "meaning_en": "The angels" },
+        { "arabic": "وَالرُّوحُ", "root": "ر-و-ح", "meaning_en": "And the Spirit" },
+        { "arabic": "فِيهَا", "root": "ف-ي", "meaning_en": "Therein" },
+        { "arabic": "بِإِذْنِ", "root": "أ-ذ-ن", "meaning_en": "By permission" },
+        { "arabic": "رَبِّهِم", "root": "ر-ب-ب", "meaning_en": "Of their Lord" },
+        { "arabic": "مِّن", "root": "م-ن", "meaning_en": "For" },
+        { "arabic": "كُلِّ", "root": "ك-ل", "meaning_en": "Every" },
+        { "arabic": "أَمْرٍ", "root": "أ-م-ر", "meaning_en": "Matter" }
+      ]
+    },
+    {
+      "ayah": 5,
+      "arabic": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
+      "translation_en": "Peace it is until the emergence of dawn.",
+      "word_by_word": [
+        { "arabic": "سَلَامٌ", "root": "س-ل-م", "meaning_en": "Peace" },
+        { "arabic": "هِيَ", "root": "ه-ي", "meaning_en": "It is" },
+        { "arabic": "حَتَّىٰ", "root": "ح-ت-ي", "meaning_en": "Until" },
+        { "arabic": "مَطْلَعِ", "root": "ط-ل-ع", "meaning_en": "The emergence" },
+        { "arabic": "الْفَجْرِ", "root": "ف-ج-ر", "meaning_en": "Of dawn" }
+      ]
+    }
+  ]
+}

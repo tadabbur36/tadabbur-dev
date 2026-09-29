@@ -1,0 +1,26 @@
+{
+  "id": "ayyub",
+  "title": "Ayyub",
+  "subtitle": "Al-Anbiya, Sad",
+  "surah_refs": [21, 38, 4],
+  "total_ayahs": 6,
+  "sections": [
+    {
+      "heading": "The Trial",
+      "ayahs": [
+        { "verse_ref": "21:83", "arabic": "وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُ أَنِّي مَسَّنِيَ الضُّرُّ وَأَنتَ أَرْحَمُ الرَّاحِمِينَ", "translation_en": "And Ayyub, when he called to his Lord, 'Indeed, adversity has touched me, and You are the Most Merciful of the merciful.'" },
+        { "verse_ref": "38:41", "arabic": "وَاذْكُرْ عَبْدَنَا أَيُّوبَ إِذْ نَادَىٰ رَبَّهُ أَنِّي مَسَّنِيَ الشَّيْطَانُ بِنُصْبٍ وَعَذَابٍ", "translation_en": "And remember Our servant Ayyub, when he called to his Lord, 'Indeed, Satan has touched me with hardship and torment.'" },
+        { "verse_ref": "4:163", "arabic": "وَأَوْحَيْنَا إِلَىٰ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَعِيسَىٰ وَأَيُّوبَ", "translation_en": "And We revealed to Ibrahim and Ismail and Ishaq and Yaqub and the tribes and Isa and Ayyub." }
+      ]
+    },
+    {
+      "heading": "The Relief",
+      "ayahs": [
+        { "verse_ref": "21:84", "arabic": "فَاسْتَجَبْنَا لَهُ فَكَشَفْنَا مَا بِهِ مِن ضُرٍّ ۖ وَآتَيْنَاهُ أَهْلَهُ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَابِدِينَ", "translation_en": "So We responded to him and removed what afflicted him of adversity. And We gave him back his family and the like thereof with them as mercy from Us and a reminder for the worshippers." },
+        { "verse_ref": "38:42", "arabic": "ارْكُضْ بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌ بَارِدٌ وَشَرَابٌ", "translation_en": "'Strike the ground with your foot; this is a spring for you, cool and a drink.'" },
+        { "verse_ref": "38:43", "arabic": "وَوَهَبْنَا لَهُ أَهْلَهُ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنَّا وَذِكْرَىٰ لِأُولِي الْأَلْبَابِ", "translation_en": "And We granted him his family and the like thereof with them as mercy from Us and a reminder for those of understanding." },
+        { "verse_ref": "38:44", "arabic": "وَخُذْ بِيَدِكَ ضِغْثًا فَاضْرِب بِّهِ وَلَا تَحْنَثْ ۗ إِنَّا وَجَدْنَاهُ صَابِرًا ۚ نِّعْمَ الْعَبْدُ ۖ إِنَّهُ أَوَّابٌ", "translation_en": "And take in your hand a bundle of grass and strike with it, and do not break your oath. Indeed, We found him patient, an excellent servant. Indeed, he was one repeatedly turning back to Allah." }
+      ]
+    }
+  ]
+}

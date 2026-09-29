@@ -1,34 +1,20 @@
 {
   "qasas": [
-    {
-      "slug": "yusuf",
-      "title": "Yusuf",
-      "subtitle": "Surah Yusuf",
-      "total_ayahs": 111
-    },
-    {
-      "slug": "musa",
-      "title": "Musa",
-      "subtitle": "Multiple surahs",
-      "total_ayahs": 200
-    },
-    {
-      "slug": "maryam",
-      "title": "Maryam",
-      "subtitle": "Al-Imran & Maryam",
-      "total_ayahs": 40
-    },
-    {
-      "slug": "ibrahim",
-      "title": "Ibrahim",
-      "subtitle": "Multiple surahs",
-      "total_ayahs": 80
-    },
-    {
-      "slug": "yunus",
-      "title": "Yunus",
-      "subtitle": "Multiple surahs",
-      "total_ayahs": 20
-    }
+    { "slug": "yusuf", "title": "Yusuf", "subtitle": "Surah Yusuf", "total_ayahs": 111 },
+    { "slug": "musa", "title": "Musa", "subtitle": "Multiple surahs", "total_ayahs": 200 },
+    { "slug": "maryam", "title": "Maryam", "subtitle": "Al-Imran & Maryam", "total_ayahs": 40 },
+    { "slug": "ibrahim", "title": "Ibrahim", "subtitle": "Multiple surahs", "total_ayahs": 80 },
+    { "slug": "yunus", "title": "Yunus", "subtitle": "Multiple surahs", "total_ayahs": 20 },
+    { "slug": "bani-israel", "title": "Bani Israel", "subtitle": "Al-Baqarah, Al-A'raf, Al-Ma'idah", "total_ayahs": 40 },
+    { "slug": "adam", "title": "Adam", "subtitle": "Al-Baqarah, Al-A'raf, Ta-Ha", "total_ayahs": 20 },
+    { "slug": "nuh", "title": "Nuh", "subtitle": "Hud, Nuh, Al-Mu'minun", "total_ayahs": 20 },
+    { "slug": "hud", "title": "Hud", "subtitle": "Hud, Al-A'raf, Ash-Shu'ara", "total_ayahs": 15 },
+    { "slug": "salih", "title": "Salih", "subtitle": "Al-A'raf, Hud, Ash-Shu'ara", "total_ayahs": 15 },
+    { "slug": "lut", "title": "Lut", "subtitle": "Al-A'raf, Hud, Ash-Shu'ara", "total_ayahs": 12 },
+    { "slug": "ayyub", "title": "Ayyub", "subtitle": "Al-Anbiya, Sad", "total_ayahs": 6 },
+    { "slug": "musa-khidr", "title": "Musa & Khidr", "subtitle": "Al-Kahf", "total_ayahs": 22 },
+    { "slug": "dawud-jalut", "title": "Dawud & Jalut", "subtitle": "Al-Baqarah", "total_ayahs": 8 },
+    { "slug": "sulaiman", "title": "Sulaiman", "subtitle": "An-Naml, Saba, Al-Anbiya", "total_ayahs": 15 },
+    { "slug": "ashab-al-kahf", "title": "Ashab al-Kahf", "subtitle": "Al-Kahf", "total_ayahs": 14 }
   ]
 }

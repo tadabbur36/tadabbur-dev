@@ -1,0 +1,69 @@
+{
+  "surah": 105,
+  "name_en": "Al-Fil",
+  "name_ar": "الفيل",
+  "name_transliteration": "Al-Fil",
+  "meaning_en": "The Elephant",
+  "revelation_type": "Meccan",
+  "total_ayahs": 5,
+  "ayahs": [
+    {
+      "ayah": 1,
+      "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
+      "translation_en": "Have you not considered how your Lord dealt with the companions of the elephant?",
+      "word_by_word": [
+        { "arabic": "أَلَمْ", "root": "أ-ل-م", "meaning_en": "Have you not" },
+        { "arabic": "تَرَ", "root": "ر-أ-ي", "meaning_en": "Considered" },
+        { "arabic": "كَيْفَ", "root": "ك-ي-ف", "meaning_en": "How" },
+        { "arabic": "فَعَلَ", "root": "ف-ع-ل", "meaning_en": "Dealt" },
+        { "arabic": "رَبُّكَ", "root": "ر-ب-ب", "meaning_en": "Your Lord" },
+        { "arabic": "بِأَصْحَابِ", "root": "ص-ح-ب", "meaning_en": "With the companions" },
+        { "arabic": "الْفِيلِ", "root": "ف-ي-ل", "meaning_en": "Of the elephant" }
+      ]
+    },
+    {
+      "ayah": 2,
+      "arabic": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
+      "translation_en": "Did He not make their plan go astray?",
+      "word_by_word": [
+        { "arabic": "أَلَمْ", "root": "أ-ل-م", "meaning_en": "Did He not" },
+        { "arabic": "يَجْعَلْ", "root": "ج-ع-ل", "meaning_en": "Make" },
+        { "arabic": "كَيْدَهُمْ", "root": "ك-ي-د", "meaning_en": "Their plan" },
+        { "arabic": "فِي", "root": "ف-ي", "meaning_en": "In" },
+        { "arabic": "تَضْلِيلٍ", "root": "ض-ل-ل", "meaning_en": "Go astray" }
+      ]
+    },
+    {
+      "ayah": 3,
+      "arabic": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
+      "translation_en": "And He sent against them birds in flocks,",
+      "word_by_word": [
+        { "arabic": "وَأَرْسَلَ", "root": "ر-س-ل", "meaning_en": "And He sent" },
+        { "arabic": "عَلَيْهِمْ", "root": "ع-ل-ي", "meaning_en": "Against them" },
+        { "arabic": "طَيْرًا", "root": "ط-ي-ر", "meaning_en": "Birds" },
+        { "arabic": "أَبَابِيلَ", "root": "أ-ب-ل", "meaning_en": "In flocks" }
+      ]
+    },
+    {
+      "ayah": 4,
+      "arabic": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+      "translation_en": "Striking them with stones of hard clay,",
+      "word_by_word": [
+        { "arabic": "تَرْمِيهِم", "root": "ر-م-ي", "meaning_en": "Striking them" },
+        { "arabic": "بِحِجَارَةٍ", "root": "ح-ج-ر", "meaning_en": "With stones" },
+        { "arabic": "مِّن", "root": "م-ن", "meaning_en": "Of" },
+        { "arabic": "سِجِّيلٍ", "root": "س-ج-ل", "meaning_en": "Hard clay" }
+      ]
+    },
+    {
+      "ayah": 5,
+      "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ",
+      "translation_en": "And He made them like eaten straw.",
+      "word_by_word": [
+        { "arabic": "فَجَعَلَهُمْ", "root": "ج-ع-ل", "meaning_en": "And He made them" },
+        { "arabic": "كَعَصْفٍ", "root": "ع-ص-ف", "meaning_en": "Like straw" },
+        { "arabic": "مَّأْكُولٍ", "root": "أ-ك-ل", "meaning_en": "Eaten" }
+      ]
+    }
+  ]
+}

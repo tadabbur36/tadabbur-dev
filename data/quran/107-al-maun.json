@@ -1,0 +1,85 @@
+{
+  "surah": 107,
+  "name_en": "Al-Ma'un",
+  "name_ar": "الماعون",
+  "name_transliteration": "Al-Ma'un",
+  "meaning_en": "The Small Kindnesses",
+  "revelation_type": "Meccan",
+  "total_ayahs": 7,
+  "ayahs": [
+    {
+      "ayah": 1,
+      "arabic": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ",
+      "translation_en": "Have you seen the one who denies the Recompense?",
+      "word_by_word": [
+        { "arabic": "أَرَأَيْتَ", "root": "ر-أ-ي", "meaning_en": "Have you seen" },
+        { "arabic": "الَّذِي", "root": "ال-ذ-ي", "meaning_en": "The one who" },
+        { "arabic": "يُكَذِّبُ", "root": "ك-ذ-ب", "meaning_en": "Denies" },
+        { "arabic": "بِالدِّينِ", "root": "د-ي-ن", "meaning_en": "The Recompense" }
+      ]
+    },
+    {
+      "ayah": 2,
+      "arabic": "فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ",
+      "translation_en": "For that is the one who drives away the orphan,",
+      "word_by_word": [
+        { "arabic": "فَذَٰلِكَ", "root": "ذ-ل-ك", "meaning_en": "For that is" },
+        { "arabic": "الَّذِي", "root": "ال-ذ-ي", "meaning_en": "The one who" },
+        { "arabic": "يَدُعُّ", "root": "د-ع-ع", "meaning_en": "Drives away" },
+        { "arabic": "الْيَتِيمَ", "root": "ي-ت-م", "meaning_en": "The orphan" }
+      ]
+    },
+    {
+      "ayah": 3,
+      "arabic": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
+      "translation_en": "And does not encourage the feeding of the poor.",
+      "word_by_word": [
+        { "arabic": "وَلَا", "root": "و-ل-ا", "meaning_en": "And not" },
+        { "arabic": "يَحُضُّ", "root": "ح-ض-ض", "meaning_en": "Encourages" },
+        { "arabic": "عَلَىٰ", "root": "ع-ل-ي", "meaning_en": "On" },
+        { "arabic": "طَعَامِ", "root": "ط-ع-م", "meaning_en": "Feeding" },
+        { "arabic": "الْمِسْكِينِ", "root": "س-ك-ن", "meaning_en": "The poor" }
+      ]
+    },
+    {
+      "ayah": 4,
+      "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+      "translation_en": "So woe to those who pray,",
+      "word_by_word": [
+        { "arabic": "فَوَيْلٌ", "root": "و-ي-ل", "meaning_en": "So woe" },
+        { "arabic": "لِّلْمُصَلِّينَ", "root": "ص-ل-و", "meaning_en": "To those who pray" }
+      ]
+    },
+    {
+      "ayah": 5,
+      "arabic": "الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+      "translation_en": "Who are heedless of their prayer,",
+      "word_by_word": [
+        { "arabic": "الَّذِينَ", "root": "ال-ذ-ي", "meaning_en": "Who" },
+        { "arabic": "هُمْ", "root": "ه-م", "meaning_en": "Are" },
+        { "arabic": "عَن", "root": "ع-ن", "meaning_en": "Of" },
+        { "arabic": "صَلَاتِهِمْ", "root": "ص-ل-و", "meaning_en": "Their prayer" },
+        { "arabic": "سَاهُونَ", "root": "س-ه-و", "meaning_en": "Heedless" }
+      ]
+    },
+    {
+      "ayah": 6,
+      "arabic": "الَّذِينَ هُمْ يُرَاءُونَ",
+      "translation_en": "Who make a show of their deeds,",
+      "word_by_word": [
+        { "arabic": "الَّذِينَ", "root": "ال-ذ-ي", "meaning_en": "Who" },
+        { "arabic": "هُمْ", "root": "ه-م", "meaning_en": "They" },
+        { "arabic": "يُرَاءُونَ", "root": "ر-أ-ي", "meaning_en": "Make a show" }
+      ]
+    },
+    {
+      "ayah": 7,
+      "arabic": "وَيَمْنَعُونَ الْمَاعُونَ",
+      "translation_en": "And withhold the small kindnesses.",
+      "word_by_word": [
+        { "arabic": "وَيَمْنَعُونَ", "root": "م-ن-ع", "meaning_en": "And withhold" },
+        { "arabic": "الْمَاعُونَ", "root": "م-ع-ن", "meaning_en": "The small kindnesses" }
+      ]
+    }
+  ]
+}

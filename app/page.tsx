@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useTheme } from "@/components/ThemeProvider";
 import { getDailyReassurance } from "@/data/reassurance";
+import ProActivateModal from "@/components/ProActivateModal";
+import ThemePicker from "@/components/ThemePicker";
 import {
   topicsIndex,
   emotionsIndex,
@@ -13,16 +15,11 @@ import {
 } from "@/data";
 
 export default function Home() {
-  const {
-    isPro,
-    textSize,
-    theme,
-    setTheme,
-    setTextSize,
-  } = useTheme();
+  const { isPro, textSize, setTextSize } = useTheme();
   const [streak, setStreak] = useState(0);
   const [search, setSearch] = useState("");
   const [showSettings, setShowSettings] = useState(false);
+  const [showProModal, setShowProModal] = useState(false);
 
   useEffect(() => {
     setStreak(parseInt(localStorage.getItem("tadabbur-streak") || "0"));
@@ -31,38 +28,10 @@ export default function Home() {
   const dailyReassurance = getDailyReassurance();
 
   const sizes = {
-    sm: {
-      hero: "2rem",
-      arabic: "1.5rem",
-      cardTitle: "1rem",
-      cardDesc: "0.8125rem",
-      section: "0.75rem",
-      body: "0.875rem",
-    },
-    md: {
-      hero: "2.5rem",
-      arabic: "2rem",
-      cardTitle: "1.125rem",
-      cardDesc: "0.9375rem",
-      section: "0.8125rem",
-      body: "1rem",
-    },
-    lg: {
-      hero: "3rem",
-      arabic: "2.5rem",
-      cardTitle: "1.25rem",
-      cardDesc: "1.0625rem",
-      section: "0.875rem",
-      body: "1.125rem",
-    },
-    xl: {
-      hero: "3.75rem",
-      arabic: "3rem",
-      cardTitle: "1.375rem",
-      cardDesc: "1.1875rem",
-      section: "1rem",
-      body: "1.25rem",
-    },
+    sm: { hero: "2rem", arabic: "1.5rem", cardTitle: "1rem", cardDesc: "0.8125rem", section: "0.75rem", body: "0.875rem" },
+    md: { hero: "2.5rem", arabic: "2rem", cardTitle: "1.125rem", cardDesc: "0.9375rem", section: "0.8125rem", body: "1rem" },
+    lg: { hero: "3rem", arabic: "2.5rem", cardTitle: "1.25rem", cardDesc: "1.0625rem", section: "0.875rem", body: "1.125rem" },
+    xl: { hero: "3.75rem", arabic: "3rem", cardTitle: "1.375rem", cardDesc: "1.1875rem", section: "1rem", body: "1.25rem" },
   }[textSize];
 
   const q = search.toLowerCase().trim();
@@ -80,8 +49,10 @@ export default function Home() {
     : [];
 
   const filteredQuestions = q
-    ? questionsIndex.filter((qq) =>
-        qq.question.toLowerCase().includes(q)
+    ? questionsIndex.filter(
+        (qq) =>
+          qq.question.toLowerCase().includes(q) ||
+          (qq.short_answer || "").toLowerCase().includes(q)
       )
     : [];
 
@@ -110,18 +81,6 @@ export default function Home() {
     filteredDhikr.length > 0 ||
     filteredSurahs.length > 0;
 
-  const themeList: Array<{ id: any; label: string; preview: string }> = [
-    { id: "dark", label: "Midnight", preview: "#22d3ee" },
-    { id: "light", label: "Paper", preview: "#b45309" },
-    { id: "sepia", label: "Manuscript", preview: "#92400e" },
-    { id: "amoled", label: "OLED", preview: "#000000" },
-    { id: "forest", label: "Forest", preview: "#34d399" },
-    { id: "rose", label: "Rose", preview: "#fb7185" },
-    { id: "blossom", label: "Blossom", preview: "#e8a5b8" },
-    { id: "ocean", label: "Ocean", preview: "#60a5fa" },
-    { id: "lavender", label: "Lavender", preview: "#c4b5fd" },
-  ];
-
   return (
     <main
       className="min-h-screen"
@@ -145,10 +104,7 @@ export default function Home() {
             {isPro && streak > 0 && (
               <span
                 className="text-xs px-3 py-1.5 rounded-full font-medium"
-                style={{
-                  background: "var(--accent)",
-                  color: "var(--accent-text)",
-                }}
+                style={{ background: "var(--accent)", color: "var(--accent-text)" }}
               >
                 {streak} day streak
               </span>
@@ -156,21 +112,22 @@ export default function Home() {
             {isPro && (
               <span
                 className="text-xs px-3 py-1.5 rounded-full font-medium"
-                style={{
-                  background: "var(--accent)",
-                  color: "var(--accent-text)",
-                }}
+                style={{ background: "var(--accent)", color: "var(--accent-text)" }}
               >
                 PRO
               </span>
             )}
+            <Link
+              href="/disclaimer"
+              className="text-sm px-3 py-1.5 rounded-full transition hover:opacity-80"
+              style={{ background: "var(--bg-card)", color: "var(--text-secondary)" }}
+            >
+              Disclaimer
+            </Link>
             <button
               onClick={() => setShowSettings(!showSettings)}
               className="text-sm px-3 py-1.5 rounded-full transition hover:opacity-80"
-              style={{
-                background: "var(--bg-card)",
-                color: "var(--text-secondary)",
-              }}
+              style={{ background: "var(--bg-card)", color: "var(--text-secondary)" }}
             >
               Settings
             </button>
@@ -186,54 +143,43 @@ export default function Home() {
             <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
               Theme
             </p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-6">
-              {themeList.map((t) => (
-                <button
-                  key={t.id}
-                  onClick={() => setTheme(t.id)}
-                  className="flex items-center gap-3 p-3 rounded-xl text-xs transition text-left"
-                  style={{
-                    background:
-                      theme === t.id ? "var(--accent)" : "var(--bg-card-hover)",
-                    color:
-                      theme === t.id
-                        ? "var(--accent-text)"
-                        : "var(--text-primary)",
-                  }}
-                >
-                  <span
-                    className="w-4 h-4 rounded-full flex-shrink-0"
-                    style={{
-                      background: t.preview,
-                      border: "1px solid rgba(255,255,255,0.15)",
-                    }}
-                  />
-                  <span className="truncate">{t.label}</span>
-                </button>
-              ))}
+            <div className="mb-6">
+              <ThemePicker />
             </div>
 
             <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
               Text Size
             </p>
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid grid-cols-4 gap-2 mb-6">
               {(["sm", "md", "lg", "xl"] as const).map((s) => (
                 <button
                   key={s}
                   onClick={() => setTextSize(s)}
                   className="p-3 rounded-xl text-xs uppercase transition"
                   style={{
-                    background:
-                      textSize === s ? "var(--accent)" : "var(--bg-card-hover)",
-                    color:
-                      textSize === s
-                        ? "var(--accent-text)"
-                        : "var(--text-primary)",
+                    background: textSize === s ? "var(--accent)" : "var(--bg-card-hover)",
+                    color: textSize === s ? "var(--accent-text)" : "var(--text-primary)",
                   }}
                 >
                   {s}
                 </button>
               ))}
+            </div>
+
+            <div
+              className="pt-4 mt-6"
+              style={{ borderTop: "1px solid var(--bg-border)" }}
+            >
+              <button
+                onClick={() => setShowProModal(true)}
+                className="w-full py-3 rounded-xl font-medium transition text-sm"
+                style={{
+                  background: isPro ? "var(--bg-card-hover)" : "var(--accent)",
+                  color: isPro ? "var(--text-primary)" : "var(--accent-text)",
+                }}
+              >
+                {isPro ? "Pro Active ✓" : "Activate Pro"}
+              </button>
             </div>
           </div>
         )}
@@ -284,10 +230,7 @@ export default function Home() {
 
             {filteredSurahs.length > 0 && (
               <div>
-                <p
-                  className="mb-4 uppercase tracking-wider"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.section }}
-                >
+                <p className="mb-4 uppercase tracking-wider" style={{ color: "var(--text-muted)", fontSize: sizes.section }}>
                   Surahs
                 </p>
                 <div className="space-y-2">
@@ -299,36 +242,19 @@ export default function Home() {
                       style={{ background: "var(--bg-card)" }}
                     >
                       <div className="flex items-center gap-4">
-                        <span
-                          className="font-medium w-8 text-center"
-                          style={{
-                            color: "var(--accent)",
-                            fontSize: sizes.section,
-                          }}
-                        >
+                        <span className="font-medium w-8 text-center" style={{ color: "var(--accent)", fontSize: sizes.section }}>
                           {s.surah}
                         </span>
                         <div>
-                          <p
-                            className="font-medium"
-                            style={{ fontSize: sizes.cardTitle }}
-                          >
+                          <p className="font-medium" style={{ fontSize: sizes.cardTitle }}>
                             {s.name_transliteration}
                           </p>
-                          <p
-                            style={{
-                              color: "var(--text-muted)",
-                              fontSize: sizes.cardDesc,
-                            }}
-                          >
+                          <p style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}>
                             {s.meaning_en} · {s.total_ayahs} ayahs
                           </p>
                         </div>
                       </div>
-                      <span
-                        className="transition group-hover:translate-x-1"
-                        style={{ color: "var(--text-muted)" }}
-                      >
+                      <span className="transition group-hover:translate-x-1" style={{ color: "var(--text-muted)" }}>
                         →
                       </span>
                     </Link>
@@ -339,10 +265,7 @@ export default function Home() {
 
             {filteredEmotions.length > 0 && (
               <div>
-                <p
-                  className="mb-4 uppercase tracking-wider"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.section }}
-                >
+                <p className="mb-4 uppercase tracking-wider" style={{ color: "var(--text-muted)", fontSize: sizes.section }}>
                   Feelings
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -351,10 +274,7 @@ export default function Home() {
                       key={e.slug}
                       href={`/emotion/${e.slug}`}
                       className="px-5 py-3 rounded-2xl font-medium transition hover:scale-[1.02]"
-                      style={{
-                        background: "var(--bg-card)",
-                        fontSize: sizes.body,
-                      }}
+                      style={{ background: "var(--bg-card)", fontSize: sizes.body }}
                     >
                       {e.label}
                     </Link>
@@ -365,10 +285,7 @@ export default function Home() {
 
             {filteredTopics.length > 0 && (
               <div>
-                <p
-                  className="mb-4 uppercase tracking-wider"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.section }}
-                >
+                <p className="mb-4 uppercase tracking-wider" style={{ color: "var(--text-muted)", fontSize: sizes.section }}>
                   Topics
                 </p>
                 <div className="space-y-2">
@@ -380,25 +297,14 @@ export default function Home() {
                       style={{ background: "var(--bg-card)" }}
                     >
                       <div>
-                        <span
-                          className="font-medium block mb-1"
-                          style={{ fontSize: sizes.cardTitle }}
-                        >
+                        <span className="font-medium block mb-1" style={{ fontSize: sizes.cardTitle }}>
                           {topic.title}
                         </span>
-                        <span
-                          style={{
-                            color: "var(--text-muted)",
-                            fontSize: sizes.cardDesc,
-                          }}
-                        >
+                        <span style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}>
                           {topic.verse_count} verses
                         </span>
                       </div>
-                      <span
-                        className="transition group-hover:translate-x-1"
-                        style={{ color: "var(--text-muted)" }}
-                      >
+                      <span className="transition group-hover:translate-x-1" style={{ color: "var(--text-muted)" }}>
                         →
                       </span>
                     </Link>
@@ -409,10 +315,7 @@ export default function Home() {
 
             {filteredQuestions.length > 0 && (
               <div>
-                <p
-                  className="mb-4 uppercase tracking-wider"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.section }}
-                >
+                <p className="mb-4 uppercase tracking-wider" style={{ color: "var(--text-muted)", fontSize: sizes.section }}>
                   Questions
                 </p>
                 <div className="space-y-2">
@@ -423,16 +326,10 @@ export default function Home() {
                       className="group flex items-start justify-between p-5 rounded-2xl transition hover:scale-[1.01]"
                       style={{ background: "var(--bg-card)" }}
                     >
-                      <span
-                        className="font-medium leading-snug pr-4"
-                        style={{ fontSize: sizes.cardTitle }}
-                      >
+                      <span className="font-medium leading-snug pr-4" style={{ fontSize: sizes.cardTitle }}>
                         {qq.question}
                       </span>
-                      <span
-                        className="transition group-hover:translate-x-1 flex-shrink-0"
-                        style={{ color: "var(--text-muted)" }}
-                      >
+                      <span className="transition group-hover:translate-x-1 flex-shrink-0" style={{ color: "var(--text-muted)" }}>
                         →
                       </span>
                     </Link>
@@ -443,10 +340,7 @@ export default function Home() {
 
             {filteredDhikr.length > 0 && (
               <div>
-                <p
-                  className="mb-4 uppercase tracking-wider"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.section }}
-                >
+                <p className="mb-4 uppercase tracking-wider" style={{ color: "var(--text-muted)", fontSize: sizes.section }}>
                   Dhikr
                 </p>
                 <div className="space-y-2">
@@ -458,28 +352,14 @@ export default function Home() {
                       style={{ background: "var(--bg-card)" }}
                     >
                       <div>
-                        <span
-                          className="font-medium block mb-1"
-                          style={{ fontSize: sizes.cardTitle }}
-                        >
+                        <span className="font-medium block mb-1" style={{ fontSize: sizes.cardTitle }}>
                           {d.transliteration}
                         </span>
-                        <span
-                          style={{
-                            color: "var(--text-muted)",
-                            fontSize: sizes.cardDesc,
-                          }}
-                        >
+                        <span style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}>
                           {d.meaning_en}
                         </span>
                       </div>
-                      <p
-                        className="arabic"
-                        style={{
-                          fontSize: sizes.arabic,
-                          color: "var(--accent)",
-                        }}
-                      >
+                      <p className="arabic" style={{ fontSize: sizes.arabic, color: "var(--accent)" }}>
                         {d.phrase_arabic}
                       </p>
                     </Link>
@@ -489,10 +369,7 @@ export default function Home() {
             )}
 
             {!hasResults && (
-              <p
-                className="text-center py-16"
-                style={{ color: "var(--text-muted)", fontSize: sizes.body }}
-              >
+              <p className="text-center py-16" style={{ color: "var(--text-muted)", fontSize: sizes.body }}>
                 No results for "{search}"
               </p>
             )}
@@ -502,7 +379,6 @@ export default function Home() {
         {/* DEFAULT MODE */}
         {!isSearching && (
           <div className="space-y-4">
-            {/* Saved — Pro only */}
             {isPro && (
               <Link
                 href="/saved"
@@ -510,119 +386,78 @@ export default function Home() {
                 style={{ background: "var(--bg-card)" }}
               >
                 <div className="flex items-center gap-4">
-                  <span style={{ color: "var(--accent)", fontSize: sizes.body }}>
-                    ★
-                  </span>
+                  <span style={{ color: "var(--accent)", fontSize: sizes.body }}>★</span>
                   <div>
-                    <span
-                      className="font-medium block mb-0.5"
-                      style={{ fontSize: sizes.cardTitle }}
-                    >
+                    <span className="font-medium block mb-0.5" style={{ fontSize: sizes.cardTitle }}>
                       Saved
                     </span>
-                    <span
-                      style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}
-                    >
+                    <span style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}>
                       Your verses and names
                     </span>
                   </div>
                 </div>
-                <span
-                  className="transition group-hover:translate-x-1"
-                  style={{ color: "var(--text-muted)" }}
-                >
+                <span className="transition group-hover:translate-x-1" style={{ color: "var(--text-muted)" }}>
                   →
                 </span>
               </Link>
             )}
 
-            {/* Quran */}
             <Link
               href="/quran"
               className="group flex items-center justify-between p-6 rounded-3xl transition hover:scale-[1.01]"
               style={{ background: "var(--bg-card)" }}
             >
               <div>
-                <span
-                  className="font-medium block mb-1"
-                  style={{ fontSize: sizes.cardTitle }}
-                >
+                <span className="font-medium block mb-1" style={{ fontSize: sizes.cardTitle }}>
                   Quran
                 </span>
-                <span
-                  style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}
-                >
+                <span style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}>
                   "And We have sent down to you the Book as clarification for all things." (16:89)
                 </span>
               </div>
-              <span
-                className="transition group-hover:translate-x-1"
-                style={{ color: "var(--text-muted)" }}
-              >
+              <span className="transition group-hover:translate-x-1" style={{ color: "var(--text-muted)" }}>
                 →
               </span>
             </Link>
 
-            {/* Dhikr */}
             <Link
               href="/dhikr"
               className="group flex items-center justify-between p-6 rounded-3xl transition hover:scale-[1.01]"
               style={{ background: "var(--bg-card)" }}
             >
               <div>
-                <span
-                  className="font-medium block mb-1"
-                  style={{ fontSize: sizes.cardTitle }}
-                >
+                <span className="font-medium block mb-1" style={{ fontSize: sizes.cardTitle }}>
                   Dhikr
                 </span>
-                <span
-                  style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}
-                >
+                <span style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}>
                   "Unquestionably, by the remembrance of Allah hearts find peace." (13:28)
                 </span>
               </div>
-              <span
-                className="transition group-hover:translate-x-1"
-                style={{ color: "var(--text-muted)" }}
-              >
+              <span className="transition group-hover:translate-x-1" style={{ color: "var(--text-muted)" }}>
                 →
               </span>
             </Link>
 
-            {/* Qasas */}
             <Link
               href="/qasas"
               className="group flex items-center justify-between p-6 rounded-3xl transition hover:scale-[1.01]"
               style={{ background: "var(--bg-card)" }}
             >
               <div>
-                <span
-                  className="font-medium block mb-1"
-                  style={{ fontSize: sizes.cardTitle }}
-                >
+                <span className="font-medium block mb-1" style={{ fontSize: sizes.cardTitle }}>
                   Qasas
                 </span>
-                <span
-                  style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}
-                >
+                <span style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}>
                   "We relate to you the best of stories through what We have revealed to you of this Quran." (12:3)
                 </span>
               </div>
-              <span
-                className="transition group-hover:translate-x-1"
-                style={{ color: "var(--text-muted)" }}
-              >
+              <span className="transition group-hover:translate-x-1" style={{ color: "var(--text-muted)" }}>
                 →
               </span>
             </Link>
 
-            {/* Emotions */}
             <div className="pt-6">
-              <p
-                className="mb-4 uppercase tracking-wider"
-                style={{ color: "var(--text-muted)", fontSize: sizes.section }}
-              >
+              <p className="mb-4 uppercase tracking-wider" style={{ color: "var(--text-muted)", fontSize: sizes.section }}>
                 How are you feeling?
               </p>
               <div className="flex flex-wrap gap-2">
@@ -639,13 +474,9 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Topics */}
             {topicsIndex.length > 0 && (
               <div className="pt-6">
-                <p
-                  className="mb-4 uppercase tracking-wider"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.section }}
-                >
+                <p className="mb-4 uppercase tracking-wider" style={{ color: "var(--text-muted)", fontSize: sizes.section }}>
                   Topics
                 </p>
                 <div className="space-y-2">
@@ -657,25 +488,14 @@ export default function Home() {
                       style={{ background: "var(--bg-card)" }}
                     >
                       <div>
-                        <span
-                          className="font-medium block mb-1"
-                          style={{ fontSize: sizes.cardTitle }}
-                        >
+                        <span className="font-medium block mb-1" style={{ fontSize: sizes.cardTitle }}>
                           {topic.title}
                         </span>
-                        <span
-                          style={{
-                            color: "var(--text-muted)",
-                            fontSize: sizes.cardDesc,
-                          }}
-                        >
+                        <span style={{ color: "var(--text-muted)", fontSize: sizes.cardDesc }}>
                           {topic.verse_count} verses
                         </span>
                       </div>
-                      <span
-                        className="transition group-hover:translate-x-1"
-                        style={{ color: "var(--text-muted)" }}
-                      >
+                      <span className="transition group-hover:translate-x-1" style={{ color: "var(--text-muted)" }}>
                         →
                       </span>
                     </Link>
@@ -684,13 +504,9 @@ export default function Home() {
               </div>
             )}
 
-            {/* Questions */}
             {questionsIndex.length > 0 && (
               <div className="pt-6">
-                <p
-                  className="mb-4 uppercase tracking-wider"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.section }}
-                >
+                <p className="mb-4 uppercase tracking-wider" style={{ color: "var(--text-muted)", fontSize: sizes.section }}>
                   Questions
                 </p>
                 <div className="space-y-2">
@@ -701,16 +517,17 @@ export default function Home() {
                       className="group flex items-start justify-between p-5 rounded-3xl transition hover:scale-[1.01]"
                       style={{ background: "var(--bg-card)" }}
                     >
-                      <span
-                        className="font-medium leading-snug pr-4"
-                        style={{ fontSize: sizes.cardTitle }}
-                      >
-                        {qq.question}
-                      </span>
-                      <span
-                        className="transition group-hover:translate-x-1 flex-shrink-0"
-                        style={{ color: "var(--text-muted)" }}
-                      >
+                      <div className="flex-1 pr-4">
+                        <span className="font-medium block mb-2 leading-snug" style={{ fontSize: sizes.cardTitle }}>
+                          {qq.question}
+                        </span>
+                        {qq.short_answer && (
+                          <span className="block leading-relaxed" style={{ color: "var(--text-secondary)", fontSize: sizes.cardDesc }}>
+                            {qq.short_answer}
+                          </span>
+                        )}
+                      </div>
+                      <span className="transition group-hover:translate-x-1 flex-shrink-0" style={{ color: "var(--text-muted)" }}>
                         →
                       </span>
                     </Link>
@@ -721,6 +538,13 @@ export default function Home() {
           </div>
         )}
       </div>
+
+      {showProModal && (
+        <ProActivateModal
+          onClose={() => setShowProModal(false)}
+          onActivated={() => console.log("Pro activated")}
+        />
+      )}
     </main>
   );
 }

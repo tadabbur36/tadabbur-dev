@@ -1,0 +1,94 @@
+{
+  "id": "bani-israel",
+  "title": "Bani Israel",
+  "subtitle": "Al-Baqarah, Al-A'raf, Al-Ma'idah",
+  "surah_refs": [2, 5, 7, 20],
+  "total_ayahs": 40,
+  "sections": [
+    {
+      "heading": "The Covenant",
+      "ayahs": [
+        { "verse_ref": "2:40", "arabic": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا بِعَهْدِي أُوفِ بِعَهْدِكُمْ وَإِيَّايَ فَارْهَبُونِ", "translation_en": "O Children of Israel, remember My favor which I have bestowed upon you and fulfill My covenant, and I will fulfill your covenant, and fear Me alone." },
+        { "verse_ref": "2:41", "arabic": "وَآمِنُوا بِمَا أَنزَلْتُ مُصَدِّقًا لِّمَا مَعَكُمْ وَلَا تَكُونُوا أَوَّلَ كَافِرٍ بِهِ", "translation_en": "And believe in what I have sent down confirming that which is with you, and be not the first to disbelieve in it." },
+        { "verse_ref": "2:47", "arabic": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَنِّي فَضَّلْتُكُمْ عَلَى الْعَالَمِينَ", "translation_en": "O Children of Israel, remember My favor which I have bestowed upon you and that I preferred you over the worlds." },
+        { "verse_ref": "2:83", "arabic": "وَإِذْ أَخَذْنَا مِيثَاقَ بَنِي إِسْرَائِيلَ لَا تَعْبُدُونَ إِلَّا اللَّهَ وَبِالْوَالِدَيْنِ إِحْسَانًا", "translation_en": "And when We took the covenant from the Children of Israel: Do not worship except Allah, and to parents do good." }
+      ]
+    },
+    {
+      "heading": "The Sea",
+      "ayahs": [
+        { "verse_ref": "2:50", "arabic": "وَإِذْ فَرَقْنَا بِكُمُ الْبَحْرَ فَأَنجَيْنَاكُمْ وَأَغْرَقْنَا آلَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ", "translation_en": "And when We parted the sea for you and saved you and drowned the people of Pharaoh while you were looking on." },
+        { "verse_ref": "7:138", "arabic": "وَجَاوَزْنَا بِبَنِي إِسْرَائِيلَ الْبَحْرَ فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَّهُمْ", "translation_en": "And We took the Children of Israel across the sea, and they came upon a people devoted to some of their idols." },
+        { "verse_ref": "7:139", "arabic": "إِنَّ هَٰؤُلَاءِ مُتَبَّرٌ مَّا هُمْ فِيهِ وَبَاطِلٌ مَّا كَانُوا يَعْمَلُونَ", "translation_en": "Indeed, these people will be destroyed for that which they are engaged in, and worthless is what they used to do." },
+        { "verse_ref": "7:140", "arabic": "قَالَ أَغَيْرَ اللَّهِ أَبْغِيكُمْ إِلَٰهًا وَهُوَ فَضَّلَكُمْ عَلَى الْعَالَمِينَ", "translation_en": "He said, 'Should I seek for you a deity other than Allah while He has favored you over the worlds?'" }
+      ]
+    },
+    {
+      "heading": "The Mountain",
+      "ayahs": [
+        { "verse_ref": "2:63", "arabic": "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ خُذُوا مَا آتَيْنَاكُم بِقُوَّةٍ", "translation_en": "And when We took your covenant and raised over you the mount, 'Take what We have given you with determination.'" },
+        { "verse_ref": "2:64", "arabic": "ثُمَّ تَوَلَّيْتُم مِّن بَعْدِ ذَٰلِكَ ۖ فَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ لَكُنتُم مِّنَ الْخَاسِرِينَ", "translation_en": "Then you turned away after that. And if not for the favor of Allah upon you and His mercy, you would have been among the losers." },
+        { "verse_ref": "2:93", "arabic": "وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ خُذُوا مَا آتَيْنَاكُم بِقُوَّةٍ وَاسْمَعُوا ۖ قَالُوا سَمِعْنَا وَعَصَيْنَا", "translation_en": "And when We took your covenant and raised over you the mount: 'Take what We have given you with determination and listen.' They said, 'We hear and disobey.'" }
+      ]
+    },
+    {
+      "heading": "The Calf",
+      "ayahs": [
+        { "verse_ref": "2:51", "arabic": "وَإِذْ وَاعَدْنَا مُوسَىٰ أَرْبَعِينَ لَيْلَةً ثُمَّ اتَّخَذْتُمُ الْعِجْلَ مِن بَعْدِهِ وَأَنتُمْ ظَالِمُونَ", "translation_en": "And when We made an appointment with Musa for forty nights, then you took the calf in his absence, and you were wrongdoers." },
+        { "verse_ref": "7:148", "arabic": "وَاتَّخَذَ قَوْمُ مُوسَىٰ مِن بَعْدِهِ مِنْ حُلِيِّهِمْ عِجْلًا جَسَدًا لَّهُ خُوَارٌ", "translation_en": "And the people of Musa, after him, took from their ornaments a calf, a body which had a lowing sound." },
+        { "verse_ref": "7:149", "arabic": "وَلَمَّا سُقِطَ فِي أَيْدِيهِمْ وَرَأَوْا أَنَّهُمْ قَدْ ضَلُّوا قَالُوا لَئِن لَّمْ يَرْحَمْنَا رَبُّنَا وَيَغْفِرْ لَنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ", "translation_en": "And when they regretted and saw that they had gone astray, they said, 'If our Lord does not have mercy upon us and forgive us, we will surely be among the losers.'" },
+        { "verse_ref": "20:88", "arabic": "فَأَخْرَجَ لَهُمْ عِجْلًا جَسَدًا لَّهُ خُوَارٌ فَقَالُوا هَٰذَا إِلَٰهُكُمْ وَإِلَٰهُ مُوسَىٰ فَنَسِيَ", "translation_en": "And he brought out for them a calf, a body which had a lowing sound. And they said, 'This is your god and the god of Musa, but he forgot.'" }
+      ]
+    },
+    {
+      "heading": "The Wandering",
+      "ayahs": [
+        { "verse_ref": "5:21", "arabic": "يَا قَوْمِ ادْخُلُوا الْأَرْضَ الْمُقَدَّسَةَ الَّتِي كَتَبَ اللَّهُ لَكُمْ وَلَا تَرْتَدُّوا عَلَىٰ أَدْبَارِكُمْ فَتَنقَلِبُوا خَاسِرِينَ", "translation_en": "O my people, enter the Holy Land which Allah has assigned to you and do not turn back, for you would become losers." },
+        { "verse_ref": "5:24", "arabic": "قَالُوا يَا مُوسَىٰ إِنَّا لَن نَّدْخُلَهَا أَبَدًا مَّا دَامُوا فِيهَا فَاذْهَبْ أَنتَ وَرَبُّكَ فَقَاتِلَا إِنَّا هَاهُنَا قَاعِدُونَ", "translation_en": "They said, 'O Musa, indeed we will not enter it ever, as long as they are within it. So go, you and your Lord, and fight. Indeed, we are sitting here.'" },
+        { "verse_ref": "5:26", "arabic": "قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ أَرْبَعِينَ سَنَةً يَتِيهُونَ فِي الْأَرْضِ ۚ فَلَا تَأْسَ عَلَى الْقَوْمِ الْفَاسِقِينَ", "translation_en": "He said, 'Then indeed, it is forbidden to them for forty years, during which they will wander in the land. So do not grieve over the defiantly disobedient people.'" }
+      ]
+    },
+    {
+      "heading": "The Sabbath",
+      "ayahs": [
+        { "verse_ref": "2:65", "arabic": "وَلَقَدْ عَلِمْتُمُ الَّذِينَ اعْتَدَوْا مِنكُمْ فِي السَّبْتِ فَقُلْنَا لَهُمْ كُونُوا قِرَدَةً خَاسِئِينَ", "translation_en": "And you had already known about those who transgressed among you concerning the sabbath, and We said to them, 'Be apes, despised.'" },
+        { "verse_ref": "7:163", "arabic": "وَاسْأَلْهُمْ عَنِ الْقَرْيَةِ الَّتِي كَانَتْ حَاضِرَةَ الْبَحْرِ إِذْ يَعْدُونَ فِي السَّبْتِ", "translation_en": "And ask them about the town that was by the sea, when they transgressed in the matter of the sabbath." },
+        { "verse_ref": "7:166", "arabic": "فَلَمَّا عَتَوْا عَن مَّا نُهُوا عَنْهُ قُلْنَا لَهُمْ كُونُوا قِرَدَةً خَاسِئِينَ", "translation_en": "So when they were insolent about that which they had been forbidden, We said to them, 'Be apes, despised.'" }
+      ]
+    },
+    {
+      "heading": "The Hardening",
+      "ayahs": [
+        { "verse_ref": "2:74", "arabic": "ثُمَّ قَسَتْ قُلُوبُكُم مِّن بَعْدِ ذَٰلِكَ فَهِيَ كَالْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً", "translation_en": "Then your hearts became hardened after that, being like stones or even harder." },
+        { "verse_ref": "5:13", "arabic": "فَبِمَا نَقْضِهِم مِّيثَاقَهُمْ لَعَنَّاهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَاسِيَةً ۖ يُحَرِّفُونَ الْكَلِمَ عَن مَّوَاضِعِهِ", "translation_en": "So for their breaking of the covenant, We cursed them and made their hearts hard. They distort words from their proper places." },
+        { "verse_ref": "2:88", "arabic": "وَقَالُوا قُلُوبُنَا غُلْفٌ ۚ بَل لَّعَنَهُمُ اللَّهُ بِكُفْرِهِمْ فَقَلِيلًا مَّا يُؤْمِنُونَ", "translation_en": "And they said, 'Our hearts are wrapped.' Rather, Allah has cursed them for their disbelief, so little is it that they believe." },
+        { "verse_ref": "4:155", "arabic": "فَبِمَا نَقْضِهِم مِّيثَاقَهُمْ وَكُفْرِهِم بِآيَاتِ اللَّهِ وَقَتْلِهِمُ الْأَنبِيَاءَ بِغَيْرِ حَقٍّ", "translation_en": "And for their breaking of the covenant, their disbelief in the signs of Allah, and their killing of the prophets without right." }
+      ]
+    },
+    {
+      "heading": "The Favor",
+      "ayahs": [
+        { "verse_ref": "2:57", "arabic": "وَظَلَّلْنَا عَلَيْكُمُ الْغَمَامَ وَأَنزَلْنَا عَلَيْكُمُ الْمَنَّ وَالسَّلْوَىٰ ۖ كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ", "translation_en": "And We shaded you with clouds and sent down to you manna and quails, 'Eat from the good things which We have provided for you.'" },
+        { "verse_ref": "2:60", "arabic": "وَإِذِ اسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِ فَقُلْنَا اضْرِب بِّعَصَاكَ الْحَجَرَ ۖ فَانفَجَرَتْ مِنْهُ اثْنَتَا عَشْرَةَ عَيْنًا", "translation_en": "And when Musa prayed for drink for his people, We said, 'Strike the stone with your staff.' And there gushed forth from it twelve springs." },
+        { "verse_ref": "5:20", "arabic": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ يَا قَوْمِ اذْكُرُوا نِعْمَةَ اللَّهِ عَلَيْكُمْ إِذْ جَعَلَ فِيكُمْ أَنبِيَاءَ وَجَعَلَكُم مُّلُوكًا", "translation_en": "And when Musa said to his people, 'O my people, remember the favor of Allah upon you when He appointed among you prophets and made you kings.'" }
+      ]
+    },
+    {
+      "heading": "The Warning",
+      "ayahs": [
+        { "verse_ref": "2:61", "arabic": "وَإِذْ قُلْتُمْ يَا مُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍ وَاحِدٍ فَادْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنبِتُ الْأَرْضُ", "translation_en": "And when you said, 'O Musa, we will never tolerate one kind of food. So call upon your Lord to bring forth for us from what the earth grows.'" },
+        { "verse_ref": "5:24", "arabic": "قَالُوا يَا مُوسَىٰ إِنَّا لَن نَّدْخُلَهَا أَبَدًا مَّا دَامُوا فِيهَا", "translation_en": "They said, 'O Musa, indeed we will not enter it ever, as long as they are within it.'" },
+        { "verse_ref": "7:169", "arabic": "فَخَلَفَ مِن بَعْدِهِمْ خَلْفٌ وَرِثُوا الْكِتَابَ يَأْخُذُونَ عَرَضَ هَٰذَا الْأَدْنَىٰ", "translation_en": "And there followed them successors who inherited the Scripture and took the goods of this lower life." }
+      ]
+    },
+    {
+      "heading": "The Reminder",
+      "ayahs": [
+        { "verse_ref": "2:122", "arabic": "يَا بَنِي إِسْرَائِيلَ اذْكُرُوا نِعْمَتِيَ الَّتِي أَنْعَمْتُ عَلَيْكُمْ وَأَنِّي فَضَّلْتُكُمْ عَلَى الْعَالَمِينَ", "translation_en": "O Children of Israel, remember My favor which I have bestowed upon you and that I preferred you over the worlds." },
+        { "verse_ref": "2:211", "arabic": "سَلْ بَنِي إِسْرَائِيلَ كَمْ آتَيْنَاهُم مِّنْ آيَةٍ بَيِّنَةٍ", "translation_en": "Ask the Children of Israel how many clear signs We gave them." },
+        { "verse_ref": "17:2", "arabic": "وَآتَيْنَا مُوسَى الْكِتَابَ وَجَعَلْنَاهُ هُدًى لِّبَنِي إِسْرَائِيلَ أَلَّا تَتَّخِذُوا مِن دُونِي وَكِيلًا", "translation_en": "And We gave Musa the Scripture and made it a guidance for the Children of Israel: 'Do not take a trustee besides Me.'" },
+        { "verse_ref": "17:4", "arabic": "وَقَضَيْنَا إِلَىٰ بَنِي إِسْرَائِيلَ فِي الْكِتَابِ لَتُفْسِدُنَّ فِي الْأَرْضِ مَرَّتَيْنِ", "translation_en": "And We conveyed to the Children of Israel in the Scripture that they would surely cause corruption on the earth twice." }
+      ]
+    }
+  ]
+}

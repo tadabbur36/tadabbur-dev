@@ -1,0 +1,45 @@
+{
+  "id": "salih",
+  "title": "Salih",
+  "subtitle": "Al-A'raf, Hud, Ash-Shu'ara",
+  "surah_refs": [7, 11, 26, 27],
+  "total_ayahs": 15,
+  "sections": [
+    {
+      "heading": "The Call",
+      "ayahs": [
+        { "verse_ref": "7:73", "arabic": "وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَالِحًا ۗ قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُ", "translation_en": "And to Thamud, We sent their brother Salih. He said, 'O my people, worship Allah; you have no deity other than Him.'" },
+        { "verse_ref": "11:61", "arabic": "وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَالِحًا ۚ قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُ", "translation_en": "And to Thamud, We sent their brother Salih. He said, 'O my people, worship Allah; you have no deity other than Him.'" },
+        { "verse_ref": "11:61", "arabic": "هُوَ أَنشَأَكُم مِّنَ الْأَرْضِ وَاسْتَعْمَرَكُمْ فِيهَا فَاسْتَغْفِرُوهُ ثُمَّ تُوبُوا إِلَيْهِ", "translation_en": "'He is the One who created you from the earth and settled you therein. So ask forgiveness of Him and then repent to Him.'" },
+        { "verse_ref": "26:144", "arabic": "فَاتَّقُوا اللَّهَ وَأَطِيعُونِ", "translation_en": "'So fear Allah and obey me.'" }
+      ]
+    },
+    {
+      "heading": "The Sign",
+      "ayahs": [
+        { "verse_ref": "7:73", "arabic": "قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ ۖ هَٰذِهِ نَاقَةُ اللَّهِ لَكُمْ آيَةً", "translation_en": "'There has come to you a clear sign from your Lord. This is the she-camel of Allah, a sign for you.'" },
+        { "verse_ref": "7:73", "arabic": "فَذَرُوهَا تَأْكُلْ فِي أَرْضِ اللَّهِ وَلَا تَمَسُّوهَا بِسُوءٍ فَيَأْخُذَكُمْ عَذَابٌ أَلِيمٌ", "translation_en": "'So leave her to eat within the land of Allah and do not touch her with harm, lest a painful punishment seize you.'" },
+        { "verse_ref": "26:155", "arabic": "قَالَ هَٰذِهِ نَاقَةٌ لَّهَا شِرْبٌ وَلَكُمْ شِرْبُ يَوْمٍ مَّعْلُومٍ", "translation_en": "He said, 'This is a she-camel. For her is a time of drink, and for you is a time of drink on a specified day.'" },
+        { "verse_ref": "54:28", "arabic": "وَنَبِّئْهُمْ أَنَّ الْمَاءَ قِسْمَةٌ بَيْنَهُمْ ۖ كُلُّ شِرْبٍ مُّحْتَضَرٌ", "translation_en": "'And inform them that the water is shared between them, each drinking is attended.'" }
+      ]
+    },
+    {
+      "heading": "The Crime",
+      "ayahs": [
+        { "verse_ref": "7:77", "arabic": "فَعَقَرُوا النَّاقَةَ وَعَتَوْا عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا يَا صَالِحُ ائْتِنَا بِمَا تَعِدُنَا", "translation_en": "So they hamstrung the she-camel and were insolent toward the command of their Lord and said, 'O Salih, bring us what you promise us.'" },
+        { "verse_ref": "11:65", "arabic": "فَعَقَرُوهَا فَقَالَ تَمَتَّعُوا فِي دَارِكُمْ ثَلَاثَةَ أَيَّامٍ ۖ ذَٰلِكَ وَعْدٌ غَيْرُ مَكْذُوبٍ", "translation_en": "But they hamstrung her. So he said, 'Enjoy yourselves in your homes for three days. That is a promise not to be denied.'" },
+        { "verse_ref": "26:157", "arabic": "فَعَقَرُوهَا فَأَصْبَحُوا نَادِمِينَ", "translation_en": "But they hamstrung her, and then became regretful." },
+        { "verse_ref": "54:29", "arabic": "فَنَادَوْا صَاحِبَهُمْ فَتَعَاطَىٰ فَعَقَرَ", "translation_en": "But they called their companion, and he took a sword and hamstrung her." }
+      ]
+    },
+    {
+      "heading": "The Punishment",
+      "ayahs": [
+        { "verse_ref": "7:78", "arabic": "فَأَخَذَتْهُمُ الرَّجْفَةُ فَأَصْبَحُوا فِي دَارِهِمْ جَاثِمِينَ", "translation_en": "So the earthquake seized them, and they became within their home fallen prone." },
+        { "verse_ref": "11:67", "arabic": "وَأَخَذَ الَّذِينَ ظَلَمُوا الصَّيْحَةُ فَأَصْبَحُوا فِي دِيَارِهِمْ جَاثِمِينَ", "translation_en": "And the blast seized those who wronged, and they became within their homes fallen prone." },
+        { "verse_ref": "54:31", "arabic": "إِنَّا أَرْسَلْنَا عَلَيْهِمْ صَيْحَةً وَاحِدَةً فَكَانُوا كَهَشِيمِ الْمُحْتَظِرِ", "translation_en": "Indeed, We sent upon them one blast, and they became like dry twigs of a fence-builder." },
+        { "verse_ref": "11:66", "arabic": "فَلَمَّا جَاءَ أَمْرُنَا نَجَّيْنَا صَالِحًا وَالَّذِينَ آمَنُوا مَعَهُ بِرَحْمَةٍ مِّنَّا", "translation_en": "So when Our command came, We saved Salih and those who believed with him, by mercy from Us." }
+      ]
+    }
+  ]
+}

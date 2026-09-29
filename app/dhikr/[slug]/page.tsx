@@ -5,6 +5,7 @@ import Link from "next/link";
 import { use, useState } from "react";
 import { useTheme } from "@/components/ThemeProvider";
 import ShareModal from "@/components/ShareModal";
+import ThemePicker from "@/components/ThemePicker";
 
 export default function DhikrDetailPage({
   params,
@@ -13,8 +14,9 @@ export default function DhikrDetailPage({
 }) {
   const { slug } = use(params);
   const dhikr = getDhikr(slug);
-  const { textSize } = useTheme();
+  const { textSize, setTextSize } = useTheme();
 
+  const [showSettings, setShowSettings] = useState(false);
   const [shareData, setShareData] = useState<{
     arabic: string;
     translation: string;
@@ -36,13 +38,55 @@ export default function DhikrDetailPage({
       style={{ background: "var(--bg-primary)", color: "var(--text-primary)" }}
     >
       <div className="max-w-3xl mx-auto px-6 py-12 md:py-16">
-        <Link
-          href="/dhikr"
-          className="text-sm hover:opacity-80 transition inline-block mb-12"
-          style={{ color: "var(--text-muted)" }}
-        >
-          ← All dhikr
-        </Link>
+        <div className="flex items-center justify-between mb-12">
+          <Link
+            href="/dhikr"
+            className="text-sm hover:opacity-80 transition"
+            style={{ color: "var(--text-muted)" }}
+          >
+            ← All dhikr
+          </Link>
+          <button
+            onClick={() => setShowSettings(!showSettings)}
+            className="text-sm px-3 py-1.5 rounded-full transition hover:opacity-80"
+            style={{ background: "var(--bg-card)", color: "var(--text-secondary)" }}
+          >
+            Settings
+          </button>
+        </div>
+
+        {showSettings && (
+          <div
+            className="rounded-2xl p-6 mb-12"
+            style={{ background: "var(--bg-card)" }}
+          >
+            <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
+              Theme
+            </p>
+            <div className="mb-6">
+              <ThemePicker />
+            </div>
+
+            <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
+              Text Size
+            </p>
+            <div className="grid grid-cols-4 gap-2">
+              {(["sm", "md", "lg", "xl"] as const).map((s) => (
+                <button
+                  key={s}
+                  onClick={() => setTextSize(s)}
+                  className="p-3 rounded-xl text-xs uppercase transition"
+                  style={{
+                    background: textSize === s ? "var(--accent)" : "var(--bg-card-hover)",
+                    color: textSize === s ? "var(--accent-text)" : "var(--text-primary)",
+                  }}
+                >
+                  {s}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Phrase */}
         <div className="text-center mb-16">
@@ -57,7 +101,6 @@ export default function DhikrDetailPage({
             {dhikr.meaning_en}
           </p>
 
-          {/* Share button */}
           <div className="mt-6">
             <button
               onClick={() =>
@@ -227,7 +270,6 @@ export default function DhikrDetailPage({
         </div>
       </div>
 
-      {/* Share Modal */}
       {shareData && (
         <ShareModal
           arabic={shareData.arabic}

@@ -1,0 +1,38 @@
+{
+  "id": "hud",
+  "title": "Hud",
+  "subtitle": "Hud, Al-A'raf, Ash-Shu'ara",
+  "surah_refs": [7, 11, 26, 46],
+  "total_ayahs": 15,
+  "sections": [
+    {
+      "heading": "The Call",
+      "ayahs": [
+        { "verse_ref": "7:65", "arabic": "وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًا ۗ قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُ", "translation_en": "And to the people of Aad, We sent their brother Hud. He said, 'O my people, worship Allah; you have no deity other than Him.'" },
+        { "verse_ref": "11:50", "arabic": "وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًا ۚ قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُ ۖ إِنْ أَنتُمْ إِلَّا مُفْتَرُونَ", "translation_en": "And to Aad, We sent their brother Hud. He said, 'O my people, worship Allah; you have no deity other than Him. You are not but inventors of falsehood.'" },
+        { "verse_ref": "26:124", "arabic": "إِذْ قَالَ لَهُمْ أَخُوهُمْ هُودٌ أَلَا تَتَّقُونَ", "translation_en": "When their brother Hud said to them, 'Will you not fear Allah?'" },
+        { "verse_ref": "11:52", "arabic": "وَيَا قَوْمِ اسْتَغْفِرُوا رَبَّكُمْ ثُمَّ تُوبُوا إِلَيْهِ يُرْسِلِ السَّمَاءَ عَلَيْكُم مِّدْرَارًا", "translation_en": "And O my people, ask forgiveness of your Lord and then repent to Him. He will send rain from the sky upon you in showers." }
+      ]
+    },
+    {
+      "heading": "The Arrogance",
+      "ayahs": [
+        { "verse_ref": "7:66", "arabic": "قَالَ الْمَلَأُ الَّذِينَ كَفَرُوا مِن قَوْمِهِ إِنَّا لَنَرَاكَ فِي سَفَاهَةٍ وَإِنَّا لَنَظُنُّكَ مِنَ الْكَاذِبِينَ", "translation_en": "Said the eminent ones who disbelieved among his people, 'Indeed, we see you in foolishness, and indeed, we think you are of the liars.'" },
+        { "verse_ref": "7:67", "arabic": "قَالَ يَا قَوْمِ لَيْسَ بِي سَفَاهَةٌ وَلَٰكِنِّي رَسُولٌ مِّن رَّبِّ الْعَالَمِينَ", "translation_en": "He said, 'O my people, there is not foolishness in me, but I am a messenger from the Lord of the worlds.'" },
+        { "verse_ref": "26:128", "arabic": "أَتَبْنُونَ بِكُلِّ رِيعٍ آيَةً تَعْبَثُونَ", "translation_en": "'Do you build on every height a monument for amusement?'" },
+        { "verse_ref": "26:129", "arabic": "وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ", "translation_en": "'And you take for yourselves constructions that you might live forever?'" },
+        { "verse_ref": "41:15", "arabic": "فَأَمَّا عَادٌ فَاسْتَكْبَرُوا فِي الْأَرْضِ بِغَيْرِ الْحَقِّ وَقَالُوا مَنْ أَشَدُّ مِنَّا قُوَّةً", "translation_en": "As for Aad, they were arrogant upon the earth without right and said, 'Who is greater than us in strength?'" }
+      ]
+    },
+    {
+      "heading": "The Punishment",
+      "ayahs": [
+        { "verse_ref": "7:71", "arabic": "قَالَ قَدْ وَقَعَ عَلَيْكُم مِّن رَّبِّكُمْ رِجْسٌ وَغَضَبٌ", "translation_en": "He said, 'Already have defilement and anger fallen upon you from your Lord.'" },
+        { "verse_ref": "46:24", "arabic": "فَلَمَّا رَأَوْهُ عَارِضًا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا هَٰذَا عَارِضٌ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا اسْتَعْجَلْتُم بِهِ", "translation_en": "And when they saw it as a cloud approaching their valleys, they said, 'This is a cloud bringing us rain!' Rather, it is that for which you were impatient." },
+        { "verse_ref": "46:25", "arabic": "تُدَمِّرُ كُلَّ شَيْءٍ بِأَمْرِ رَبِّهَا فَأَصْبَحُوا لَا يُرَىٰ إِلَّا مَسَاكِنُهُمْ", "translation_en": "Destroying everything by command of its Lord. And they became so that nothing was seen except their dwellings." },
+        { "verse_ref": "69:7", "arabic": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَانِيَةَ أَيَّامٍ حُسُومًا", "translation_en": "Which He imposed upon them for seven nights and eight days in succession." },
+        { "verse_ref": "11:58", "arabic": "وَلَمَّا جَاءَ أَمْرُنَا نَجَّيْنَا هُودًا وَالَّذِينَ آمَنُوا مَعَهُ بِرَحْمَةٍ مِّنَّا", "translation_en": "And when Our command came, We saved Hud and those who believed with him, by mercy from Us." }
+      ]
+    }
+  ]
+}

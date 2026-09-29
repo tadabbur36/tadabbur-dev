@@ -1,0 +1,54 @@
+{
+  "id": "nuh",
+  "title": "Nuh",
+  "subtitle": "Hud, Nuh, Al-Mu'minun",
+  "surah_refs": [11, 71, 23, 26],
+  "total_ayahs": 20,
+  "sections": [
+    {
+      "heading": "The Call",
+      "ayahs": [
+        { "verse_ref": "71:1", "arabic": "إِنَّا أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ", "translation_en": "Indeed, We sent Nuh to his people, 'Warn your people before there comes to them a painful punishment.'" },
+        { "verse_ref": "71:2", "arabic": "قَالَ يَا قَوْمِ إِنِّي لَكُمْ نَذِيرٌ مُّبِينٌ", "translation_en": "He said, 'O my people, indeed I am to you a clear warner.'" },
+        { "verse_ref": "71:3", "arabic": "أَنِ اعْبُدُوا اللَّهَ وَاتَّقُوهُ وَأَطِيعُونِ", "translation_en": "'That you worship Allah and fear Him and obey me.'" },
+        { "verse_ref": "71:4", "arabic": "يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰ أَجَلٍ مُّسَمًّى", "translation_en": "'He will forgive you of your sins and delay you for a specified term.'" }
+      ]
+    },
+    {
+      "heading": "The Refusal",
+      "ayahs": [
+        { "verse_ref": "71:5", "arabic": "قَالَ رَبِّ إِنِّي دَعَوْتُ قَوْمِي لَيْلًا وَنَهَارًا", "translation_en": "He said, 'My Lord, indeed I invited my people night and day.'" },
+        { "verse_ref": "71:6", "arabic": "فَلَمْ يَزِدْهُمْ دُعَائِي إِلَّا فِرَارًا", "translation_en": "'But my invitation increased them not except in flight.'" },
+        { "verse_ref": "71:7", "arabic": "وَإِنِّي كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوا أَصَابِعَهُمْ فِي آذَانِهِمْ وَاسْتَغْشَوْا ثِيَابَهُمْ", "translation_en": "'And indeed, every time I invited them that You may forgive them, they put their fingers in their ears, covered themselves with their garments.'" },
+        { "verse_ref": "71:9", "arabic": "ثُمَّ إِنِّي أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًا", "translation_en": "'Then I announced to them and confided to them privately.'" },
+        { "verse_ref": "11:38", "arabic": "وَيَصْنَعُ الْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌ مِّن قَوْمِهِ سَخِرُوا مِنْهُ", "translation_en": "And he constructed the ship, and whenever the chiefs of his people passed by him, they ridiculed him." }
+      ]
+    },
+    {
+      "heading": "The Reminder",
+      "ayahs": [
+        { "verse_ref": "71:10", "arabic": "فَقُلْتُ اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا", "translation_en": "And I said, 'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver.'" },
+        { "verse_ref": "71:11", "arabic": "يُرْسِلِ السَّمَاءَ عَلَيْكُم مِّدْرَارًا", "translation_en": "'He will send rain from the sky upon you in showers.'" },
+        { "verse_ref": "71:12", "arabic": "وَيُمْدِدْكُم بِأَمْوَالٍ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّاتٍ وَيَجْعَل لَّكُمْ أَنْهَارًا", "translation_en": "'And give you increase in wealth and children and provide for you gardens and provide for you rivers.'" },
+        { "verse_ref": "71:13", "arabic": "مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا", "translation_en": "'What is wrong with you that you do not attribute to Allah dignity?'" }
+      ]
+    },
+    {
+      "heading": "The Flood",
+      "ayahs": [
+        { "verse_ref": "11:40", "arabic": "حَتَّىٰ إِذَا جَاءَ أَمْرُنَا وَفَارَ التَّنُّورُ قُلْنَا احْمِلْ فِيهَا مِن كُلٍّ زَوْجَيْنِ اثْنَيْنِ", "translation_en": "Until, when Our command came and the oven overflowed, We said, 'Load upon it of each creature two mates.'" },
+        { "verse_ref": "11:42", "arabic": "وَهِيَ تَجْرِي بِهِمْ فِي مَوْجٍ كَالْجِبَالِ وَنَادَىٰ نُوحٌ ابْنَهُ", "translation_en": "And it sailed with them through waves like mountains, and Nuh called out to his son." },
+        { "verse_ref": "11:43", "arabic": "قَالَ سَآوِي إِلَىٰ جَبَلٍ يَعْصِمُنِي مِنَ الْمَاءِ ۚ قَالَ لَا عَاصِمَ الْيَوْمَ مِنْ أَمْرِ اللَّهِ إِلَّا مَن رَّحِمَ", "translation_en": "He said, 'I will take refuge on a mountain to protect me from the water.' He said, 'There is no protector today from the command of Allah, except whom He has had mercy upon.'" },
+        { "verse_ref": "11:44", "arabic": "وَقِيلَ يَا أَرْضُ ابْلَعِي مَاءَكِ وَيَا سَمَاءُ أَقْلِعِي وَغِيضَ الْمَاءُ وَقُضِيَ الْأَمْرُ", "translation_en": "And it was said, 'O earth, swallow your water, and O sky, withhold your rain.' And the water subsided, and the matter was accomplished." }
+      ]
+    },
+    {
+      "heading": "The Warning",
+      "ayahs": [
+        { "verse_ref": "11:45", "arabic": "وَنَادَىٰ نُوحٌ رَّبَّهُ فَقَالَ رَبِّ إِنَّ ابْنِي مِنْ أَهْلِي وَإِنَّ وَعْدَكَ الْحَقُّ", "translation_en": "And Nuh called to his Lord and said, 'My Lord, indeed my son is of my family; and indeed, Your promise is true.'" },
+        { "verse_ref": "11:46", "arabic": "قَالَ يَا نُوحُ إِنَّهُ لَيْسَ مِنْ أَهْلِكَ ۖ إِنَّهُ عَمَلٌ غَيْرُ صَالِحٍ ۖ فَلَا تَسْأَلْنِ مَا لَيْسَ لَكَ بِهِ عِلْمٌ", "translation_en": "He said, 'O Nuh, indeed he is not of your family; indeed, he is one whose work was other than righteous. So do not ask Me about that of which you have no knowledge.'" },
+        { "verse_ref": "11:47", "arabic": "قَالَ رَبِّ إِنِّي أَعُوذُ بِكَ أَنْ أَسْأَلَكَ مَا لَيْسَ لِي بِهِ عِلْمٌ ۖ وَإِلَّا تَغْفِرْ لِي وَتَرْحَمْنِي أَكُن مِّنَ الْخَاسِرِينَ", "translation_en": "He said, 'My Lord, I seek refuge in You from asking that of which I have no knowledge. And unless You forgive me and have mercy upon me, I will be among the losers.'" }
+      ]
+    }
+  ]
+}

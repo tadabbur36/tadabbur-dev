@@ -5,6 +5,8 @@ import Link from "next/link";
 import { use, useState, useEffect } from "react";
 import { useTheme } from "@/components/ThemeProvider";
 import ShareModal from "@/components/ShareModal";
+import ThemePicker from "@/components/ThemePicker";
+import ProActivateModal from "@/components/ProActivateModal";
 
 type Bookmark = {
   ref: string;
@@ -17,34 +19,10 @@ type Bookmark = {
 };
 
 const sizeMap = {
-  sm: {
-    main: "1.75rem",
-    body: "0.875rem",
-    evidence: "0.9375rem",
-    context: "0.8125rem",
-    reference: "0.8125rem",
-  },
-  md: {
-    main: "2.25rem",
-    body: "1rem",
-    evidence: "1.0625rem",
-    context: "0.9375rem",
-    reference: "0.9375rem",
-  },
-  lg: {
-    main: "2.75rem",
-    body: "1.125rem",
-    evidence: "1.1875rem",
-    context: "1.0625rem",
-    reference: "1.0625rem",
-  },
-  xl: {
-    main: "3.5rem",
-    body: "1.25rem",
-    evidence: "1.3125rem",
-    context: "1.1875rem",
-    reference: "1.1875rem",
-  },
+  sm: { main: "1.75rem", body: "0.875rem", evidence: "0.9375rem", context: "0.8125rem", reference: "0.8125rem" },
+  md: { main: "2.25rem", body: "1rem", evidence: "1.0625rem", context: "0.9375rem", reference: "0.9375rem" },
+  lg: { main: "2.75rem", body: "1.125rem", evidence: "1.1875rem", context: "1.0625rem", reference: "1.0625rem" },
+  xl: { main: "3.5rem", body: "1.25rem", evidence: "1.3125rem", context: "1.1875rem", reference: "1.1875rem" },
 };
 
 export default function EmotionPage({
@@ -54,9 +32,10 @@ export default function EmotionPage({
 }) {
   const { slug } = use(params);
   const emotion = getEmotion(slug);
-  const { theme, setTheme, textSize, setTextSize, isPro, setIsPro } = useTheme();
+  const { textSize, setTextSize, isPro } = useTheme();
 
   const [showSettings, setShowSettings] = useState(false);
+  const [showProModal, setShowProModal] = useState(false);
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
   const [folders, setFolders] = useState<Array<{ id: string; name: string }>>([]);
   const [showFolderPicker, setShowFolderPicker] = useState<{
@@ -76,15 +55,9 @@ export default function EmotionPage({
   } | null>(null);
 
   useEffect(() => {
-    const savedBookmarks = JSON.parse(
-      localStorage.getItem("tadabbur-bookmarks") || "[]"
-    );
-    const savedFolders = JSON.parse(
-      localStorage.getItem("tadabbur-folders") || "[]"
-    );
-    const savedJournal = JSON.parse(
-      localStorage.getItem("tadabbur-journal") || "{}"
-    );
+    const savedBookmarks = JSON.parse(localStorage.getItem("tadabbur-bookmarks") || "[]");
+    const savedFolders = JSON.parse(localStorage.getItem("tadabbur-folders") || "[]");
+    const savedJournal = JSON.parse(localStorage.getItem("tadabbur-journal") || "{}");
     setBookmarks(savedBookmarks);
     setFolders(savedFolders);
     setJournal(savedJournal);
@@ -140,25 +113,12 @@ export default function EmotionPage({
     localStorage.setItem("tadabbur-journal", JSON.stringify(updated));
   };
 
-  const themeList: Array<{ id: any; label: string; preview: string }> = [
-    { id: "dark", label: "Midnight", preview: "#22d3ee" },
-    { id: "light", label: "Paper", preview: "#b45309" },
-    { id: "sepia", label: "Manuscript", preview: "#92400e" },
-    { id: "amoled", label: "OLED", preview: "#000000" },
-    { id: "forest", label: "Forest", preview: "#34d399" },
-    { id: "rose", label: "Rose", preview: "#fb7185" },
-    { id: "blossom", label: "Blossom", preview: "#e8a5b8" },
-    { id: "ocean", label: "Ocean", preview: "#60a5fa" },
-    { id: "lavender", label: "Lavender", preview: "#c4b5fd" },
-  ];
-
   return (
     <main
       className="min-h-screen"
       style={{ background: "var(--bg-primary)", color: "var(--text-primary)" }}
     >
       <div className="max-w-3xl mx-auto px-6 py-12 md:py-16">
-        {/* Header */}
         <div className="flex items-center justify-between mb-12 flex-wrap gap-3">
           <Link
             href="/"
@@ -194,7 +154,6 @@ export default function EmotionPage({
           </div>
         </div>
 
-        {/* Settings Panel */}
         {showSettings && (
           <div
             className="rounded-2xl p-6 mb-12"
@@ -203,27 +162,8 @@ export default function EmotionPage({
             <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
               Theme
             </p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-6">
-              {themeList.map((t) => (
-                <button
-                  key={t.id}
-                  onClick={() => setTheme(t.id)}
-                  className="flex items-center gap-3 p-3 rounded-xl text-xs transition text-left"
-                  style={{
-                    background: theme === t.id ? "var(--accent)" : "var(--bg-card-hover)",
-                    color: theme === t.id ? "var(--accent-text)" : "var(--text-primary)",
-                  }}
-                >
-                  <span
-                    className="w-4 h-4 rounded-full flex-shrink-0"
-                    style={{
-                      background: t.preview,
-                      border: "1px solid rgba(255,255,255,0.15)",
-                    }}
-                  />
-                  <span className="truncate">{t.label}</span>
-                </button>
-              ))}
+            <div className="mb-6">
+              <ThemePicker />
             </div>
 
             <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
@@ -245,22 +185,16 @@ export default function EmotionPage({
               ))}
             </div>
 
-            <div
-              className="pt-4 mt-4"
-              style={{ borderTop: "1px solid var(--bg-border)" }}
-            >
-              <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
-                Pro Preview
-              </p>
+            <div className="pt-4 mt-4" style={{ borderTop: "1px solid var(--bg-border)" }}>
               <button
-                onClick={() => setIsPro(!isPro)}
+                onClick={() => setShowProModal(true)}
                 className="w-full py-3 rounded-xl font-medium transition text-sm"
                 style={{
-                  background: isPro ? "var(--accent)" : "var(--bg-card-hover)",
-                  color: isPro ? "var(--accent-text)" : "var(--text-primary)",
+                  background: isPro ? "var(--bg-card-hover)" : "var(--accent)",
+                  color: isPro ? "var(--text-primary)" : "var(--accent-text)",
                 }}
               >
-                {isPro ? "Pro Active" : "Activate Pro"}
+                {isPro ? "Pro Active ✓" : "Activate Pro"}
               </button>
             </div>
           </div>
@@ -268,19 +202,13 @@ export default function EmotionPage({
 
         {/* Emotion header */}
         <div className="mb-14">
-          <p
-            className="mb-3"
-            style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-          >
+          <p className="mb-3" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
             You said you feel
           </p>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
             {emotion.label}
           </h1>
-          <p
-            className="leading-relaxed"
-            style={{ color: "var(--text-secondary)", fontSize: sizes.body }}
-          >
+          <p className="leading-relaxed" style={{ color: "var(--text-secondary)", fontSize: sizes.body }}>
             {emotion.acknowledgment}
           </p>
         </div>
@@ -294,10 +222,7 @@ export default function EmotionPage({
             return (
               <div key={i}>
                 <div className="flex items-center justify-between mb-4">
-                  <span
-                    className="font-medium"
-                    style={{ color: "var(--accent)", fontSize: sizes.reference }}
-                  >
+                  <span className="font-medium" style={{ color: "var(--accent)", fontSize: sizes.reference }}>
                     {verse.verse_ref}
                   </span>
                   <div className="flex items-center gap-2">
@@ -310,27 +235,21 @@ export default function EmotionPage({
                         })
                       }
                       className="text-xs px-3 py-1.5 rounded-full transition"
-                      style={{
-                        background: "var(--bg-card)",
-                        color: "var(--text-muted)",
-                      }}
+                      style={{ background: "var(--bg-card)", color: "var(--text-muted)" }}
                     >
                       Share
                     </button>
                     {isPro && (
                       <button
                         onClick={() => {
-                          if (marked) {
-                            removeBookmark(verse.verse_ref);
-                          } else {
-                            setShowFolderPicker({
-                              ref: verse.verse_ref,
-                              arabic: verse.arabic,
-                              translation: verse.translation_en,
-                              surah_name: "Quran",
-                              type: "verse",
-                            });
-                          }
+                          if (marked) removeBookmark(verse.verse_ref);
+                          else setShowFolderPicker({
+                            ref: verse.verse_ref,
+                            arabic: verse.arabic,
+                            translation: verse.translation_en,
+                            surah_name: "Quran",
+                            type: "verse",
+                          });
                         }}
                         className="text-xs px-3 py-1.5 rounded-full transition"
                         style={{
@@ -344,24 +263,15 @@ export default function EmotionPage({
                   </div>
                 </div>
 
-                <p
-                  className="arabic text-right mb-5"
-                  style={{ fontSize: sizes.main, color: "var(--text-primary)" }}
-                >
+                <p className="arabic text-right mb-5" style={{ fontSize: sizes.main, color: "var(--text-primary)" }}>
                   {verse.arabic}
                 </p>
 
-                <p
-                  className="leading-relaxed mb-3"
-                  style={{ color: "var(--text-secondary)", fontSize: sizes.body }}
-                >
+                <p className="leading-relaxed mb-3" style={{ color: "var(--text-secondary)", fontSize: sizes.body }}>
                   {verse.translation_en}
                 </p>
 
-                <p
-                  className="leading-relaxed mb-6"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                >
+                <p className="leading-relaxed mb-6" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
                   {verse.context}
                 </p>
 
@@ -369,24 +279,18 @@ export default function EmotionPage({
                   <>
                     <button
                       onClick={() =>
-                        setActiveJournal(
-                          activeJournal === verse.verse_ref ? null : verse.verse_ref
-                        )
+                        setActiveJournal(activeJournal === verse.verse_ref ? null : verse.verse_ref)
                       }
                       className="transition hover:opacity-80 mb-3"
                       style={{ color: "var(--text-muted)", fontSize: sizes.context }}
                     >
-                      {activeJournal === verse.verse_ref
-                        ? "Close journal"
-                        : "Write in journal"}
+                      {activeJournal === verse.verse_ref ? "Close journal" : "Write in journal"}
                       {journalText && " • saved"}
                     </button>
                     {activeJournal === verse.verse_ref && (
                       <textarea
                         value={journalText}
-                        onChange={(e) =>
-                          saveJournal(verse.verse_ref, e.target.value)
-                        }
+                        onChange={(e) => saveJournal(verse.verse_ref, e.target.value)}
                         placeholder="Your reflection..."
                         className="w-full p-4 rounded-2xl resize-none outline-none transition"
                         rows={4}
@@ -402,10 +306,7 @@ export default function EmotionPage({
                 )}
 
                 {i < emotion.verses.length - 1 && (
-                  <div
-                    className="mt-14"
-                    style={{ height: "1px", background: "var(--bg-border)" }}
-                  />
+                  <div className="mt-14" style={{ height: "1px", background: "var(--bg-border)" }} />
                 )}
               </div>
             );
@@ -414,10 +315,7 @@ export default function EmotionPage({
 
         {/* Names of Allah */}
         <div className="mt-20">
-          <p
-            className="mb-8 uppercase tracking-wider"
-            style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-          >
+          <p className="mb-8 uppercase tracking-wider" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
             Names that meet you here
           </p>
 
@@ -430,10 +328,7 @@ export default function EmotionPage({
               return (
                 <div key={i}>
                   <div className="flex items-center justify-between mb-4">
-                    <span
-                      className="font-medium"
-                      style={{ color: "var(--accent)", fontSize: sizes.reference }}
-                    >
+                    <span className="font-medium" style={{ color: "var(--accent)", fontSize: sizes.reference }}>
                       {name.transliteration}
                     </span>
                     <div className="flex items-center gap-2">
@@ -446,27 +341,21 @@ export default function EmotionPage({
                           })
                         }
                         className="text-xs px-3 py-1.5 rounded-full transition"
-                        style={{
-                          background: "var(--bg-card)",
-                          color: "var(--text-muted)",
-                        }}
+                        style={{ background: "var(--bg-card)", color: "var(--text-muted)" }}
                       >
                         Share
                       </button>
                       {isPro && (
                         <button
                           onClick={() => {
-                            if (marked) {
-                              removeBookmark(nameRef);
-                            } else {
-                              setShowFolderPicker({
-                                ref: nameRef,
-                                arabic: name.arabic,
-                                translation: name.meaning_en,
-                                surah_name: "Name of Allah",
-                                type: "name",
-                              });
-                            }
+                            if (marked) removeBookmark(nameRef);
+                            else setShowFolderPicker({
+                              ref: nameRef,
+                              arabic: name.arabic,
+                              translation: name.meaning_en,
+                              surah_name: "Name of Allah",
+                              type: "name",
+                            });
                           }}
                           className="text-xs px-3 py-1.5 rounded-full transition"
                           style={{
@@ -480,51 +369,27 @@ export default function EmotionPage({
                     </div>
                   </div>
 
-                  <p
-                    className="arabic text-center mb-3"
-                    style={{ fontSize: sizes.main, color: "var(--accent)" }}
-                  >
+                  <p className="arabic text-center mb-3" style={{ fontSize: sizes.main, color: "var(--accent)" }}>
                     {name.arabic}
                   </p>
-                  <p className="text-xl font-medium text-center mb-1">
-                    {name.transliteration}
-                  </p>
-                  <p
-                    className="text-center mb-5"
-                    style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                  >
+                  <p className="text-xl font-medium text-center mb-1">{name.transliteration}</p>
+                  <p className="text-center mb-5" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
                     {name.meaning_en}
                   </p>
-                  <p
-                    className="leading-relaxed mb-6 max-w-xl mx-auto text-center"
-                    style={{ color: "var(--text-secondary)", fontSize: sizes.body }}
-                  >
+                  <p className="leading-relaxed mb-6 max-w-xl mx-auto text-center" style={{ color: "var(--text-secondary)", fontSize: sizes.body }}>
                     {name.explanation}
                   </p>
 
                   <div className="space-y-3 mb-6">
                     {name.evidence_verses.map((ev, j) => (
-                      <div
-                        key={j}
-                        className="rounded-2xl p-5"
-                        style={{ background: "var(--bg-card)" }}
-                      >
-                        <p
-                          className="mb-3"
-                          style={{ color: "var(--accent)", fontSize: sizes.reference }}
-                        >
+                      <div key={j} className="rounded-2xl p-5" style={{ background: "var(--bg-card)" }}>
+                        <p className="mb-3" style={{ color: "var(--accent)", fontSize: sizes.reference }}>
                           {ev.verse_ref}
                         </p>
-                        <p
-                          className="arabic text-right mb-3"
-                          style={{ fontSize: sizes.evidence }}
-                        >
+                        <p className="arabic text-right mb-3" style={{ fontSize: sizes.evidence }}>
                           {ev.arabic}
                         </p>
-                        <p
-                          className="leading-relaxed"
-                          style={{ color: "var(--text-secondary)", fontSize: sizes.body }}
-                        >
+                        <p className="leading-relaxed" style={{ color: "var(--text-secondary)", fontSize: sizes.body }}>
                           {ev.translation_en}
                         </p>
                       </div>
@@ -534,9 +399,7 @@ export default function EmotionPage({
                   {isPro && (
                     <>
                       <button
-                        onClick={() =>
-                          setActiveJournal(activeJournal === nameRef ? null : nameRef)
-                        }
+                        onClick={() => setActiveJournal(activeJournal === nameRef ? null : nameRef)}
                         className="transition hover:opacity-80 mb-3"
                         style={{ color: "var(--text-muted)", fontSize: sizes.context }}
                       >
@@ -562,10 +425,7 @@ export default function EmotionPage({
                   )}
 
                   {i < emotion.names_of_allah.length - 1 && (
-                    <div
-                      className="mt-12"
-                      style={{ height: "1px", background: "var(--bg-border)" }}
-                    />
+                    <div className="mt-12" style={{ height: "1px", background: "var(--bg-border)" }} />
                   )}
                 </div>
               );
@@ -575,27 +435,17 @@ export default function EmotionPage({
 
         {/* Personal Question */}
         <div className="mt-20">
-          <div
-            className="rounded-3xl p-8"
-            style={{ background: "var(--bg-card)" }}
-          >
-            <p
-              className="mb-4 uppercase tracking-wider"
-              style={{ color: "var(--accent)", fontSize: sizes.context }}
-            >
+          <div className="rounded-3xl p-8" style={{ background: "var(--bg-card)" }}>
+            <p className="mb-4 uppercase tracking-wider" style={{ color: "var(--accent)", fontSize: sizes.context }}>
               Ask yourself
             </p>
-            <p
-              className="leading-relaxed"
-              style={{ color: "var(--text-primary)", fontSize: sizes.body }}
-            >
+            <p className="leading-relaxed" style={{ color: "var(--text-primary)", fontSize: sizes.body }}>
               {emotion.personal_question}
             </p>
           </div>
         </div>
       </div>
 
-      {/* Folder Picker Modal */}
       {showFolderPicker && (
         <div
           className="fixed inset-0 bg-black/60 backdrop-blur-md z-50 flex items-end sm:items-center justify-center p-4"
@@ -607,7 +457,6 @@ export default function EmotionPage({
             onClick={(e) => e.stopPropagation()}
           >
             <p className="text-lg font-medium mb-6">Save to folder</p>
-
             <div className="space-y-2 mb-4">
               <button
                 onClick={() => saveBookmark("all")}
@@ -616,7 +465,6 @@ export default function EmotionPage({
               >
                 All Saved
               </button>
-
               {folders.map((f) => (
                 <button
                   key={f.id}
@@ -627,25 +475,16 @@ export default function EmotionPage({
                   {f.name}
                 </button>
               ))}
-
               {folders.length === 0 && (
-                <p
-                  className="text-center p-4"
-                  style={{ color: "var(--text-muted)", fontSize: sizes.context }}
-                >
+                <p className="text-center p-4" style={{ color: "var(--text-muted)", fontSize: sizes.context }}>
                   No folders yet. Create one on the Saved page.
                 </p>
               )}
             </div>
-
             <button
               onClick={() => setShowFolderPicker(null)}
               className="w-full py-3 rounded-2xl font-medium transition"
-              style={{
-                background: "var(--bg-card-hover)",
-                color: "var(--text-primary)",
-                fontSize: sizes.body,
-              }}
+              style={{ background: "var(--bg-card-hover)", color: "var(--text-primary)", fontSize: sizes.body }}
             >
               Cancel
             </button>
@@ -653,13 +492,19 @@ export default function EmotionPage({
         </div>
       )}
 
-      {/* Share Modal */}
       {shareData && (
         <ShareModal
           arabic={shareData.arabic}
           translation={shareData.translation}
           reference={shareData.reference}
           onClose={() => setShareData(null)}
+        />
+      )}
+
+      {showProModal && (
+        <ProActivateModal
+          onClose={() => setShowProModal(false)}
+          onActivated={() => console.log("Pro activated")}
         />
       )}
     </main>

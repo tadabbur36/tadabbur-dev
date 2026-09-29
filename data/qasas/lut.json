@@ -1,0 +1,45 @@
+{
+  "id": "lut",
+  "title": "Lut",
+  "subtitle": "Al-A'raf, Hud, Ash-Shu'ara",
+  "surah_refs": [7, 11, 26, 27, 29],
+  "total_ayahs": 12,
+  "sections": [
+    {
+      "heading": "The Warning",
+      "ayahs": [
+        { "verse_ref": "7:80", "arabic": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِ أَتَأْتُونَ الْفَاحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ الْعَالَمِينَ", "translation_en": "And Lut, when he said to his people, 'Do you commit an immorality that no one in the worlds has ever done before you?'" },
+        { "verse_ref": "7:81", "arabic": "إِنَّكُمْ لَتَأْتُونَ الرِّجَالَ شَهْوَةً مِّن دُونِ النِّسَاءِ ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ", "translation_en": "'Indeed, you approach men with desire instead of women. Rather, you are a transgressing people.'" },
+        { "verse_ref": "26:165", "arabic": "أَتَأْتُونَ الذُّكْرَانَ مِنَ الْعَالَمِينَ", "translation_en": "'Do you approach males among the worlds?'" },
+        { "verse_ref": "27:54", "arabic": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِ أَتَأْتُونَ الْفَاحِشَةَ وَأَنتُمْ تُبْصِرُونَ", "translation_en": "And Lut, when he said to his people, 'Do you commit immorality while you are seeing?'" }
+      ]
+    },
+    {
+      "heading": "The Refusal",
+      "ayahs": [
+        { "verse_ref": "7:82", "arabic": "وَمَا كَانَ جَوَابَ قَوْمِهِ إِلَّا أَن قَالُوا أَخْرِجُوهُم مِّن قَرْيَتِكُمْ ۖ إِنَّهُمْ أُنَاسٌ يَتَطَهَّرُونَ", "translation_en": "But the answer of his people was only that they said, 'Evict them from your city! Indeed, they are men who keep themselves pure.'" },
+        { "verse_ref": "26:167", "arabic": "قَالُوا لَئِن لَّمْ تَنتَهِ يَا لُوطُ لَتَكُونَنَّ مِنَ الْمُخْرَجِينَ", "translation_en": "They said, 'If you do not desist, O Lut, you will surely be of those evicted.'" },
+        { "verse_ref": "29:29", "arabic": "أَئِنَّكُمْ لَتَأْتُونَ الرِّجَالَ وَتَقْطَعُونَ السَّبِيلَ وَتَأْتُونَ فِي نَادِيكُمُ الْمُنكَرَ", "translation_en": "Indeed, you approach men and obstruct the road and commit in your meetings every evil." },
+        { "verse_ref": "54:37", "arabic": "وَلَقَدْ رَاوَدُوهُ عَن ضَيْفِهِ فَطَمَسْنَا أَعْيُنَهُمْ", "translation_en": "And they had demanded from him his guests, but We obliterated their eyes." }
+      ]
+    },
+    {
+      "heading": "The Visitors",
+      "ayahs": [
+        { "verse_ref": "11:69", "arabic": "وَلَقَدْ جَاءَتْ رُسُلُنَا إِبْرَاهِيمَ بِالْبُشْرَىٰ قَالُوا سَلَامًا", "translation_en": "And certainly did Our messengers come to Ibrahim with good tidings; they said, 'Peace.'" },
+        { "verse_ref": "11:70", "arabic": "فَلَمَّا رَأَىٰ أَيْدِيَهُمْ لَا تَصِلُ إِلَيْهِ نَكِرَهُمْ وَأَوْجَسَ مِنْهُمْ خِيفَةً", "translation_en": "But when he saw their hands not reaching for it, he distrusted them and felt from them apprehension." },
+        { "verse_ref": "11:76", "arabic": "يَا إِبْرَاهِيمُ أَعْرِضْ عَنْ هَٰذَا ۖ إِنَّهُ قَدْ جَاءَ أَمْرُ رَبِّكَ ۖ وَإِنَّهُمْ آتِيهِمْ عَذَابٌ غَيْرُ مَرْدُودٍ", "translation_en": "O Ibrahim, turn away from this. Indeed, the command of your Lord has come, and indeed, there will reach them a punishment that cannot be repelled." },
+        { "verse_ref": "11:77", "arabic": "وَلَمَّا جَاءَتْ رُسُلُنَا لُوطًا سِيءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا", "translation_en": "And when Our messengers came to Lut, he was distressed for them and felt for them great discomfort." }
+      ]
+    },
+    {
+      "heading": "The End",
+      "ayahs": [
+        { "verse_ref": "11:81", "arabic": "قَالُوا يَا لُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوا إِلَيْكَ ۖ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ اللَّيْلِ", "translation_en": "They said, 'O Lut, indeed we are messengers of your Lord; they will not reach you. So set out with your family during a portion of the night.'" },
+        { "verse_ref": "11:82", "arabic": "فَلَمَّا جَاءَ أَمْرُنَا جَعَلْنَا عَالِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِّن سِجِّيلٍ", "translation_en": "So when Our command came, We made the highest part of it the lowest and rained upon it stones of layered hard clay." },
+        { "verse_ref": "15:74", "arabic": "فَجَعَلْنَا عَالِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِّن سِجِّيلٍ", "translation_en": "And We made the highest part of it the lowest and rained upon them stones of hard clay." },
+        { "verse_ref": "7:83", "arabic": "فَأَنجَيْنَاهُ وَأَهْلَهُ إِلَّا امْرَأَتَهُ كَانَتْ مِنَ الْغَابِرِينَ", "translation_en": "So We saved him and his family, except for his wife; she was of those who remained behind." }
+      ]
+    }
+  ]
+}

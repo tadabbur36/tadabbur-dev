@@ -1,0 +1,51 @@
+{
+  "surah": 110,
+  "name_en": "An-Nasr",
+  "name_ar": "النصر",
+  "name_transliteration": "An-Nasr",
+  "meaning_en": "The Divine Support",
+  "revelation_type": "Medinan",
+  "total_ayahs": 3,
+  "ayahs": [
+    {
+      "ayah": 1,
+      "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+      "translation_en": "When the victory of Allah has come and the conquest,",
+      "word_by_word": [
+        { "arabic": "إِذَا", "root": "إ-ذ-ا", "meaning_en": "When" },
+        { "arabic": "جَاءَ", "root": "ج-ي-أ", "meaning_en": "Has come" },
+        { "arabic": "نَصْرُ", "root": "ن-ص-ر", "meaning_en": "The victory" },
+        { "arabic": "اللَّهِ", "root": "إ-ل-ه", "meaning_en": "Of Allah" },
+        { "arabic": "وَالْفَتْحُ", "root": "ف-ت-ح", "meaning_en": "And the conquest" }
+      ]
+    },
+    {
+      "ayah": 2,
+      "arabic": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
+      "translation_en": "And you see the people entering into the religion of Allah in multitudes,",
+      "word_by_word": [
+        { "arabic": "وَرَأَيْتَ", "root": "ر-أ-ي", "meaning_en": "And you see" },
+        { "arabic": "النَّاسَ", "root": "ن-و-س", "meaning_en": "The people" },
+        { "arabic": "يَدْخُلُونَ", "root": "د-خ-ل", "meaning_en": "Entering" },
+        { "arabic": "فِي", "root": "ف-ي", "meaning_en": "Into" },
+        { "arabic": "دِينِ", "root": "د-ي-ن", "meaning_en": "The religion" },
+        { "arabic": "اللَّهِ", "root": "إ-ل-ه", "meaning_en": "Of Allah" },
+        { "arabic": "أَفْوَاجًا", "root": "ف-و-ج", "meaning_en": "In multitudes" }
+      ]
+    },
+    {
+      "ayah": 3,
+      "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
+      "translation_en": "Then exalt Him with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.",
+      "word_by_word": [
+        { "arabic": "فَسَبِّحْ", "root": "س-ب-ح", "meaning_en": "Then exalt" },
+        { "arabic": "بِحَمْدِ", "root": "ح-م-د", "meaning_en": "With praise" },
+        { "arabic": "رَبِّكَ", "root": "ر-ب-ب", "meaning_en": "Of your Lord" },
+        { "arabic": "وَاسْتَغْفِرْهُ", "root": "غ-ف-ر", "meaning_en": "And ask forgiveness of Him" },
+        { "arabic": "إِنَّهُ", "root": "إ-ن", "meaning_en": "Indeed, He" },
+        { "arabic": "كَانَ", "root": "ك-و-ن", "meaning_en": "Is ever" },
+        { "arabic": "تَوَّابًا", "root": "ت-و-ب", "meaning_en": "Accepting of repentance" }
+      ]
+    }
+  ]
+}

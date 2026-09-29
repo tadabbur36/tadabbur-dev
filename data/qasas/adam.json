@@ -1,0 +1,55 @@
+{
+  "id": "adam",
+  "title": "Adam",
+  "subtitle": "Al-Baqarah, Al-A'raf, Ta-Ha",
+  "surah_refs": [2, 7, 20],
+  "total_ayahs": 20,
+  "sections": [
+    {
+      "heading": "The Creation",
+      "ayahs": [
+        { "verse_ref": "2:30", "arabic": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً", "translation_en": "And when your Lord said to the angels, 'Indeed, I will make upon the earth a successive authority.'" },
+        { "verse_ref": "2:31", "arabic": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى الْمَلَائِكَةِ", "translation_en": "And He taught Adam the names, all of them. Then He showed them to the angels." },
+        { "verse_ref": "2:32", "arabic": "قَالُوا سُبْحَانَكَ لَا عِلْمَ لَنَا إِلَّا مَا عَلَّمْتَنَا ۖ إِنَّكَ أَنتَ الْعَلِيمُ الْحَكِيمُ", "translation_en": "They said, 'Exalted are You; we have no knowledge except what You have taught us. Indeed, it is You who is the Knowing, the Wise.'" },
+        { "verse_ref": "2:33", "arabic": "قَالَ يَا آدَمُ أَنبِئْهُم بِأَسْمَائِهِمْ ۖ فَلَمَّا أَنبَأَهُم بِأَسْمَائِهِمْ", "translation_en": "He said, 'O Adam, inform them of their names.' And when he had informed them of their names..." },
+        { "verse_ref": "7:11", "arabic": "وَلَقَدْ خَلَقْنَاكُمْ ثُمَّ صَوَّرْنَاكُمْ ثُمَّ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ", "translation_en": "And We have certainly created you, then formed you. Then We said to the angels, 'Prostrate to Adam.'" }
+      ]
+    },
+    {
+      "heading": "The Refusal",
+      "ayahs": [
+        { "verse_ref": "2:34", "arabic": "وَإِذْ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ أَبَىٰ وَاسْتَكْبَرَ وَكَانَ مِنَ الْكَافِرِينَ", "translation_en": "And when We said to the angels, 'Prostrate to Adam,' and they prostrated, except Iblis. He refused and was arrogant and became of the disbelievers." },
+        { "verse_ref": "7:12", "arabic": "قَالَ مَا مَنَعَكَ أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ ۖ قَالَ أَنَا خَيْرٌ مِّنْهُ خَلَقْتَنِي مِن نَّارٍ وَخَلَقْتَهُ مِن طِينٍ", "translation_en": "He said, 'What prevented you from prostrating when I commanded you?' He said, 'I am better than him. You created me from fire and created him from clay.'" },
+        { "verse_ref": "7:13", "arabic": "قَالَ فَاهْبِطْ مِنْهَا فَمَا يَكُونُ لَكَ أَن تَتَكَبَّرَ فِيهَا فَاخْرُجْ إِنَّكَ مِنَ الصَّاغِرِينَ", "translation_en": "He said, 'Descend from it, for it is not for you to be arrogant therein. So get out; indeed, you are of the debased.'" },
+        { "verse_ref": "15:39", "arabic": "قَالَ رَبِّ بِمَا أَغْوَيْتَنِي لَأُزَيِّنَنَّ لَهُمْ فِي الْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ", "translation_en": "He said, 'My Lord, because You have put me in error, I will surely make disobedience attractive to them on the earth, and I will mislead them all.'" }
+      ]
+    },
+    {
+      "heading": "The Garden",
+      "ayahs": [
+        { "verse_ref": "2:35", "arabic": "وَقُلْنَا يَا آدَمُ اسْكُنْ أَنتَ وَزَوْجُكَ الْجَنَّةَ فَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا", "translation_en": "And We said, 'O Adam, dwell, you and your wife, in Paradise and eat therefrom in abundance from wherever you wish.'" },
+        { "verse_ref": "2:35", "arabic": "وَلَا تَقْرَبَا هَٰذِهِ الشَّجَرَةَ فَتَكُونَا مِنَ الظَّالِمِينَ", "translation_en": "'But do not approach this tree, lest you be among the wrongdoers.'" },
+        { "verse_ref": "7:19", "arabic": "وَيَا آدَمُ اسْكُنْ أَنتَ وَزَوْجُكَ الْجَنَّةَ فَكُلَا مِنْ حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَٰذِهِ الشَّجَرَةَ", "translation_en": "And 'O Adam, dwell, you and your wife, in Paradise and eat from wherever you will, but do not approach this tree.'" },
+        { "verse_ref": "20:120", "arabic": "فَوَسْوَسَ إِلَيْهِ الشَّيْطَانُ قَالَ يَا آدَمُ هَلْ أَدُلُّكَ عَلَىٰ شَجَرَةِ الْخُلْدِ وَمُلْكٍ لَّا يَبْلَىٰ", "translation_en": "Then Satan whispered to him; he said, 'O Adam, shall I direct you to the tree of eternity and possession that will not deteriorate?'" }
+      ]
+    },
+    {
+      "heading": "The Fall",
+      "ayahs": [
+        { "verse_ref": "2:36", "arabic": "فَأَزَلَّهُمَا الشَّيْطَانُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ", "translation_en": "But Satan caused them to slip out of it and removed them from that condition in which they had been." },
+        { "verse_ref": "7:22", "arabic": "فَدَلَّاهُمَا بِغُرُورٍ ۚ فَلَمَّا ذَاقَا الشَّجَرَةَ بَدَتْ لَهُمَا سَوْآتُهُمَا", "translation_en": "So he made them fall, through deception. And when they tasted of the tree, their private parts became apparent to them." },
+        { "verse_ref": "20:121", "arabic": "فَأَكَلَا مِنْهَا فَبَدَتْ لَهُمَا سَوْآتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ الْجَنَّةِ", "translation_en": "And they ate from it, so their private parts became apparent to them, and they began to fasten together over themselves from the leaves of Paradise." },
+        { "verse_ref": "7:23", "arabic": "قَالَا رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ", "translation_en": "They said, 'Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers.'" }
+      ]
+    },
+    {
+      "heading": "The Descent",
+      "ayahs": [
+        { "verse_ref": "2:38", "arabic": "قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّي هُدًى فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ", "translation_en": "We said, 'Go down from it, all of you. And when guidance comes to you from Me, whoever follows My guidance, there will be no fear concerning them, nor will they grieve.'" },
+        { "verse_ref": "7:24", "arabic": "قَالَ اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ", "translation_en": "He said, 'Descend, being to one another enemies. And for you on the earth is a place of settlement and enjoyment for a time.'" },
+        { "verse_ref": "20:122", "arabic": "ثُمَّ اجْتَبَاهُ رَبُّهُ فَتَابَ عَلَيْهِ وَهَدَىٰ", "translation_en": "Then his Lord chose him and turned to him in forgiveness and guided him." },
+        { "verse_ref": "20:123", "arabic": "قَالَ اهْبِطَا مِنْهَا جَمِيعًا ۖ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّي هُدًى فَمَنِ اتَّبَعَ هُدَايَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ", "translation_en": "He said, 'Descend from it, all of you, being to one another enemies. And if there comes to you from Me guidance, then whoever follows My guidance, he will not go astray nor suffer.'" }
+      ]
+    }
+  ]
+}

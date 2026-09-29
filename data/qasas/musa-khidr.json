@@ -1,0 +1,60 @@
+{
+  "id": "musa-khidr",
+  "title": "Musa & Khidr",
+  "subtitle": "Al-Kahf",
+  "surah_refs": [18],
+  "total_ayahs": 22,
+  "sections": [
+    {
+      "heading": "The Journey",
+      "ayahs": [
+        { "verse_ref": "18:60", "arabic": "وَإِذْ قَالَ مُوسَىٰ لِفَتَاهُ لَا أَبْرَحُ حَتَّىٰ أَبْلُغَ مَجْمَعَ الْبَحْرَيْنِ أَوْ أَمْضِيَ حُقُبًا", "translation_en": "And when Musa said to his servant, 'I will not cease until I reach the junction of the two seas or continue for a long period.'" },
+        { "verse_ref": "18:61", "arabic": "فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا فَاتَّخَذَ سَبِيلَهُ فِي الْبَحْرِ سَرَبًا", "translation_en": "But when they reached the junction between them, they forgot their fish, and it took its course into the sea, slipping away." },
+        { "verse_ref": "18:62", "arabic": "فَلَمَّا جَاوَزَا قَالَ لِفَتَاهُ آتِنَا غَدَاءَنَا لَقَدْ لَقِينَا مِن سَفَرِنَا هَٰذَا نَصَبًا", "translation_en": "So when they had passed beyond it, he said to his servant, 'Bring us our morning meal. We have certainly suffered in this journey of ours much fatigue.'" },
+        { "verse_ref": "18:63", "arabic": "قَالَ أَرَأَيْتَ إِذْ أَوَيْنَا إِلَى الصَّخْرَةِ فَإِنِّي نَسِيتُ الْحُوتَ وَمَا أَنسَانِيهُ إِلَّا الشَّيْطَانُ أَنْ أَذْكُرَهُ", "translation_en": "He said, 'Did you see when we took refuge on the rock? Indeed, I forgot the fish, and none but Satan made me forget to mention it.'" }
+      ]
+    },
+    {
+      "heading": "The Meeting",
+      "ayahs": [
+        { "verse_ref": "18:65", "arabic": "فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَا آتَيْنَاهُ رَحْمَةً مِّنْ عِندِنَا وَعَلَّمْنَاهُ مِن لَّدُنَّا عِلْمًا", "translation_en": "And they found a servant from among Our servants to whom We had given mercy from Us and had taught him from Our knowledge." },
+        { "verse_ref": "18:66", "arabic": "قَالَ لَهُ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا", "translation_en": "Musa said to him, 'May I follow you so that you may teach me of what you have been taught of guidance?'" },
+        { "verse_ref": "18:67", "arabic": "قَالَ إِنَّكَ لَن تَسْتَطِيعَ مَعِيَ صَبْرًا", "translation_en": "He said, 'Indeed, you will not be able to have patience with me.'" },
+        { "verse_ref": "18:68", "arabic": "وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِ خُبْرًا", "translation_en": "'And how can you have patience for what you do not encompass in knowledge?'" },
+        { "verse_ref": "18:69", "arabic": "قَالَ سَتَجِدُنِي إِن شَاءَ اللَّهُ صَابِرًا وَلَا أَعْصِي لَكَ أَمْرًا", "translation_en": "He said, 'You will find me, if Allah wills, patient, and I will not disobey you in any order.'" }
+      ]
+    },
+    {
+      "heading": "The Ship",
+      "ayahs": [
+        { "verse_ref": "18:71", "arabic": "فَانطَلَقَا حَتَّىٰ إِذَا رَكِبَا فِي السَّفِينَةِ خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا", "translation_en": "So they set out, until when they had embarked on the ship, he tore it open. Musa said, 'Have you torn it open to drown its people?'" },
+        { "verse_ref": "18:72", "arabic": "قَالَ أَلَمْ أَقُلْ إِنَّكَ لَن تَسْتَطِيعَ مَعِيَ صَبْرًا", "translation_en": "He said, 'Did I not say that you would not be able to have patience with me?'" },
+        { "verse_ref": "18:73", "arabic": "قَالَ لَا تُؤَاخِذْنِي بِمَا نَسِيتُ وَلَا تُرْهِقْنِي مِنْ أَمْرِي عُسْرًا", "translation_en": "He said, 'Do not blame me for what I forgot, and do not overburden me in my affair with hardship.'" }
+      ]
+    },
+    {
+      "heading": "The Boy",
+      "ayahs": [
+        { "verse_ref": "18:74", "arabic": "فَانطَلَقَا حَتَّىٰ إِذَا لَقِيَا غُلَامًا فَقَتَلَهُ قَالَ أَقَتَلْتَ نَفْسًا زَكِيَّةً بِغَيْرِ نَفْسٍ", "translation_en": "So they set out, until when they met a boy, he killed him. Musa said, 'Have you killed a pure soul for other than a soul?'" },
+        { "verse_ref": "18:75", "arabic": "قَالَ أَلَمْ أَقُل لَّكَ إِنَّكَ لَن تَسْتَطِيعَ مَعِيَ صَبْرًا", "translation_en": "He said, 'Did I not tell you that you would not be able to have patience with me?'" },
+        { "verse_ref": "18:76", "arabic": "قَالَ إِن سَأَلْتُكَ عَن شَيْءٍ بَعْدَهَا فَلَا تُصَاحِبْنِي ۖ قَدْ بَلَغْتَ مِن لَّدُنِّي عُذْرًا", "translation_en": "He said, 'If I ask you about anything after this, do not keep me as a companion. You have already reached from me a justification.'" }
+      ]
+    },
+    {
+      "heading": "The Wall",
+      "ayahs": [
+        { "verse_ref": "18:77", "arabic": "فَانطَلَقَا حَتَّىٰ إِذَا أَتَيَا أَهْلَ قَرْيَةٍ اسْتَطْعَمَا أَهْلَهَا فَأَبَوْا أَن يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُ", "translation_en": "So they set out, until when they came to the people of a town, they asked its people for food, but they refused to offer them hospitality. And they found therein a wall about to collapse, and he repaired it." },
+        { "verse_ref": "18:78", "arabic": "قَالَ هَٰذَا فِرَاقُ بَيْنِي وَبَيْنِكَ ۚ سَأُنَبِّئُكَ بِتَأْوِيلِ مَا لَمْ تَسْتَطِع عَّلَيْهِ صَبْرًا", "translation_en": "He said, 'This is parting between me and you. I will inform you of the interpretation of that about which you could not have patience.'" }
+      ]
+    },
+    {
+      "heading": "The Explanation",
+      "ayahs": [
+        { "verse_ref": "18:79", "arabic": "أَمَّا السَّفِينَةُ فَكَانَتْ لِمَسَاكِينَ يَعْمَلُونَ فِي الْبَحْرِ فَأَرَدتُّ أَنْ أَعِيبَهَا وَكَانَ وَرَاءَهُم مَّلِكٌ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًا", "translation_en": "As for the ship, it belonged to poor people working at sea. So I intended to cause defect in it as there was after them a king who seized every ship by force." },
+        { "verse_ref": "18:80", "arabic": "وَأَمَّا الْغُلَامُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ فَخَشِينَا أَن يُرْهِقَهُمَا طُغْيَانًا وَكُفْرًا", "translation_en": "And as for the boy, his parents were believers, and we feared that he would overburden them by transgression and disbelief." },
+        { "verse_ref": "18:81", "arabic": "فَأَرَدْنَا أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًا مِّنْهُ زَكَاةً وَأَقْرَبَ رُحْمًا", "translation_en": "So we intended that their Lord should substitute for them one better than him in purity and nearer to mercy." },
+        { "verse_ref": "18:82", "arabic": "وَأَمَّا الْجِدَارُ فَكَانَ لِغُلَامَيْنِ يَتِيمَيْنِ فِي الْمَدِينَةِ وَكَانَ تَحْتَهُ كَنزٌ لَّهُمَا وَكَانَ أَبُوهُمَا صَالِحًا", "translation_en": "And as for the wall, it belonged to two orphan boys in the city, and there was beneath it a treasure for them, and their father had been righteous." }
+      ]
+    }
+  ]
+}

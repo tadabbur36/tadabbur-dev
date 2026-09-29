@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useState, useEffect, use } from "react";
 import { useTheme } from "@/components/ThemeProvider";
 import ShareModal from "@/components/ShareModal";
+import ThemePicker from "@/components/ThemePicker";
+import ProActivateModal from "@/components/ProActivateModal";
 
 type WordInfo = {
   arabic: string;
@@ -26,10 +28,11 @@ export default function TopicPage({
 }) {
   const { slug } = use(params);
   const topic = getTopic(slug);
-  const { theme, setTheme, textSize, setTextSize, isPro, setIsPro } = useTheme();
+  const { textSize, setTextSize, isPro } = useTheme();
 
   const [selectedWord, setSelectedWord] = useState<WordInfo | null>(null);
   const [showSettings, setShowSettings] = useState(false);
+  const [showProModal, setShowProModal] = useState(false);
   const [showRootGraph, setShowRootGraph] = useState<string | null>(null);
   const [bookmarks, setBookmarks] = useState<string[]>([]);
   const [journal, setJournal] = useState<Record<string, string>>({});
@@ -86,18 +89,6 @@ export default function TopicPage({
 
   const relatedQuestions = getQuestionsByTopic(slug);
 
-  const themeList: Array<{ id: any; label: string; preview: string }> = [
-    { id: "dark", label: "Midnight", preview: "#22d3ee" },
-    { id: "light", label: "Paper", preview: "#b45309" },
-    { id: "sepia", label: "Manuscript", preview: "#92400e" },
-    { id: "amoled", label: "OLED", preview: "#000000" },
-    { id: "forest", label: "Forest", preview: "#34d399" },
-    { id: "rose", label: "Rose", preview: "#fb7185" },
-    { id: "blossom", label: "Blossom", preview: "#e8a5b8" },
-    { id: "ocean", label: "Ocean", preview: "#60a5fa" },
-    { id: "lavender", label: "Lavender", preview: "#c4b5fd" },
-  ];
-
   return (
     <main
       className="min-h-screen"
@@ -149,27 +140,8 @@ export default function TopicPage({
             <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
               Theme
             </p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-6">
-              {themeList.map((t) => (
-                <button
-                  key={t.id}
-                  onClick={() => setTheme(t.id)}
-                  className="flex items-center gap-3 p-3 rounded-xl text-xs transition text-left"
-                  style={{
-                    background: theme === t.id ? "var(--accent)" : "var(--bg-card-hover)",
-                    color: theme === t.id ? "var(--accent-text)" : "var(--text-primary)",
-                  }}
-                >
-                  <span
-                    className="w-4 h-4 rounded-full flex-shrink-0"
-                    style={{
-                      background: t.preview,
-                      border: "1px solid rgba(255,255,255,0.15)",
-                    }}
-                  />
-                  <span className="truncate">{t.label}</span>
-                </button>
-              ))}
+            <div className="mb-6">
+              <ThemePicker />
             </div>
 
             <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
@@ -195,18 +167,15 @@ export default function TopicPage({
               className="pt-4 mt-4"
               style={{ borderTop: "1px solid var(--bg-border)" }}
             >
-              <p className="text-xs mb-4" style={{ color: "var(--text-muted)" }}>
-                Pro Preview
-              </p>
               <button
-                onClick={() => setIsPro(!isPro)}
+                onClick={() => setShowProModal(true)}
                 className="w-full py-3 rounded-xl font-medium transition text-sm"
                 style={{
-                  background: isPro ? "var(--accent)" : "var(--bg-card-hover)",
-                  color: isPro ? "var(--accent-text)" : "var(--text-primary)",
+                  background: isPro ? "var(--bg-card-hover)" : "var(--accent)",
+                  color: isPro ? "var(--text-primary)" : "var(--accent-text)",
                 }}
               >
-                {isPro ? "Pro Active" : "Activate Pro"}
+                {isPro ? "Pro Active ✓" : "Activate Pro"}
               </button>
             </div>
           </div>
@@ -313,7 +282,7 @@ export default function TopicPage({
                 </p>
 
                 <div className="mb-10">
-                   {verseIndex === 0 && (
+                  {verseIndex === 0 && (
                     <p
                       className="mb-4"
                       style={{ color: "var(--text-muted)", fontSize: sizes.context }}
@@ -636,6 +605,14 @@ export default function TopicPage({
           translation={shareData.translation}
           reference={shareData.reference}
           onClose={() => setShareData(null)}
+        />
+      )}
+
+      {/* Pro Activate Modal */}
+      {showProModal && (
+        <ProActivateModal
+          onClose={() => setShowProModal(false)}
+          onActivated={() => console.log("Pro activated")}
         />
       )}
     </main>
