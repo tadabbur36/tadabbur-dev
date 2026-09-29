@@ -35,7 +35,6 @@ const ShareCard = forwardRef<HTMLDivElement, Props>(function ShareCard(
   const arabicSize = Math.round(baseSize * 0.075 * scale);
   const translationSize = Math.round(baseSize * 0.028 * scale);
   const refSize = Math.round(baseSize * 0.022 * scale);
-  const watermarkSize = Math.round(baseSize * 0.02 * scale);
   const fromSize = Math.round(baseSize * 0.022 * scale);
   const messageSize = Math.round(baseSize * 0.02 * scale);
   const padding = Math.round(baseSize * 0.08 * scale);
@@ -164,15 +163,17 @@ const ShareCard = forwardRef<HTMLDivElement, Props>(function ShareCard(
         <div
           style={{
             position: "absolute",
-            bottom: Math.round(baseSize * 0.04 * scale),
-            right: Math.round(baseSize * 0.04 * scale),
-            fontSize: watermarkSize,
-            color: style.refColor,
-            opacity: 0.6,
-            fontWeight: 500,
+            bottom: Math.round(baseSize * 0.05 * scale),
+            right: Math.round(baseSize * 0.05 * scale),
+            fontSize: Math.round(baseSize * 0.045 * scale),
+            color: "#d4a574",
+            opacity: 0.9,
+            fontWeight: 400,
+            fontFamily: "var(--font-amiri), serif",
+            direction: "rtl",
           }}
         >
-          Tadabbur
+          تدبر
         </div>
       )}
     </div>
