@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useTheme } from "@/components/ThemeProvider";
 import { getDailyReassurance } from "@/data/reassurance";
-import ProActivateModal from "@/components/ProActivateModal";
 import ThemePicker from "@/components/ThemePicker";
 import {
   topicsIndex,
@@ -19,7 +18,6 @@ export default function Home() {
   const [streak, setStreak] = useState(0);
   const [search, setSearch] = useState("");
   const [showSettings, setShowSettings] = useState(false);
-  const [showProModal, setShowProModal] = useState(false);
 
   useEffect(() => {
     setStreak(parseInt(localStorage.getItem("tadabbur-streak") || "0"));
@@ -170,16 +168,45 @@ export default function Home() {
               className="pt-4 mt-6"
               style={{ borderTop: "1px solid var(--bg-border)" }}
             >
-              <button
-                onClick={() => setShowProModal(true)}
-                className="w-full py-3 rounded-xl font-medium transition text-sm"
-                style={{
-                  background: isPro ? "var(--bg-card-hover)" : "var(--accent)",
-                  color: isPro ? "var(--text-primary)" : "var(--accent-text)",
-                }}
-              >
-                {isPro ? "Pro Active ✓" : "Activate Pro"}
-              </button>
+              {!isPro && (
+                <>
+                  <a
+                    href="https://www.patreon.com/tadabbur"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full py-3 rounded-xl font-medium transition text-center mb-3 text-sm"
+                    style={{
+                      background: "var(--bg-card-hover)",
+                      color: "var(--text-primary)",
+                    }}
+                  >
+                    Support the Developer
+                  </a>
+                  <a
+                    href="https://www.patreon.com/tadabbur"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full py-3 rounded-xl font-medium transition text-center text-sm"
+                    style={{
+                      background: "var(--accent)",
+                      color: "var(--accent-text)",
+                    }}
+                  >
+                    Get Premium
+                  </a>
+                </>
+              )}
+              {isPro && (
+                <div
+                  className="w-full py-3 rounded-xl font-medium text-center text-sm"
+                  style={{
+                    background: "var(--bg-card-hover)",
+                    color: "var(--text-primary)",
+                  }}
+                >
+                  Pro Active
+                </div>
+              )}
             </div>
           </div>
         )}
@@ -538,13 +565,6 @@ export default function Home() {
           </div>
         )}
       </div>
-
-      {showProModal && (
-        <ProActivateModal
-          onClose={() => setShowProModal(false)}
-          onActivated={() => console.log("Pro activated")}
-        />
-      )}
     </main>
   );
 }
